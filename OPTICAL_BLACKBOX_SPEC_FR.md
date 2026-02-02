@@ -26,27 +26,27 @@ Open-source framework enabling optical component manufacturers to distribute the
 
 ---
 
-## 1. .obb File Format
+## 1. Format de Fichier .obb
 
-### 1.1 Binary Structure
+### 1.1 Structure Binaire
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                         .obb FILE                               │
+│                         FICHIER .obb                            │
 ├─────────────────────────────────────────────────────────────────┤
 │  [MAGIC: 4 bytes]  "OBB\x01"                                    │
 ├─────────────────────────────────────────────────────────────────┤
 │  [HEADER_LENGTH: 4 bytes]  Length of JSON header                │
 ├─────────────────────────────────────────────────────────────────┤
-│  [HEADER: N bytes]  JSON with public metadata                   │
+│  [HEADER: N bytes]  JSON avec métadonnées publiques            │
 ├─────────────────────────────────────────────────────────────────┤
 │  [ENCRYPTED_PAYLOAD: M bytes]                                   │
 │    • [Nonce: 12 bytes]  AES-GCM nonce                          │
-│    • [Ciphertext: X bytes]  Encrypted file + auth tag          │
+│    • [Ciphertext: X bytes]  Fichier chiffré + auth tag        │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-### 1.2 JSON Header (Public, unencrypted)
+### 1.2 Header JSON (Public, non chiffré)
 
 ```json
 {
@@ -60,82 +60,82 @@ Open-source framework enabling optical component manufacturers to distribute the
 }
 ```
 
-**Fields**:
-- `version`: OBB format version
-- `vendor_id`: Manufacturer identifier (lowercase, alphanumeric + hyphens)
-- `model_id`: Model identifier (lowercase, alphanumeric + hyphens)
-- `created_at`: Creation date/time (ISO 8601)
-- `description`: Optional description
-- `original_filename`: Original file name
-- `ephemeral_public_key`: Ephemeral public key for ECDH (PEM)
+**Champs**:
+- `version`: Version du format OBB
+- `vendor_id`: Identifiant du fabricant (lowercase, alphanumeric + hyphens)
+- `model_id`: Identifiant du modèle (lowercase, alphanumeric + hyphens)
+- `created_at`: Date/heure de création (ISO 8601)
+- `description`: Description optionnelle
+- `original_filename`: Nom du fichier original
+- `ephemeral_public_key`: Clé publique éphémère pour ECDH (PEM)
 
-### 1.3 Encrypted Payload
+### 1.3 Payload Chiffré
 
-The payload contains the raw bytes of the original file encrypted with AES-256-GCM.
+Le payload contient les bytes bruts du fichier original chiffrés avec AES-256-GCM.
 
-**Process**:
-1. Generate ephemeral ECDH key pair (SECP256R1)
-2. Derive AES-256 key via ECDH with platform's public key
-3. Encrypt raw file with AES-256-GCM
-4. Store: nonce (12 bytes) + ciphertext (with auth tag 16 bytes)
+**Processus**:
+1. Génération d'une paire de clés éphémère ECDH (SECP256R1)
+2. Dérivation de clé AES-256 via ECDH avec la clé publique de la plateforme
+3. Chiffrement AES-256-GCM du fichier brut
+4. Stockage: nonce (12 bytes) + ciphertext (avec auth tag 16 bytes)
 
 ---
 
-## 2. Cryptography
+## 2. Cryptographie
 
 ### 2.1 ECDH (Elliptic Curve Diffie-Hellman)
 
-**Curve**: SECP256R1 (NIST P-256)
+**Courbe**: SECP256R1 (NIST P-256)
 
-**Encryption process**:
-1. Platform generates a key pair (private, public)
-2. Vendor receives the platform's public key
-3. For each file, vendor generates an ephemeral pair
-4. Compute shared secret: `ECDH(ephemeral_private, platform_public)`
-5. Derive AES key via HKDF-SHA256
+**Processus d'encryption**:
+1. Plateforme génère une paire de clés (private, public)
+2. Vendor reçoit la clé publique de la plateforme
+3. Pour chaque fichier, vendor génère une paire éphémère
+4. Calcul du secret partagé: `ECDH(ephemeral_private, platform_public)`
+5. Dérivation de clé AES via HKDF-SHA256
 
-**Decryption process**:
-1. Read ephemeral public key from header
-2. Compute shared secret: `ECDH(platform_private, ephemeral_public)`
-3. Derive the same AES key
-4. Decrypt payload
+**Processus de decryption**:
+1. Lecture de la clé publique éphémère du header
+2. Calcul du secret partagé: `ECDH(platform_private, ephemeral_public)`
+3. Dérivation de la même clé AES
+4. Décryptage du payload
 
 ### 2.2 AES-256-GCM
 
-**Parameters**:
+**Paramètres**:
 - Mode: GCM (Galois/Counter Mode)
-- Key size: 256 bits (32 bytes)
-- Nonce: 96 bits (12 bytes) - random for each file
-- Authentication tag: 128 bits (16 bytes)
+- Taille de clé: 256 bits (32 bytes)
+- Nonce: 96 bits (12 bytes) - aléatoire pour chaque fichier
+- Tag d'authentification: 128 bits (16 bytes)
 
-**Advantages**:
-- Encryption + authentication in a single pass
-- Protection against ciphertext modification
-- High performance
+**Avantages**:
+- Chiffrement + authentification en une seule passe
+- Protection contre la modification du ciphertext
+- Performance élevée
 
 ---
 
-## 3. CLI Commands
+## 3. Commandes CLI
 
-### 3.1 Key Generation
+### 3.1 Génération de Clés
 
 ```bash
 obb keygen OUTPUT_DIR --prefix KEYNAME
 
-# Example
+# Exemple
 obb keygen ./keys --prefix platform
 
-# Generates:
-# - platform_private.pem  (secret, for decryption)
-# - platform_public.pem   (public, for encryption)
+# Génère:
+# - platform_private.pem  (secret, pour décrypter)
+# - platform_public.pem   (public, pour encrypter)
 ```
 
 **Options**:
-- `OUTPUT_DIR`: Destination folder (must exist)
-- `--prefix`: Filename prefix
-- `--force`: Overwrite existing files
+- `OUTPUT_DIR`: Dossier de destination (doit exister)
+- `--prefix`: Préfixe des noms de fichiers
+- `--force`: Écraser les fichiers existants
 
-### 3.2 Creating .obb File
+### 3.2 Création de Fichier .obb
 
 ```bash
 obb create INPUT_FILE OUTPUT_FILE \
@@ -144,7 +144,7 @@ obb create INPUT_FILE OUTPUT_FILE \
     -m MODEL_ID \
     [-d DESCRIPTION]
 
-# Example
+# Exemple
 obb create lens.zmx lens.obb \
     -k platform_public.pem \
     -v acme-optics \
@@ -153,47 +153,47 @@ obb create lens.zmx lens.obb \
 ```
 
 **Arguments**:
-- `INPUT_FILE`: File to encrypt (any format)
-- `OUTPUT_FILE`: Output .obb file
-- `-k, --platform-key`: Platform's public key (PEM)
-- `-v, --vendor-id`: Manufacturer ID (3-50 chars, lowercase alphanumeric + hyphens)
-- `-m, --model-id`: Model ID (3-50 chars, lowercase alphanumeric + hyphens)
-- `-d, --description`: Optional description
-- `--force`: Overwrite output file if it exists
+- `INPUT_FILE`: Fichier à chiffrer (n'importe quel format)
+- `OUTPUT_FILE`: Fichier .obb de sortie
+- `-k, --platform-key`: Clé publique de la plateforme (PEM)
+- `-v, --vendor-id`: ID du fabricant (3-50 chars, lowercase alphanumeric + hyphens)
+- `-m, --model-id`: ID du modèle (3-50 chars, lowercase alphanumeric + hyphens)
+- `-d, --description`: Description optionnelle
+- `--force`: Écraser le fichier de sortie s'il existe
 
-### 3.3 Extracting .obb File
+### 3.3 Extraction de Fichier .obb
 
 ```bash
 obb extract INPUT_FILE OUTPUT_FILE \
     -k PLATFORM_PRIVATE_KEY
 
-# Example
+# Exemple
 obb extract lens.obb lens_restored.zmx \
     -k platform_private.pem
 ```
 
 **Arguments**:
-- `INPUT_FILE`: .obb file to decrypt
-- `OUTPUT_FILE`: Restored file
-- `-k, --platform-key`: Platform's private key (PEM)
-- `--force`: Overwrite output file if it exists
+- `INPUT_FILE`: Fichier .obb à décrypter
+- `OUTPUT_FILE`: Fichier restauré
+- `-k, --platform-key`: Clé privée de la plateforme (PEM)
+- `--force`: Écraser le fichier de sortie s'il existe
 
-**Guarantee**: The restored file is **byte-for-byte identical** to the original.
+**Garantie**: Le fichier restauré est **byte-for-byte identique** à l'original.
 
-### 3.4 Metadata Inspection
+### 3.4 Inspection de Métadonnées
 
 ```bash
 obb inspect INPUT_FILE [--json]
 
-# Example
+# Exemple
 obb inspect lens.obb
 obb inspect lens.obb --json
 ```
 
 **Options**:
-- `--json`: JSON format output instead of table
+- `--json`: Sortie au format JSON au lieu de tableau
 
-**Output** (without decryption):
+**Sortie** (sans décryption):
 ```
                    OBB Metadata                   
 ┏━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
@@ -210,41 +210,41 @@ obb inspect lens.obb --json
 
 ---
 
-## 4. Python API
+## 4. API Python
 
-### 4.1 Key Generation
+### 4.1 Génération de Clés
 
 ```python
 from optical_blackbox import KeyManager
 from pathlib import Path
 
-# Generate a key pair
+# Générer une paire de clés
 private_key, public_key = KeyManager.generate_keypair()
 
-# Save keys
+# Sauvegarder les clés
 KeyManager.save_private_key(private_key, Path("platform_private.pem"))
 KeyManager.save_public_key(public_key, Path("platform_public.pem"))
 
-# Load keys
+# Charger les clés
 private_key = KeyManager.load_private_key(Path("platform_private.pem"))
 public_key = KeyManager.load_public_key(Path("platform_public.pem"))
 ```
 
-### 4.2 Creating .obb File
+### 4.2 Création de Fichier .obb
 
 ```python
 from optical_blackbox import OBBWriter, OBBMetadata, KeyManager
 from pathlib import Path
 from datetime import datetime
 
-# Load platform's public key
+# Charger la clé publique de la plateforme
 platform_public = KeyManager.load_public_key(Path("platform_public.pem"))
 
-# Read file to encrypt
+# Lire le fichier à chiffrer
 input_file = Path("lens.zmx")
 file_bytes = input_file.read_bytes()
 
-# Create metadata
+# Créer les métadonnées
 metadata = OBBMetadata(
     version="1.0.0",
     vendor_id="acme-optics",
@@ -254,7 +254,7 @@ metadata = OBBMetadata(
     original_filename=input_file.name,
 )
 
-# Create .obb file
+# Créer le fichier .obb
 OBBWriter.write(
     output_path=Path("lens.obb"),
     payload_bytes=file_bytes,
@@ -263,37 +263,37 @@ OBBWriter.write(
 )
 ```
 
-### 4.3 Extracting .obb File
+### 4.3 Extraction de Fichier .obb
 
 ```python
 from optical_blackbox import OBBReader, KeyManager
 from pathlib import Path
 
-# Load platform's private key
+# Charger la clé privée de la plateforme
 platform_private = KeyManager.load_private_key(Path("platform_private.pem"))
 
-# Read and decrypt .obb file
+# Lire et décrypter le fichier .obb
 metadata, file_bytes = OBBReader.read_and_decrypt(
     path=Path("lens.obb"),
     platform_private_key=platform_private,
 )
 
-# Save restored file
+# Sauvegarder le fichier restauré
 Path("lens_restored.zmx").write_bytes(file_bytes)
 
-# Access metadata
+# Accéder aux métadonnées
 print(f"Vendor: {metadata.vendor_id}")
 print(f"Model: {metadata.model_id}")
 print(f"Original: {metadata.original_filename}")
 ```
 
-### 4.4 Reading Metadata Only
+### 4.4 Lecture de Métadonnées Seules
 
 ```python
 from optical_blackbox import OBBReader
 from pathlib import Path
 
-# Read metadata without decrypting
+# Lire les métadonnées sans décrypter
 metadata = OBBReader.read_metadata(Path("lens.obb"))
 
 print(f"Vendor: {metadata.vendor_id}")
@@ -303,50 +303,50 @@ print(f"Description: {metadata.description}")
 
 ---
 
-## 5. Code Structure
+## 5. Structure du Code
 
-### 5.1 Module Organization
+### 5.1 Organisation des Modules
 
 ```
 src/optical_blackbox/
-├── __init__.py              # Public API
-├── cli/                     # Command-line interface
-│   ├── main.py              # CLI entry point
+├── __init__.py              # API publique
+├── cli/                     # Interface ligne de commande
+│   ├── main.py              # Point d'entrée CLI
 │   ├── commands/
-│   │   ├── keygen.py        # Key generation
-│   │   ├── create.py        # .obb creation
-│   │   ├── extract.py       # .obb extraction
-│   │   └── inspect.py       # Metadata inspection
+│   │   ├── keygen.py        # Génération de clés
+│   │   ├── create.py        # Création .obb
+│   │   ├── extract.py       # Extraction .obb
+│   │   └── inspect.py       # Inspection métadonnées
 │   └── output/
-│       ├── console.py       # Console formatting
-│       └── formatters.py    # Rich tables
-├── crypto/                  # Cryptography
-│   ├── keys.py              # ECDSA key management
-│   └── ecdh.py              # ECDH + AES derivation
-├── formats/                 # .obb format
+│       ├── console.py       # Formatage console
+│       └── formatters.py    # Tables Rich
+├── crypto/                  # Cryptographie
+│   ├── keys.py              # Gestion clés ECDSA
+│   └── ecdh.py              # ECDH + dérivation AES
+├── formats/                 # Format .obb
 │   ├── obb_file.py          # OBBWriter/OBBReader
-│   ├── obb_header.py        # JSON header serialization
-│   ├── obb_payload.py       # Payload encryption/decryption
-│   └── obb_constants.py     # Magic bytes, constants
-├── models/                  # Data models
+│   ├── obb_header.py        # Sérialisation header JSON
+│   ├── obb_payload.py       # Encryption/décryption payload
+│   └── obb_constants.py     # Magic bytes, constantes
+├── models/                  # Modèles de données
 │   └── metadata.py          # OBBMetadata (Pydantic)
-├── serialization/           # Serialization
-│   ├── binary.py            # Binary read/write
-│   └── pem.py               # Key ↔ PEM conversion
-├── core/                    # Utilities
-│   ├── constants.py         # Global constants
-│   └── validators.py        # ID validation
-└── exceptions.py            # Custom exceptions
+├── serialization/           # Sérialisation
+│   ├── binary.py            # Lecture/écriture binaire
+│   └── pem.py               # Conversion clés ↔ PEM
+├── core/                    # Utilitaires
+│   ├── constants.py         # Constantes globales
+│   └── validators.py        # Validation IDs
+└── exceptions.py            # Exceptions personnalisées
 ```
 
-### 5.2 Main Data Model
+### 5.2 Modèle de Données Principal
 
 ```python
 from pydantic import BaseModel, Field, field_validator
 from datetime import datetime
 
 class OBBMetadata(BaseModel):
-    """Public metadata of an .obb file"""
+    """Métadonnées publiques d'un fichier .obb"""
     
     version: str = Field(default="1.0.0")
     vendor_id: str = Field(min_length=3, max_length=50)
@@ -357,7 +357,7 @@ class OBBMetadata(BaseModel):
     
     @field_validator('vendor_id', 'model_id')
     def validate_id_format(cls, v: str) -> str:
-        """Validate format: lowercase alphanumeric + hyphens"""
+        """Valider format: lowercase alphanumeric + hyphens"""
         if not v.replace('-', '').isalnum() or not v.islower():
             raise ValueError("Must be lowercase alphanumeric with hyphens")
         return v
@@ -365,21 +365,21 @@ class OBBMetadata(BaseModel):
 
 ---
 
-## 6. Testing
+## 6. Tests
 
-### 6.1 Roundtrip Tests
+### 6.1 Tests de Roundtrip
 
 ```python
 def test_roundtrip_bytes():
-    """Test that encryption/decryption is perfect"""
+    """Test que le chiffrement/déchiffrement est parfait"""
     
-    # Original data
+    # Données originales
     original_bytes = b"Test data" * 100
     
-    # Generate keys
+    # Générer clés
     platform_private, platform_public = KeyManager.generate_keypair()
     
-    # Encrypt
+    # Chiffrer
     OBBWriter.write(
         output_path=Path("test.obb"),
         payload_bytes=original_bytes,
@@ -387,21 +387,21 @@ def test_roundtrip_bytes():
         platform_public_key=platform_public,
     )
     
-    # Decrypt
+    # Déchiffrer
     _, decrypted_bytes = OBBReader.read_and_decrypt(
         path=Path("test.obb"),
         platform_private_key=platform_private,
     )
     
-    # Verify
+    # Vérifier
     assert decrypted_bytes == original_bytes
 ```
 
-### 6.2 Real File Tests
+### 6.2 Tests avec Fichiers Réels
 
 ```python
 def test_real_zmx_file():
-    """Test with a real .zmx file"""
+    """Test avec un vrai fichier .zmx"""
     
     original_file = Path("testdata/lens.zmx")
     original_bytes = original_file.read_bytes()
@@ -418,91 +418,91 @@ def test_real_zmx_file():
 
 ---
 
-## 7. Security
+## 7. Sécurité
 
-### 7.1 Threats Addressed
+### 7.1 Menaces Adressées
 
-| Threat | Protection |
+| Menace | Protection |
 |--------|-----------|
-| File reading | AES-256-GCM with ECDH-derived key |
-| File modification | GCM authentication tag (16 bytes) |
-| Replay attack | Unique ephemeral key per file |
-| Platform key compromise | Only future files affected |
+| Lecture du fichier | AES-256-GCM avec clé dérivée ECDH |
+| Modification du fichier | Tag d'authentification GCM (16 bytes) |
+| Rejeu d'attaque | Clé éphémère unique par fichier |
+| Compromission clé plateforme | Seuls les fichiers futurs affectés |
 
-### 7.2 Best Practices
+### 7.2 Bonnes Pratiques
 
-**For vendors**:
-- Never share the platform's private key
-- Verify the platform's public key (fingerprint)
-- Use `--force` with caution
+**Pour les vendors**:
+- Ne jamais partager la clé privée de la plateforme
+- Vérifier la clé publique de la plateforme (fingerprint)
+- Utiliser `--force` avec précaution
 
-**For platform**:
-- Protect the private key (HSM, KMS if possible)
-- Regular key rotation (progressive migration)
-- Audit key access
+**Pour la plateforme**:
+- Protéger la clé privée (HSM, KMS si possible)
+- Rotation régulière des clés (migration progressive)
+- Audit des accès aux clés
 
 ---
 
 ## 8. Performance
 
-### 8.1 Encryption Overhead
+### 8.1 Overhead de Chiffrement
 
-- **Header**: ~500 bytes (JSON metadata + ephemeral key PEM)
+- **Header**: ~500 bytes (JSON métadonnées + clé éphémère PEM)
 - **Nonce**: 12 bytes
 - **Auth tag**: 16 bytes
 - **Total overhead**: ~530 bytes
 
-**Example**: 10 KB .zmx file → ~10.5 KB .obb file
+**Exemple**: Fichier .zmx de 10 KB → fichier .obb de ~10.5 KB
 
-### 8.2 Speed
+### 8.2 Vitesse
 
-On a modern processor:
+Sur un processeur moderne:
 - **Encryption**: ~500 MB/s
 - **Decryption**: ~500 MB/s
 
 ---
 
-## 9. Future Enhancements (Out of MVP Scope)
+## 9. Évolutions Futures (Hors MVP)
 
-### 9.1 Potential Features
+### 9.1 Fonctionnalités Potentielles
 
-- Vendor ECDSA signature (authentication)
-- Support for multiple platform keys (multiple recipients)
-- Compression before encryption
-- Full directory encryption
-- Web interface for secure visualization
-- Cloud storage integration (S3, Azure Blob)
+- Signature ECDSA du vendor (authentification)
+- Support de multiples clés de plateforme (pour plusieurs destinataires)
+- Compression avant chiffrement
+- Chiffrement de répertoires complets
+- Interface web pour visualisation sécurisée
+- Intégration cloud storage (S3, Azure Blob)
 
-### 9.2 Additional Formats
+### 9.2 Formats Additionnels
 
-- Automatic file type detection
-- Support for arbitrary binary formats
-- Preservation of file system metadata
+- Détection automatique de type de fichier
+- Support de formats binaires arbitraires
+- Préservation des métadonnées de fichiers système
 
 ---
 
 ## 10. FAQ
 
-**Q: Can I use .obb for other file types?**  
-A: Yes! The current architecture encrypts raw bytes, so any file works.
+**Q: Puis-je utiliser .obb pour d'autres types de fichiers?**  
+R: Oui! L'architecture actuelle chiffre les bytes bruts, donc n'importe quel fichier fonctionne.
 
-**Q: Is the decrypted file really identical?**  
-A: Yes, byte-for-byte. Tested and validated.
+**Q: Le fichier décrypté est-il vraiment identique?**  
+R: Oui, byte-for-byte. Testé et validé.
 
-**Q: Can I have multiple platform keys?**  
-A: Not in the current version, but it's planned for v2.0.
+**Q: Puis-je avoir plusieurs clés de plateforme?**  
+R: Pas dans la version actuelle, mais c'est prévu pour v2.0.
 
-**Q: What happens if I lose the private key?**  
-A: .obb files can no longer be decrypted. Back up your keys!
+**Q: Que se passe-t-il si je perds la clé privée?**  
+R: Les fichiers .obb ne peuvent plus être décryptés. Sauvegardez vos clés!
 
-**Q: Is the ephemeral key reused?**  
-A: No, a new ephemeral pair is generated for each file.
+**Q: La clé éphémère est-elle réutilisée?**  
+R: Non, une nouvelle paire éphémère est générée pour chaque fichier.
 
 ---
 
-## Appendix A: PEM Key Format
+## Annexe A: Format PEM des Clés
 
-### ECDSA P-256 Private Key
+### Clé Privée ECDSA P-256
 
 ```
 -----BEGIN PRIVATE KEY-----
@@ -512,7 +512,7 @@ YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY==
 -----END PRIVATE KEY-----
 ```
 
-### ECDSA P-256 Public Key
+### Clé Publique ECDSA P-256
 
 ```
 -----BEGIN PUBLIC KEY-----
@@ -523,9 +523,9 @@ YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY==
 
 ---
 
-## Appendix B: Metadata Examples
+## Annexe B: Exemples de Métadonnées
 
-### Minimal Example
+### Exemple Minimal
 
 ```json
 {
@@ -538,7 +538,7 @@ YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY==
 }
 ```
 
-### Complete Example
+### Exemple Complet
 
 ```json
 {
@@ -554,6 +554,6 @@ YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY==
 
 ---
 
-## License
+## Licence
 
-MIT License - Open-source framework for secure optical design distribution.
+MIT License - Framework open-source pour distribution sécurisée de designs optiques.
