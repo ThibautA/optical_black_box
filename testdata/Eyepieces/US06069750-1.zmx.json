@@ -1,0 +1,134 @@
+{
+  "name": "US06069750-1",
+  "description": "Imported from Zemax: US06069750-1.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Eyepiece design for visual observation",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 12,
+    "source_file": "US06069750-1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US06069750-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 18.55864512822,
+            "is_stop": true
+          },
+          {
+            "index": 2,
+            "radius": 214.59900000000002,
+            "thickness": 5.262,
+            "material": "N-LAK14"
+          },
+          {
+            "index": 3,
+            "radius": -44.525,
+            "thickness": 0.2698
+          },
+          {
+            "index": 4,
+            "radius": 179.985,
+            "thickness": 2.422,
+            "material": "FD110"
+          },
+          {
+            "index": 5,
+            "radius": 30.044,
+            "thickness": 11.742,
+            "material": "N-SK16"
+          },
+          {
+            "index": 6,
+            "radius": -31.458999999999996,
+            "thickness": 0.2695
+          },
+          {
+            "index": 7,
+            "radius": 24.423,
+            "thickness": 9.962,
+            "material": "N-LAK14"
+          },
+          {
+            "index": 8,
+            "radius": -86.374,
+            "thickness": 2.2223
+          },
+          {
+            "index": 9,
+            "radius": -40.2,
+            "thickness": 2.422,
+            "material": "FD110"
+          },
+          {
+            "index": 10,
+            "radius": 46.757,
+            "thickness": 5.301976084452
+          },
+          {
+            "index": 11,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      550.0
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        21.0
+      ],
+      [
+        0.0,
+        32.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 4.75
+  }
+}

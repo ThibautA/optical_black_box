@@ -1,0 +1,135 @@
+{
+  "name": "Nikkor P·C 8.5cm F2",
+  "description": "according to http://nikkor.com/story/0036/",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 11,
+    "source_file": "Note36-Fig1.zmx",
+    "zmx_name": "Nikkor P·C 8.5cm F2"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "Nikkor P·C 8.5cm F2",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 60.677881539859904,
+            "thickness": 5.588395594084,
+            "material": "S-LAL18"
+          },
+          {
+            "index": 2,
+            "radius": 402.2780646906697,
+            "thickness": 0.3016667620159
+          },
+          {
+            "index": 3,
+            "radius": 30.262449796551895,
+            "thickness": 4.9359293567,
+            "material": "S-FPL51Y"
+          },
+          {
+            "index": 4,
+            "radius": 64.17982073173313,
+            "thickness": 18.63724321474,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.487489934771,
+              "abbe": 70.23625207231
+            }
+          },
+          {
+            "index": 5,
+            "radius": -130.94182854319453,
+            "thickness": 1.552210073084,
+            "material": "H-ZF3"
+          },
+          {
+            "index": 6,
+            "radius": 20.004140373388648,
+            "thickness": 5.034584783719
+          },
+          {
+            "index": 7,
+            "radius": "inf",
+            "thickness": 17.4908245526,
+            "is_stop": true
+          },
+          {
+            "index": 8,
+            "radius": 47.6841624714473,
+            "thickness": 4.457294113029,
+            "material": "S-LAH60"
+          },
+          {
+            "index": 9,
+            "radius": 383.9265885430168,
+            "thickness": 31.68952754045
+          },
+          {
+            "index": 10,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        14.0
+      ],
+      [
+        0.0,
+        21.0
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 2.0
+  }
+}

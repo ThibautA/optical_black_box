@@ -1,0 +1,147 @@
+{
+  "name": "Ai Micro Nikkor 55mm f/2.8",
+  "description": "from http://nikkor.com/story/0026/index.html",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 14,
+    "source_file": "Note26-Fig1.zmx",
+    "zmx_name": "Ai Micro Nikkor 55mm f/2.8"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "Ai Micro Nikkor 55mm f/2.8",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 58.33792782408421,
+            "thickness": 4.318531613944,
+            "material": "S-LAH58"
+          },
+          {
+            "index": 2,
+            "radius": "inf",
+            "thickness": 0.1109177050165
+          },
+          {
+            "index": 3,
+            "radius": 21.8605584486986,
+            "thickness": 4.324670506022,
+            "material": "S-LAH66"
+          },
+          {
+            "index": 4,
+            "radius": 35.16449378487364,
+            "thickness": 1.191874290189
+          },
+          {
+            "index": 5,
+            "radius": 112.59468964297463,
+            "thickness": 1.219823421353,
+            "material": "S-TIM22"
+          },
+          {
+            "index": 6,
+            "radius": 18.457400755949468,
+            "thickness": 4.719698811242
+          },
+          {
+            "index": 7,
+            "radius": "inf",
+            "thickness": 3.651191256374,
+            "is_stop": true
+          },
+          {
+            "index": 8,
+            "radius": -25.596118730947225,
+            "thickness": 1.204409655238,
+            "material": "S-TIM22"
+          },
+          {
+            "index": 9,
+            "radius": 315.3469759488989,
+            "thickness": 9.232546062454,
+            "material": "S-LAH64"
+          },
+          {
+            "index": 10,
+            "radius": -28.775293808227158,
+            "thickness": 0.1345521826144
+          },
+          {
+            "index": 11,
+            "radius": 214.72393411100478,
+            "thickness": 4.297107374789,
+            "material": "S-LAH66"
+          },
+          {
+            "index": 12,
+            "radius": -138.8976065710086,
+            "thickness": 40.34283232163
+          },
+          {
+            "index": 13,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.0
+      ],
+      [
+        0.0,
+        21.0
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 2.8
+  }
+}

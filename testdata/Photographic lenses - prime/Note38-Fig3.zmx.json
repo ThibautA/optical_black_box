@@ -1,0 +1,152 @@
+{
+  "name": "Nikkor 35mm f/2.8",
+  "description": "according to http://nikkor.com/story/0038",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 15,
+    "source_file": "Note38-Fig3.zmx",
+    "zmx_name": "Nikkor 35mm f/2.8"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "Nikkor 35mm f/2.8",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 50.028375886284394,
+            "thickness": 2.057829300257,
+            "material": "S-TIL1"
+          },
+          {
+            "index": 2,
+            "radius": 15.767811484849387,
+            "thickness": 8.302129372381
+          },
+          {
+            "index": 3,
+            "radius": -100.8582613198738,
+            "thickness": 10.3674103856,
+            "material": "S-LAM55"
+          },
+          {
+            "index": 4,
+            "radius": -88.07987174029593,
+            "thickness": 0.1928412052094
+          },
+          {
+            "index": 5,
+            "radius": 27.480851798651607,
+            "thickness": 13.93768086464,
+            "material": "S-LAL12"
+          },
+          {
+            "index": 6,
+            "radius": -48.8882885068983,
+            "thickness": 1.807569483877
+          },
+          {
+            "index": 7,
+            "radius": "inf",
+            "thickness": 4.59266781062,
+            "is_stop": true
+          },
+          {
+            "index": 8,
+            "radius": -21.830810988994,
+            "thickness": 1.553353140859,
+            "material": "S-TIM1"
+          },
+          {
+            "index": 9,
+            "radius": 40.685374276034885,
+            "thickness": 1.450842271257
+          },
+          {
+            "index": 10,
+            "radius": -42.17152238995286,
+            "thickness": 2.690019625527,
+            "material": "S-LAL14"
+          },
+          {
+            "index": 11,
+            "radius": -18.215225944355186,
+            "thickness": 0.2024413687537
+          },
+          {
+            "index": 12,
+            "radius": 130.00354133437486,
+            "thickness": 2.582728281846,
+            "material": "S-LAL18"
+          },
+          {
+            "index": 13,
+            "radius": -65.34998854181049,
+            "thickness": 38.9203608753
+          },
+          {
+            "index": 14,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.0
+      ],
+      [
+        0.0,
+        21.0
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 2.8
+  }
+}

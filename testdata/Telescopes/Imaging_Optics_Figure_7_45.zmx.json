@@ -1,0 +1,115 @@
+{
+  "name": "Ritchey-Chrétien telescope 8-meter; Imaging Optics p. 482.",
+  "description": "Notes...; f= 69.571 m, pupil diameter 8 meter, NA = 0.0575. 100 mm curved image field.; =====",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Telescope optical system",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 5,
+    "source_file": "Imaging_Optics_Figure_7_45.zmx",
+    "zmx_name": "Ritchey-Chrétien telescope 8-meter; Imaging Optics p. 482."
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "Ritchey-Chrétien telescope 8-meter; Imaging Optics p. 482.",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 40.0
+          },
+          {
+            "index": 2,
+            "radius": "inf",
+            "thickness": -16.426,
+            "is_stop": true,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A2": -0.01093745,
+              "A4": 1.1048928e-07,
+              "A6": -2.2323081e-12,
+              "A8": 5.6367904e-17,
+              "A10": -1.4027595e-21
+            }
+          },
+          {
+            "index": 3,
+            "radius": "inf",
+            "thickness": 19.575278,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A2": -0.02610105,
+              "A4": 6.9476994e-05,
+              "A6": -3.6987375e-07,
+              "A8": 2.4606353e-09,
+              "A10": -1.7811131e-11
+            }
+          },
+          {
+            "index": 4,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      550.0
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.02
+      ],
+      [
+        0.0,
+        0.04
+      ],
+      [
+        0.0,
+        0.05
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 8.69565,
+    "object_distance": 6957096.0
+  }
+}

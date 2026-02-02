@@ -1,0 +1,92 @@
+{
+  "name": "HoO-V2C18Ex21",
+  "description": "Imported from Zemax: HoO-V2C18Ex21.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Telescope optical system",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 5,
+    "source_file": "HoO-V2C18Ex21.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "HoO-V2C18Ex21",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 50.0
+          },
+          {
+            "index": 2,
+            "radius": 69.7,
+            "thickness": -50.56,
+            "conic": 5.47
+          },
+          {
+            "index": 3,
+            "radius": 71.35,
+            "thickness": 61.26,
+            "conic": 0.171,
+            "is_stop": true
+          },
+          {
+            "index": 4,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      550.0
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        4.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 1.25
+  }
+}

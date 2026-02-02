@@ -1,0 +1,330 @@
+{
+  "name": "US07672063-1",
+  "description": "Imported from Zemax: US07672063-1.ZMX",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 39,
+    "source_file": "US07672063-1.ZMX",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US07672063-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 5.0
+          },
+          {
+            "index": 2,
+            "radius": 57.71789999999999,
+            "thickness": 1.2,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.94594,
+              "abbe": 17.98
+            }
+          },
+          {
+            "index": 3,
+            "radius": 43.838,
+            "thickness": 4.6,
+            "material": "N-PK52A"
+          },
+          {
+            "index": 4,
+            "radius": -367.5545,
+            "thickness": 0.5
+          },
+          {
+            "index": 5,
+            "radius": 39.5427,
+            "thickness": 2.7,
+            "material": "N-LAK7"
+          },
+          {
+            "index": 6,
+            "radius": 80.5219,
+            "thickness": 11.3721
+          },
+          {
+            "index": 7,
+            "radius": -1072.9737,
+            "thickness": 1.0,
+            "material": "P-LAF37"
+          },
+          {
+            "index": 8,
+            "radius": 11.4869,
+            "thickness": 3.5,
+            "conic": -2.2807,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": 0.00015442,
+              "A6": -3.9805e-07,
+              "A8": 2.0078e-09,
+              "A10": -3.0622e-12
+            }
+          },
+          {
+            "index": 9,
+            "radius": -129.1434,
+            "thickness": 0.85,
+            "material": "N-LAK33B"
+          },
+          {
+            "index": 10,
+            "radius": 16.0558,
+            "thickness": 0.1
+          },
+          {
+            "index": 11,
+            "radius": 15.7169,
+            "thickness": 3.83,
+            "material": "N-SF6"
+          },
+          {
+            "index": 12,
+            "radius": -40.6186,
+            "thickness": 0.45
+          },
+          {
+            "index": 13,
+            "radius": -29.167,
+            "thickness": 0.85,
+            "material": "N-LAK34"
+          },
+          {
+            "index": 14,
+            "radius": 37.3505,
+            "thickness": 9.3108
+          },
+          {
+            "index": 15,
+            "radius": "inf",
+            "thickness": 0.5,
+            "is_stop": true
+          },
+          {
+            "index": 16,
+            "radius": 20.4345,
+            "thickness": 2.4,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.603,
+              "abbe": 65.44
+            }
+          },
+          {
+            "index": 17,
+            "radius": -23.7829,
+            "thickness": 0.15
+          },
+          {
+            "index": 18,
+            "radius": 67.0784,
+            "thickness": 3.1,
+            "material": "N-PK52A"
+          },
+          {
+            "index": 19,
+            "radius": -13.2031,
+            "thickness": 0.8,
+            "material": "N-LASF31A"
+          },
+          {
+            "index": 20,
+            "radius": 464.3896,
+            "thickness": 1.39
+          },
+          {
+            "index": 21,
+            "radius": -11.0324,
+            "thickness": 1.01,
+            "material": "N-LASF43"
+          },
+          {
+            "index": 22,
+            "radius": -15.596799999999998,
+            "thickness": 3.5657,
+            "conic": 0.5135,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -4.1888e-05,
+              "A6": -4.357e-07,
+              "A8": -1.2708e-09,
+              "A10": 4.6435e-11
+            }
+          },
+          {
+            "index": 23,
+            "radius": 18.1935,
+            "thickness": 2.98,
+            "material": "P-SK60"
+          },
+          {
+            "index": 24,
+            "radius": -22.9294,
+            "thickness": 0.55,
+            "conic": 7.5733,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": 0.00018664,
+              "A6": 1.2542e-06,
+              "A8": -1.7918e-08,
+              "A10": 4.8392e-10
+            }
+          },
+          {
+            "index": 25,
+            "radius": 21.3242,
+            "thickness": 2.66,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.603,
+              "abbe": 65.44
+            }
+          },
+          {
+            "index": 26,
+            "radius": -27.0468,
+            "thickness": 0.8,
+            "material": "N-LAF34"
+          },
+          {
+            "index": 27,
+            "radius": 12.6639,
+            "thickness": 12.09
+          },
+          {
+            "index": 28,
+            "radius": 80.9271,
+            "thickness": 2.51,
+            "material": "N-FK5"
+          },
+          {
+            "index": 29,
+            "radius": -29.6374,
+            "thickness": 1.01
+          },
+          {
+            "index": 30,
+            "radius": -16.8042,
+            "thickness": 0.8,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.94594,
+              "abbe": 17.98
+            }
+          },
+          {
+            "index": 31,
+            "radius": -18.2129,
+            "thickness": 24.8227
+          },
+          {
+            "index": 32,
+            "radius": "inf",
+            "thickness": 1.0,
+            "material": "N-BK7"
+          },
+          {
+            "index": 33,
+            "radius": "inf",
+            "thickness": 1.5
+          },
+          {
+            "index": 34,
+            "radius": "inf",
+            "thickness": 1.87,
+            "material": "N-BK7"
+          },
+          {
+            "index": 35,
+            "radius": "inf",
+            "thickness": 0.4
+          },
+          {
+            "index": 36,
+            "radius": "inf",
+            "thickness": 0.7,
+            "material": "N-BK7"
+          },
+          {
+            "index": 37,
+            "radius": "inf",
+            "thickness": -0.2434381382605
+          },
+          {
+            "index": 38,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        10.0
+      ],
+      [
+        0.0,
+        17.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "vignetting_y": [
+      0.0,
+      0.15,
+      0.3
+    ],
+    "telecentric": false,
+    "image_fno": 4.21
+  }
+}

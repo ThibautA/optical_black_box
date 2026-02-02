@@ -1,0 +1,181 @@
+{
+  "name": "US05325234-1",
+  "description": "Imported from Zemax: US05325234-1.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 20,
+    "source_file": "US05325234-1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US05325234-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 115.283,
+            "thickness": 7.51,
+            "material": "N-FK5"
+          },
+          {
+            "index": 2,
+            "radius": 1503.1589999999999,
+            "thickness": 0.2
+          },
+          {
+            "index": 3,
+            "radius": 54.297,
+            "thickness": 11.71,
+            "material": "N-PK51"
+          },
+          {
+            "index": 4,
+            "radius": 230.272,
+            "thickness": 2.24
+          },
+          {
+            "index": 5,
+            "radius": 44.263,
+            "thickness": 8.97,
+            "material": "N-PK51"
+          },
+          {
+            "index": 6,
+            "radius": 99.345,
+            "thickness": 1.48
+          },
+          {
+            "index": 7,
+            "radius": 168.332,
+            "thickness": 2.5,
+            "material": "F5"
+          },
+          {
+            "index": 8,
+            "radius": 31.986,
+            "thickness": 22.81
+          },
+          {
+            "index": 9,
+            "radius": 84.712,
+            "thickness": 3.96,
+            "material": "N-FK5"
+          },
+          {
+            "index": 10,
+            "radius": 272.962,
+            "thickness": 17.23
+          },
+          {
+            "index": 11,
+            "radius": "inf",
+            "thickness": 0.0,
+            "is_stop": true
+          },
+          {
+            "index": 12,
+            "radius": 1135.179,
+            "thickness": 5.16,
+            "material": "E-LAF7"
+          },
+          {
+            "index": 13,
+            "radius": -40.47,
+            "thickness": 2.0,
+            "material": "J-LAF01"
+          },
+          {
+            "index": 14,
+            "radius": 40.47,
+            "thickness": 13.64
+          },
+          {
+            "index": 15,
+            "radius": -46.838,
+            "thickness": 2.0,
+            "material": "N-SF11"
+          },
+          {
+            "index": 16,
+            "radius": -63.487,
+            "thickness": 3.18
+          },
+          {
+            "index": 17,
+            "radius": 91.139,
+            "thickness": 4.4,
+            "material": "E-LLF1"
+          },
+          {
+            "index": 18,
+            "radius": -91.139,
+            "thickness": 75.17831907928
+          },
+          {
+            "index": 19,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "collimated",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.0
+      ],
+      [
+        0.0,
+        21.0
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "float_by_stop_size": 15.5,
+    "object_distance": 1000.0
+  }
+}

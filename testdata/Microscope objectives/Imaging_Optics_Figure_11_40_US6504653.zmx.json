@@ -1,0 +1,276 @@
+{
+  "name": "High-NA immersion objective US 6504653; Imaging Optics p. 849.",
+  "description": "Notes...; US patent 6504653 (Carl Zeiss Jena), f = 4.72 mm, NA = 1.30, field diameter is 140 micron, wavelength 420 -690 nm.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Microscope objective design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 32,
+    "source_file": "Imaging_Optics_Figure_11_40_US6504653.zmx",
+    "zmx_name": "High-NA immersion objective US 6504653; Imaging Optics p. 849."
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "High-NA immersion objective US 6504653; Imaging Optics p. 849.",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": 0.0,
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 54.0
+          },
+          {
+            "index": 2,
+            "radius": "inf",
+            "thickness": 106.05
+          },
+          {
+            "index": 3,
+            "radius": "inf",
+            "thickness": 1.93
+          },
+          {
+            "index": 4,
+            "radius": 273.8400000000328,
+            "thickness": 6.0,
+            "material": "N-BAF3"
+          },
+          {
+            "index": 5,
+            "radius": -147.49000000000464,
+            "thickness": 96.419
+          },
+          {
+            "index": 6,
+            "radius": 8.174799999999934,
+            "thickness": 0.73,
+            "material": "N-FK51"
+          },
+          {
+            "index": 7,
+            "radius": 2.817499999999706,
+            "thickness": 1.92,
+            "material": "N-SF2"
+          },
+          {
+            "index": 8,
+            "radius": 3.1611999999995266,
+            "thickness": 1.907
+          },
+          {
+            "index": 9,
+            "radius": -3.7589999999998986,
+            "thickness": 4.85,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5,
+              "abbe": 40.0
+            }
+          },
+          {
+            "index": 10,
+            "radius": -4.528100000000176,
+            "thickness": 1.306
+          },
+          {
+            "index": 11,
+            "radius": -3.548500000000451,
+            "thickness": 1.1,
+            "material": "N-KZFS4"
+          },
+          {
+            "index": 12,
+            "radius": 93.05599999999404,
+            "thickness": 5.83,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5,
+              "abbe": 40.0
+            }
+          },
+          {
+            "index": 13,
+            "radius": -6.777700000001886,
+            "thickness": 0.205
+          },
+          {
+            "index": 14,
+            "radius": 51.95799999998825,
+            "thickness": 4.87,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5,
+              "abbe": 40.0
+            }
+          },
+          {
+            "index": 15,
+            "radius": -9.85840000000229,
+            "thickness": 1.16,
+            "material": "N-KZFS4"
+          },
+          {
+            "index": 16,
+            "radius": 15.960999999999592,
+            "thickness": 4.87,
+            "material": "CaF2"
+          },
+          {
+            "index": 17,
+            "radius": -21.753999999997845,
+            "thickness": 0.1
+          },
+          {
+            "index": 18,
+            "radius": "inf",
+            "thickness": -1.040814019141
+          },
+          {
+            "index": 19,
+            "radius": "inf",
+            "thickness": 1.040814019,
+            "is_stop": true
+          },
+          {
+            "index": 20,
+            "radius": 13.92499999999994,
+            "thickness": 7.76,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5,
+              "abbe": 40.0
+            }
+          },
+          {
+            "index": 21,
+            "radius": -12.230000000000127,
+            "thickness": 1.11,
+            "material": "N-KZFS4"
+          },
+          {
+            "index": 22,
+            "radius": 139.2499999999994,
+            "thickness": 0.103
+          },
+          {
+            "index": 23,
+            "radius": 11.140000000000263,
+            "thickness": 3.09,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5,
+              "abbe": 40.0
+            }
+          },
+          {
+            "index": 24,
+            "radius": 44.666000000009426,
+            "thickness": 0.1
+          },
+          {
+            "index": 25,
+            "radius": 4.940699999999741,
+            "thickness": 3.64,
+            "material": "N-FK51"
+          },
+          {
+            "index": 26,
+            "radius": 6.542299999999382,
+            "thickness": 0.1
+          },
+          {
+            "index": 27,
+            "radius": 2.7780000000001213,
+            "thickness": 2.5,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5,
+              "abbe": 40.0
+            }
+          },
+          {
+            "index": 28,
+            "radius": 1.2579000000000415,
+            "thickness": 0.6,
+            "material": "N-BK7"
+          },
+          {
+            "index": 29,
+            "radius": "inf",
+            "thickness": 0.1192,
+            "material": "N-BK7"
+          },
+          {
+            "index": 30,
+            "radius": "inf",
+            "thickness": 0.17,
+            "material": "N-BK7"
+          },
+          {
+            "index": 31,
+            "radius": "inf",
+            "thickness": 0.0,
+            "material": "N-BK7"
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "point_source",
+    "wavelengths": [
+      435.0,
+      450.0,
+      480.0,
+      510.0,
+      555.0,
+      600.0,
+      645.0,
+      690.0,
+      420.0
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.07
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "object_na": 0.013,
+    "object_distance": 0.0
+  }
+}

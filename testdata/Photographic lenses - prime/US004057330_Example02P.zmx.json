@@ -1,0 +1,156 @@
+{
+  "name": "US 4,057,330 Example 2 (Nikon AI Nikkor 135mm f/2.8S)",
+  "description": "Prepared and converted by Bill Claff. See:; https://www.PhotonsToPhotos.net/Lenses/OpticalBench/OpticalBench.htm#/Data/US004057330_Example02P.txt",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 12,
+    "source_file": "US004057330_Example02P.zmx",
+    "zmx_name": "US 4,057,330 Example 2 (Nikon AI Nikkor 135mm f/2.8S)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US 4,057,330 Example 2 (Nikon AI Nikkor 135mm f/2.8S)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 56.200999999999866,
+            "thickness": 7.299,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.62041,
+              "abbe": 60.3
+            }
+          },
+          {
+            "index": 2,
+            "radius": 405.4,
+            "thickness": 0.599
+          },
+          {
+            "index": 3,
+            "radius": 38.85000000000006,
+            "thickness": 13.001,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.62041,
+              "abbe": 60.3
+            }
+          },
+          {
+            "index": 4,
+            "radius": 83.15100000000022,
+            "thickness": 2.8
+          },
+          {
+            "index": 5,
+            "radius": 213.13299999999975,
+            "thickness": 4.699,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.7847,
+              "abbe": 26.1
+            }
+          },
+          {
+            "index": 6,
+            "radius": -79.15999999999977,
+            "thickness": 1.5,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.74,
+              "abbe": 28.2
+            }
+          },
+          {
+            "index": 7,
+            "radius": 26.481999999999978,
+            "thickness": 6.75
+          },
+          {
+            "index": 8,
+            "radius": "inf",
+            "thickness": 27.95,
+            "is_stop": true
+          },
+          {
+            "index": 9,
+            "radius": 84.00000000000003,
+            "thickness": 2.201,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.72825,
+              "abbe": 28.3
+            }
+          },
+          {
+            "index": 10,
+            "radius": 252.063,
+            "thickness": 59.51
+          },
+          {
+            "index": 11,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "collimated",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.12
+      ],
+      [
+        0.0,
+        21.6
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "float_by_stop_size": 14.2995
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "name": "Cox1-04",
+  "description": "ject to the following conditions:; TH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 6,
+    "source_file": "Cox1-04.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "Cox1-04",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 5.08,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 15.366001221199998,
+            "thickness": 0.6858,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5,
+              "abbe": 40.0
+            },
+            "is_stop": true
+          },
+          {
+            "index": 2,
+            "radius": 8.081450842399999,
+            "thickness": 0.6858
+          },
+          {
+            "index": 3,
+            "radius": 8.639455771600002,
+            "thickness": 1.905,
+            "material": "N-SK16"
+          },
+          {
+            "index": 4,
+            "radius": -80.10091455019999,
+            "thickness": 24.70056939359
+          },
+          {
+            "index": 5,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "collimated",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        5.0
+      ],
+      [
+        0.0,
+        8.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "entrance_pupil_diameter": 5.08
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "name": "US 3,744,881 Example 2",
+  "description": "Prepared and converted by Bill Claff.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Microscope objective design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 12,
+    "source_file": "US03744881-2.zmx",
+    "zmx_name": "US 3,744,881 Example 2"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US 3,744,881 Example 2",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": -11.6150939956736
+          },
+          {
+            "index": 2,
+            "radius": "inf",
+            "thickness": 11.6150939956736,
+            "is_stop": true
+          },
+          {
+            "index": 3,
+            "radius": 18.110000000000003,
+            "thickness": 2.5,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.4866,
+              "abbe": 84.5
+            }
+          },
+          {
+            "index": 4,
+            "radius": -11.75,
+            "thickness": 1.4,
+            "material": "F5"
+          },
+          {
+            "index": 5,
+            "radius": -35.610000000000014,
+            "thickness": 16.5
+          },
+          {
+            "index": 6,
+            "radius": 21.56,
+            "thickness": 2.5,
+            "material": "F5"
+          },
+          {
+            "index": 7,
+            "radius": -9.36999999999997,
+            "thickness": 1.4,
+            "material": "S-LAL52"
+          },
+          {
+            "index": 8,
+            "radius": 10.489999999999997,
+            "thickness": 8.0
+          },
+          {
+            "index": 9,
+            "radius": 14.000000000000007,
+            "thickness": 2.9,
+            "material": "S-TIH13"
+          },
+          {
+            "index": 10,
+            "radius": 14.799999999999994,
+            "thickness": 19.683807666812186
+          },
+          {
+            "index": 11,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        2.0
+      ],
+      [
+        0.0,
+        4.0
+      ],
+      [
+        0.0,
+        6.0
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 6.0,
+    "object_distance": 147.5004979194247
+  }
+}

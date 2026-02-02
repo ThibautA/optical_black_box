@@ -1,0 +1,119 @@
+{
+  "name": "Nikkor-T 10.5cm f/4",
+  "description": "from http://nikkor.com/story/0021/index.html",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 9,
+    "source_file": "Note21-Fig1.zmx",
+    "zmx_name": "Nikkor-T 10.5cm f/4"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "Nikkor-T 10.5cm f/4",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 40.51290105731187,
+            "thickness": 7.488612737815,
+            "material": "S-BSM18"
+          },
+          {
+            "index": 2,
+            "radius": "inf",
+            "thickness": 13.95525135575
+          },
+          {
+            "index": 3,
+            "radius": "inf",
+            "thickness": 2.112528502699,
+            "is_stop": true
+          },
+          {
+            "index": 4,
+            "radius": -48.8410239220856,
+            "thickness": 2.250752134626,
+            "material": "H-ZF3"
+          },
+          {
+            "index": 5,
+            "radius": 35.39511976040302,
+            "thickness": 14.01522457447
+          },
+          {
+            "index": 6,
+            "radius": 134.62540327866458,
+            "thickness": 6.237262148587,
+            "material": "S-LAL8"
+          },
+          {
+            "index": 7,
+            "radius": -42.89532614434783,
+            "thickness": 82.49498418796
+          },
+          {
+            "index": 8,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        14.0
+      ],
+      [
+        0.0,
+        21.0
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 4.0
+  }
+}

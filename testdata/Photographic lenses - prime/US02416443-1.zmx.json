@@ -1,0 +1,136 @@
+{
+  "name": "US02416443-1",
+  "description": "ject to the following conditions:; TH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 12,
+    "source_file": "US02416443-1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US02416443-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 5.334,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 11.0133113744,
+            "thickness": 1.8923,
+            "material": "K10"
+          },
+          {
+            "index": 2,
+            "radius": 207.00896495,
+            "thickness": 0.0
+          },
+          {
+            "index": 3,
+            "radius": 8.4225884634,
+            "thickness": 3.44678,
+            "material": "K10"
+          },
+          {
+            "index": 4,
+            "radius": -31.877510031999996,
+            "thickness": 0.42926,
+            "material": "polystyren"
+          },
+          {
+            "index": 5,
+            "radius": 10.099002027,
+            "thickness": 0.9271
+          },
+          {
+            "index": 6,
+            "radius": "inf",
+            "thickness": 0.0254,
+            "is_stop": true
+          },
+          {
+            "index": 7,
+            "radius": -46.579864295,
+            "thickness": 0.42926,
+            "material": "polystyren"
+          },
+          {
+            "index": 8,
+            "radius": 7.216114092,
+            "thickness": 1.651
+          },
+          {
+            "index": 9,
+            "radius": 18.9283851302,
+            "thickness": 1.6256,
+            "material": "polystyren"
+          },
+          {
+            "index": 10,
+            "radius": -17.1633218582,
+            "thickness": 15.67187314185
+          },
+          {
+            "index": 11,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "collimated",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        14.0
+      ],
+      [
+        0.0,
+        21.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "entrance_pupil_diameter": 5.334
+  }
+}

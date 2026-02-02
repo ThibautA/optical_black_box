@@ -1,0 +1,183 @@
+{
+  "name": "Samsung cellphone",
+  "description": "US pat 7154681, first embodiment; may be for DSC?; 1/2 image diag = 4.63",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 14,
+    "source_file": "US07154681-1.ZMX",
+    "zmx_name": "Samsung cellphone"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "Samsung cellphone",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 0.699894,
+            "is_stop": true
+          },
+          {
+            "index": 2,
+            "radius": 4.93233,
+            "thickness": 2.6,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.8042,
+              "abbe": 46.5
+            }
+          },
+          {
+            "index": 3,
+            "radius": -3.6827799999999997,
+            "thickness": 0.22,
+            "material": "N-SF6"
+          },
+          {
+            "index": 4,
+            "radius": -64.16896,
+            "thickness": 0.617214
+          },
+          {
+            "index": 5,
+            "radius": -2.26731,
+            "thickness": 1.48296,
+            "material": "ZeonexE48R",
+            "conic": -3.036816,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": 0.00712347,
+              "A6": 0.00128251,
+              "A8": -0.00039201,
+              "A10": 2.74804e-05
+            }
+          },
+          {
+            "index": 6,
+            "radius": -2.85858,
+            "thickness": 0.834626,
+            "conic": -1.27297,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": 0.0316559,
+              "A6": -0.00206908,
+              "A8": 0.000135497,
+              "A10": -2.71882e-06
+            }
+          },
+          {
+            "index": 7,
+            "radius": -872.8189,
+            "thickness": 2.598194,
+            "material": "ZeonexE48R",
+            "conic": -27424.34265,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": 0.0124892,
+              "A6": -0.00307594,
+              "A8": 0.000319345,
+              "A10": -1.54128e-05
+            }
+          },
+          {
+            "index": 8,
+            "radius": 11.89598,
+            "thickness": 0.643065,
+            "conic": -95.01316,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": 0.00138854,
+              "A6": -0.000567442,
+              "A8": 3.30566e-05,
+              "A10": -1.00075e-06
+            }
+          },
+          {
+            "index": 9,
+            "radius": "inf",
+            "thickness": 0.55,
+            "material": "N-BK7"
+          },
+          {
+            "index": 10,
+            "radius": "inf",
+            "thickness": 0.385585
+          },
+          {
+            "index": 11,
+            "radius": "inf",
+            "thickness": 0.55,
+            "material": "N-BK7"
+          },
+          {
+            "index": 12,
+            "radius": "inf",
+            "thickness": 0.3802705958641
+          },
+          {
+            "index": 13,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        22.0
+      ],
+      [
+        0.0,
+        30.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 2.8
+  }
+}

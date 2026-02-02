@@ -1,0 +1,176 @@
+{
+  "name": "DE 10 2017 108 595 Example 1 IM1",
+  "description": "Prepared and converted by Bill Claff.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Microscope objective design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 18,
+    "source_file": "DE102017108595-1.zmx",
+    "zmx_name": "DE 10 2017 108 595 Example 1 IM1"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "DE 10 2017 108 595 Example 1 IM1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 13.242999999999997,
+            "thickness": 3.88,
+            "material": "N-PSK53A",
+            "is_stop": true
+          },
+          {
+            "index": 2,
+            "radius": 71.8600000000002,
+            "thickness": 0.58
+          },
+          {
+            "index": 3,
+            "radius": 17.422999999999995,
+            "thickness": 3.36,
+            "material": "P-BK7"
+          },
+          {
+            "index": 4,
+            "radius": 7.002999999999975,
+            "thickness": 6.15
+          },
+          {
+            "index": 5,
+            "radius": -8.036000000000012,
+            "thickness": 2.91,
+            "material": "N-KZFS11"
+          },
+          {
+            "index": 6,
+            "radius": 16.302,
+            "thickness": 4.74,
+            "material": "N-PK51"
+          },
+          {
+            "index": 7,
+            "radius": -10.948999999999996,
+            "thickness": 0.8
+          },
+          {
+            "index": 8,
+            "radius": 37.34299999999998,
+            "thickness": 4.15,
+            "material": "N-PK52A"
+          },
+          {
+            "index": 9,
+            "radius": -11.192000000000002,
+            "thickness": 1.52,
+            "material": "N-KZFS11"
+          },
+          {
+            "index": 10,
+            "radius": -35.35100000000004,
+            "thickness": 6.53
+          },
+          {
+            "index": 11,
+            "radius": 58.83900000000009,
+            "thickness": 2.7,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.59447,
+              "abbe": 68.2
+            }
+          },
+          {
+            "index": 12,
+            "radius": -21.325999999999997,
+            "thickness": 0.83
+          },
+          {
+            "index": 13,
+            "radius": 10.145999999999997,
+            "thickness": 9.38,
+            "material": "N-LASF44"
+          },
+          {
+            "index": 14,
+            "radius": 4.019999999999994,
+            "thickness": 0.86,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.46008,
+              "abbe": 67.7
+            }
+          },
+          {
+            "index": 15,
+            "radius": "inf",
+            "thickness": 0.0
+          },
+          {
+            "index": 16,
+            "radius": "inf",
+            "thickness": 2.5523180474857052,
+            "material": "WATER"
+          },
+          {
+            "index": 17,
+            "radius": "inf",
+            "thickness": 0.0,
+            "material": "WATER"
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.4
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 0.7
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "name": "US 4,289,385 Example 1 (Ricoh Pentax-110 50mm F2.8)",
+  "description": "Prepared and converted by Bill Claff. See:; https://www.PhotonsToPhotos.net/Lenses/OpticalBench/OpticalBench.htm#/Data/US004289385_Example01P.txt",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 13,
+    "source_file": "US004289385_Example01P.zmx",
+    "zmx_name": "US 4,289,385 Example 1 (Ricoh Pentax-110 50mm F2.8)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US 4,289,385 Example 1 (Ricoh Pentax-110 50mm F2.8)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 22.868000000000006,
+            "thickness": 5.427,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.60311,
+              "abbe": 60.7
+            }
+          },
+          {
+            "index": 2,
+            "radius": 105.44999999999999,
+            "thickness": 0.645
+          },
+          {
+            "index": 3,
+            "radius": 16.693000000000005,
+            "thickness": 7.936,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.51633,
+              "abbe": 64.1
+            }
+          },
+          {
+            "index": 4,
+            "radius": 38.51300000000002,
+            "thickness": 1.578
+          },
+          {
+            "index": 5,
+            "radius": 1696.3280000000007,
+            "thickness": 2.796,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.80518,
+              "abbe": 25.4
+            }
+          },
+          {
+            "index": 6,
+            "radius": 11.458999999999996,
+            "thickness": 4.95
+          },
+          {
+            "index": 7,
+            "radius": -16.69600000000001,
+            "thickness": 1.677,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.74077,
+              "abbe": 27.8
+            }
+          },
+          {
+            "index": 8,
+            "radius": -14.948,
+            "thickness": 1.161
+          },
+          {
+            "index": 9,
+            "radius": 21.77500000000002,
+            "thickness": 1.617,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.66446,
+              "abbe": 35.8
+            }
+          },
+          {
+            "index": 10,
+            "radius": 119.04099999999998,
+            "thickness": 3.389
+          },
+          {
+            "index": 11,
+            "radius": "inf",
+            "thickness": 20.01,
+            "is_stop": true
+          },
+          {
+            "index": 12,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        7.14
+      ],
+      [
+        0.0,
+        10.2
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 2.8
+  }
+}

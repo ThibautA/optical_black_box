@@ -1,0 +1,171 @@
+{
+  "name": "US04403836-1",
+  "description": "Imported from Zemax: US04403836-1.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 17,
+    "source_file": "US04403836-1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US04403836-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 49.733,
+            "thickness": 2.062,
+            "material": "S-BAL35",
+            "is_stop": true
+          },
+          {
+            "index": 2,
+            "radius": 123.532,
+            "thickness": 13.694
+          },
+          {
+            "index": 3,
+            "radius": -35.23,
+            "thickness": 1.861,
+            "material": "S-TIL26"
+          },
+          {
+            "index": 4,
+            "radius": -52.023,
+            "thickness": -1.861,
+            "material": "S-TIL26"
+          },
+          {
+            "index": 5,
+            "radius": -35.23,
+            "thickness": -12.658
+          },
+          {
+            "index": 6,
+            "radius": -32.731,
+            "thickness": -1.036,
+            "material": "J-LAF05"
+          },
+          {
+            "index": 7,
+            "radius": 123.532,
+            "thickness": -2.062,
+            "material": "S-BAL35"
+          },
+          {
+            "index": 8,
+            "radius": 49.733,
+            "thickness": -0.622,
+            "material": "K-PG375"
+          },
+          {
+            "index": 9,
+            "radius": -28.196000000000005,
+            "thickness": 0.622,
+            "material": "K-PG375"
+          },
+          {
+            "index": 10,
+            "radius": 49.733,
+            "thickness": 2.062,
+            "material": "S-BAL35"
+          },
+          {
+            "index": 11,
+            "radius": 123.532,
+            "thickness": 1.036,
+            "material": "J-LAF05"
+          },
+          {
+            "index": 12,
+            "radius": -32.731,
+            "thickness": 9.964
+          },
+          {
+            "index": 13,
+            "radius": -9.849,
+            "thickness": 2.694,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5,
+              "abbe": 40.0
+            }
+          },
+          {
+            "index": 14,
+            "radius": -35.23,
+            "thickness": 1.861,
+            "material": "S-TIL26"
+          },
+          {
+            "index": 15,
+            "radius": -52.023,
+            "thickness": 10.14968410245
+          },
+          {
+            "index": 16,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.5
+      ],
+      [
+        0.0,
+        2.57
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 7.0
+  }
+}

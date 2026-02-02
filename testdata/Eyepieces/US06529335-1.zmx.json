@@ -1,0 +1,130 @@
+{
+  "name": "US06529335-1",
+  "description": "Imported from Zemax: US06529335-1.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Eyepiece design for visual observation",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 9,
+    "source_file": "US06529335-1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US06529335-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 13.00106744505,
+            "is_stop": true
+          },
+          {
+            "index": 2,
+            "radius": 56.7,
+            "thickness": 5.2,
+            "material": "E-SK5"
+          },
+          {
+            "index": 3,
+            "radius": -16.5,
+            "thickness": 0.2
+          },
+          {
+            "index": 4,
+            "radius": 14.9,
+            "thickness": 8.5,
+            "material": "E-SK5"
+          },
+          {
+            "index": 5,
+            "radius": -14.9,
+            "thickness": 1.5,
+            "material": "N-SF6"
+          },
+          {
+            "index": 6,
+            "radius": 60.0,
+            "thickness": 0.1,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.552,
+              "abbe": 38.5
+            }
+          },
+          {
+            "index": 7,
+            "radius": 120.0,
+            "thickness": 6.215518375174,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": 0.000167,
+              "A6": -1.63e-06,
+              "A10": 3.82e-11
+            }
+          },
+          {
+            "index": 8,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        18.0
+      ],
+      [
+        0.0,
+        27.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 4.0
+  }
+}

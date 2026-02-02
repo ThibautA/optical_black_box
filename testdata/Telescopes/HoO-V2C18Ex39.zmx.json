@@ -1,0 +1,140 @@
+{
+  "name": "HoO-V2C18Ex39",
+  "description": "Imported from Zemax: HoO-V2C18Ex39.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Telescope optical system",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 12,
+    "source_file": "HoO-V2C18Ex39.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "HoO-V2C18Ex39",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 69.64,
+            "thickness": 1.607,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5,
+              "abbe": 40.0
+            },
+            "is_stop": true
+          },
+          {
+            "index": 2,
+            "radius": 148.71,
+            "thickness": 3.045
+          },
+          {
+            "index": 3,
+            "radius": -61.43000000000001,
+            "thickness": 1.618,
+            "material": "N-LAK21"
+          },
+          {
+            "index": 4,
+            "radius": -97.53000000000002,
+            "thickness": 21.733
+          },
+          {
+            "index": 5,
+            "radius": -85.11,
+            "thickness": -21.733
+          },
+          {
+            "index": 6,
+            "radius": -97.53000000000002,
+            "thickness": 21.733
+          },
+          {
+            "index": 7,
+            "radius": 70.44,
+            "thickness": 1.2,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5,
+              "abbe": 40.0
+            }
+          },
+          {
+            "index": 8,
+            "radius": -15.470000000000002,
+            "thickness": 0.18
+          },
+          {
+            "index": 9,
+            "radius": -15.230000000000002,
+            "thickness": 1.3136,
+            "material": "N-SK16"
+          },
+          {
+            "index": 10,
+            "radius": -517.29,
+            "thickness": 11.03
+          },
+          {
+            "index": 11,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      550.0,
+      650.0,
+      750.0,
+      850.0
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 3.6
+  }
+}

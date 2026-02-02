@@ -1,0 +1,310 @@
+{
+  "name": "US09939622-4",
+  "description": "Imported from Zemax: US09939622-4.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Microscope objective design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 43,
+    "source_file": "US09939622-4.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US09939622-4",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": 69.52341017225325,
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": -69.52341017225325,
+            "is_stop": true
+          },
+          {
+            "index": 2,
+            "radius": "inf",
+            "thickness": 44.467
+          },
+          {
+            "index": 3,
+            "radius": -58.43449999999999,
+            "thickness": 3.0,
+            "material": "S-FPL51"
+          },
+          {
+            "index": 4,
+            "radius": 282.6302,
+            "thickness": 5.0,
+            "material": "N-LASF31A"
+          },
+          {
+            "index": 5,
+            "radius": -20.0714,
+            "thickness": 0.1
+          },
+          {
+            "index": 6,
+            "radius": 498.98980000000006,
+            "thickness": 0.8,
+            "material": "N-LASF31A"
+          },
+          {
+            "index": 7,
+            "radius": 17.1469,
+            "thickness": 3.747
+          },
+          {
+            "index": 8,
+            "radius": -9.1156,
+            "thickness": 6.0,
+            "material": "S-NPH53"
+          },
+          {
+            "index": 9,
+            "radius": 213.47390000000001,
+            "thickness": 4.253,
+            "material": "S-FPL51"
+          },
+          {
+            "index": 10,
+            "radius": -16.5829,
+            "thickness": 1.264
+          },
+          {
+            "index": 11,
+            "radius": 99.58359999999999,
+            "thickness": 4.799,
+            "material": "N-KZFS11"
+          },
+          {
+            "index": 12,
+            "radius": -24.261700000000005,
+            "thickness": 1.1,
+            "material": "S-FPL51"
+          },
+          {
+            "index": 13,
+            "radius": 34.3442,
+            "thickness": 2.908
+          },
+          {
+            "index": 14,
+            "radius": 75.3103,
+            "thickness": 4.392,
+            "material": "S-NPH53"
+          },
+          {
+            "index": 15,
+            "radius": -44.9208,
+            "thickness": 0.1
+          },
+          {
+            "index": 16,
+            "radius": "inf",
+            "thickness": 30.0,
+            "material": "S-NSL5"
+          },
+          {
+            "index": 17,
+            "radius": "inf",
+            "thickness": 0.1
+          },
+          {
+            "index": 18,
+            "radius": 17.4216,
+            "thickness": 6.0,
+            "material": "S-NBH53"
+          },
+          {
+            "index": 19,
+            "radius": 16.129,
+            "thickness": 7.413
+          },
+          {
+            "index": 20,
+            "radius": -73.3543,
+            "thickness": 1.1,
+            "material": "S-NBH51"
+          },
+          {
+            "index": 21,
+            "radius": 22.7869,
+            "thickness": 1.317
+          },
+          {
+            "index": 22,
+            "radius": 32.5169,
+            "thickness": 11.56,
+            "material": "S-FPL53"
+          },
+          {
+            "index": 23,
+            "radius": -200.0,
+            "thickness": 0.1
+          },
+          {
+            "index": 24,
+            "radius": 84.7381,
+            "thickness": 6.243,
+            "material": "S-FPL53"
+          },
+          {
+            "index": 25,
+            "radius": -32.2216,
+            "thickness": 1.1,
+            "material": "N-KZFS11"
+          },
+          {
+            "index": 26,
+            "radius": -60.0663,
+            "thickness": 0.21
+          },
+          {
+            "index": 27,
+            "radius": 39.4928,
+            "thickness": 14.221,
+            "material": "S-FPL53"
+          },
+          {
+            "index": 28,
+            "radius": -20.8827,
+            "thickness": 1.0,
+            "material": "N-KZFS11"
+          },
+          {
+            "index": 29,
+            "radius": -49.7276,
+            "thickness": 0.22
+          },
+          {
+            "index": 30,
+            "radius": 24.135800000000003,
+            "thickness": 11.893,
+            "material": "S-FPL53"
+          },
+          {
+            "index": 31,
+            "radius": -73.8361,
+            "thickness": 1.0,
+            "material": "N-KZFS11"
+          },
+          {
+            "index": 32,
+            "radius": 18.9811,
+            "thickness": 9.609,
+            "material": "S-FPL53"
+          },
+          {
+            "index": 33,
+            "radius": -206.4974,
+            "thickness": 0.11
+          },
+          {
+            "index": 34,
+            "radius": 30.5189,
+            "thickness": 3.703,
+            "material": "S-FPL51"
+          },
+          {
+            "index": 35,
+            "radius": 126.77449999999999,
+            "thickness": 0.11
+          },
+          {
+            "index": 36,
+            "radius": 26.0,
+            "thickness": 3.419,
+            "material": "N-LASF31A"
+          },
+          {
+            "index": 37,
+            "radius": 33.9927,
+            "thickness": 0.1
+          },
+          {
+            "index": 38,
+            "radius": 11.7647,
+            "thickness": 10.915,
+            "material": "N-LASF31A"
+          },
+          {
+            "index": 39,
+            "radius": 13.0731,
+            "thickness": 2.027
+          },
+          {
+            "index": 40,
+            "radius": "inf",
+            "thickness": 0.15,
+            "material": "B270"
+          },
+          {
+            "index": 41,
+            "radius": "inf",
+            "thickness": 0.0007259209166355474
+          },
+          {
+            "index": 42,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        4.0
+      ],
+      [
+        0.0,
+        7.8
+      ]
+    ],
+    "field_type": "object_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 0.6,
+    "object_distance": 69.52341017225325
+  }
+}

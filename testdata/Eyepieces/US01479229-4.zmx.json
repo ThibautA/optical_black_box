@@ -1,0 +1,120 @@
+{
+  "name": "US01479229-4",
+  "description": "ject to the following conditions:; TH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Eyepiece design for visual observation",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 9,
+    "source_file": "US01479229-4.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US01479229-4",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 6.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 8.0518,
+            "is_stop": true
+          },
+          {
+            "index": 2,
+            "radius": 4305.08474516,
+            "thickness": 1.016,
+            "material": "F5"
+          },
+          {
+            "index": 3,
+            "radius": 18.5347343808,
+            "thickness": 4.699,
+            "material": "N-BAK1"
+          },
+          {
+            "index": 4,
+            "radius": -26.1505199112,
+            "thickness": 0.0508
+          },
+          {
+            "index": 5,
+            "radius": 4305.08474516,
+            "thickness": 1.016,
+            "material": "F5"
+          },
+          {
+            "index": 6,
+            "radius": 18.5347343808,
+            "thickness": 4.699,
+            "material": "N-BAK1"
+          },
+          {
+            "index": 7,
+            "radius": -26.1505199112,
+            "thickness": 23.37727847357
+          },
+          {
+            "index": 8,
+            "radius": "inf",
+            "thickness": 2.659766088708e-15
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "collimated",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.0
+      ],
+      [
+        0.0,
+        20.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "entrance_pupil_diameter": 6.0
+  }
+}

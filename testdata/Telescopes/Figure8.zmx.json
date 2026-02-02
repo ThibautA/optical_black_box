@@ -1,0 +1,100 @@
+{
+  "name": "Figure8",
+  "description": "Imported from Zemax: Figure8.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Telescope optical system",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 6,
+    "source_file": "Figure8.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "Figure8",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 60.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 13.79381165672,
+            "material": "N-BK7"
+          },
+          {
+            "index": 2,
+            "radius": 138.93132945234402,
+            "thickness": 138.9313294523
+          },
+          {
+            "index": 3,
+            "radius": "inf",
+            "thickness": 484.5435290926,
+            "is_stop": true
+          },
+          {
+            "index": 4,
+            "radius": -484.54352909256903,
+            "thickness": -332.6918608954
+          },
+          {
+            "index": 5,
+            "radius": -151.80344736245323,
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "collimated",
+    "wavelengths": [
+      550.0
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        24.0
+      ],
+      [
+        0.0,
+        40.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "entrance_pupil_diameter": 60.0
+  }
+}

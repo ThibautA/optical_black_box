@@ -1,0 +1,203 @@
+{
+  "name": "US04632498",
+  "description": "Imported from Zemax: US04632498.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 21,
+    "source_file": "US04632498.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US04632498",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 14.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 24.9,
+            "is_stop": true
+          },
+          {
+            "index": 2,
+            "radius": -229.25,
+            "thickness": 3.25,
+            "material": "Ge"
+          },
+          {
+            "index": 3,
+            "radius": -99.58000000000001,
+            "thickness": 0.5
+          },
+          {
+            "index": 4,
+            "radius": -318.43,
+            "thickness": 3.0,
+            "material": "Ge"
+          },
+          {
+            "index": 5,
+            "radius": -134.54,
+            "thickness": 0.5
+          },
+          {
+            "index": 6,
+            "radius": 31.36,
+            "thickness": 12.96,
+            "material": "Ge"
+          },
+          {
+            "index": 7,
+            "radius": 22.92,
+            "thickness": 60.92
+          },
+          {
+            "index": 8,
+            "radius": -125.65000000000002,
+            "thickness": 8.0,
+            "material": "Ge",
+            "conic": 3.299144386894436,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -2.517242595422621e-07,
+              "A6": 4.0672793907028045e-10,
+              "A8": -8.73967717549175e-13,
+              "A10": 1.0424588856341061e-15,
+              "A12": -4.831423809220826e-19
+            }
+          },
+          {
+            "index": 9,
+            "radius": -64.82,
+            "thickness": 6.0
+          },
+          {
+            "index": 10,
+            "radius": -13869.63,
+            "thickness": 3.25,
+            "material": "Ge"
+          },
+          {
+            "index": 11,
+            "radius": 154.89,
+            "thickness": 65.59
+          },
+          {
+            "index": 12,
+            "radius": 372.97,
+            "thickness": 9.75,
+            "material": "Ge"
+          },
+          {
+            "index": 13,
+            "radius": -310.81,
+            "thickness": 8.3
+          },
+          {
+            "index": 14,
+            "radius": -116.62000000000002,
+            "thickness": 4.0,
+            "material": "Ge"
+          },
+          {
+            "index": 15,
+            "radius": -549.06,
+            "thickness": 2.0
+          },
+          {
+            "index": 16,
+            "radius": 3054.37,
+            "thickness": 4.25,
+            "material": "ZnSe"
+          },
+          {
+            "index": 17,
+            "radius": 660.41,
+            "thickness": 80.41
+          },
+          {
+            "index": 18,
+            "radius": -101.83,
+            "thickness": 12.5,
+            "material": "Ge",
+            "conic": -0.01203667603275673,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": 2.4296772815169787e-08,
+              "A6": -3.160571815273626e-11,
+              "A8": 1.351980197281095e-14,
+              "A10": -2.8576640660307212e-18,
+              "A12": 2.3519961651169747e-22
+            }
+          },
+          {
+            "index": 19,
+            "radius": -95.15,
+            "thickness": 12.0
+          },
+          {
+            "index": 20,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "collimated",
+    "wavelengths": [
+      8500.0,
+      10.0,
+      11.5
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.0
+      ],
+      [
+        0.0,
+        23.2
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "entrance_pupil_diameter": 14.0
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "name": "HoO-V2C18Ex25",
+  "description": "Imported from Zemax: HoO-V2C18Ex25.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Telescope optical system",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 6,
+    "source_file": "HoO-V2C18Ex25.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "HoO-V2C18Ex25",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 60.0
+          },
+          {
+            "index": 2,
+            "radius": -66752.0,
+            "thickness": -67.37,
+            "is_stop": true,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": 5.083e-08
+            }
+          },
+          {
+            "index": 3,
+            "radius": "inf",
+            "thickness": 66.6
+          },
+          {
+            "index": 4,
+            "radius": -133.97,
+            "thickness": -66.85
+          },
+          {
+            "index": 5,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      550.0
+    ],
+    "field_points": [
+      [
+        -12.0,
+        9.0
+      ],
+      [
+        0.0,
+        9.0
+      ],
+      [
+        12.0,
+        9.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 4.0
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "name": "DE 2729831 Example 1 (Rodenstock Sironar-N 100mm f/5.6)",
+  "description": "Prepared and converted by Bill Claff.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 14,
+    "source_file": "DE02729831_Example01P.zmx",
+    "zmx_name": "DE 2729831 Example 1 (Rodenstock Sironar-N 100mm f/5.6)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "DE 2729831 Example 1 (Rodenstock Sironar-N 100mm f/5.6)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 18.80000000000001,
+            "thickness": 6.08,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.6055,
+              "abbe": 60.45
+            }
+          },
+          {
+            "index": 2,
+            "radius": "inf",
+            "thickness": 1.23,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5542,
+              "abbe": 49.31
+            }
+          },
+          {
+            "index": 3,
+            "radius": 14.15,
+            "thickness": 1.09
+          },
+          {
+            "index": 4,
+            "radius": 22.749999999999975,
+            "thickness": 1.5,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5187,
+              "abbe": 63.96
+            }
+          },
+          {
+            "index": 5,
+            "radius": 33.79000000000004,
+            "thickness": 5.79
+          },
+          {
+            "index": 6,
+            "radius": "inf",
+            "thickness": 4.68,
+            "is_stop": true
+          },
+          {
+            "index": 7,
+            "radius": "inf",
+            "thickness": 1.47
+          },
+          {
+            "index": 8,
+            "radius": -44.419999999999995,
+            "thickness": 1.42,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5187,
+              "abbe": 63.96
+            }
+          },
+          {
+            "index": 9,
+            "radius": -27.63000000000001,
+            "thickness": 1.09
+          },
+          {
+            "index": 10,
+            "radius": -15.590000000000009,
+            "thickness": 1.98,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5542,
+              "abbe": 49.31
+            }
+          },
+          {
+            "index": 11,
+            "radius": "inf",
+            "thickness": 4.85,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.6055,
+              "abbe": 60.45
+            }
+          },
+          {
+            "index": 12,
+            "radius": -19.280000000000015,
+            "thickness": 83.11
+          },
+          {
+            "index": 13,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        49.35
+      ],
+      [
+        0.0,
+        70.5
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 5.6
+  }
+}

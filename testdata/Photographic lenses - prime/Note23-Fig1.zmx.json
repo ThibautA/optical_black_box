@@ -1,0 +1,147 @@
+{
+  "name": "AF Nikkor 80mm f/2.8",
+  "description": "according to http://nikkor.com/story/0023/index.html",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 14,
+    "source_file": "Note23-Fig1.zmx",
+    "zmx_name": "AF Nikkor 80mm f/2.8"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "AF Nikkor 80mm f/2.8",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 56.86682807429453,
+            "thickness": 4.71210848482,
+            "material": "S-BAH10"
+          },
+          {
+            "index": 2,
+            "radius": 138.0884610658796,
+            "thickness": 0.1117535157913
+          },
+          {
+            "index": 3,
+            "radius": 32.37233643511509,
+            "thickness": 10.72461702665,
+            "material": "S-BAH10"
+          },
+          {
+            "index": 4,
+            "radius": 409.1441226828417,
+            "thickness": 6.216246994681,
+            "material": "S-TIM27"
+          },
+          {
+            "index": 5,
+            "radius": 20.11723317296375,
+            "thickness": 7.98378595756
+          },
+          {
+            "index": 6,
+            "radius": "inf",
+            "thickness": 10.42800371111,
+            "is_stop": true
+          },
+          {
+            "index": 7,
+            "radius": "inf",
+            "thickness": 3.674872109122
+          },
+          {
+            "index": 8,
+            "radius": -24.668478335653514,
+            "thickness": 1.570643785337,
+            "material": "S-TIH14"
+          },
+          {
+            "index": 9,
+            "radius": 376.0194392906472,
+            "thickness": 6.548902426788,
+            "material": "S-LAH65V"
+          },
+          {
+            "index": 10,
+            "radius": -33.312230936661926,
+            "thickness": 8.406967966316
+          },
+          {
+            "index": 11,
+            "radius": 189.792958890001,
+            "thickness": 4.747790071074,
+            "material": "S-LAH55V"
+          },
+          {
+            "index": 12,
+            "radius": -69.77765569677854,
+            "thickness": 47.74782224635
+          },
+          {
+            "index": 13,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        14.0
+      ],
+      [
+        0.0,
+        21.0
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 2.8
+  }
+}

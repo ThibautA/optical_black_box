@@ -1,0 +1,227 @@
+{
+  "name": "US pat 7,889,441 - Sansung cellphone camera",
+  "description": "Imported from Zemax: US07889441-1.ZMX",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 13,
+    "source_file": "US07889441-1.ZMX",
+    "zmx_name": "US pat 7,889,441 - Sansung cellphone camera"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US pat 7,889,441 - Sansung cellphone camera",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 1.0
+          },
+          {
+            "index": 2,
+            "radius": 5.4137,
+            "thickness": 1.355,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.6935,
+              "abbe": 53.2
+            },
+            "conic": -92.0457,
+            "is_stop": true,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": 0.0469987,
+              "A6": -0.0816975,
+              "A8": 0.0570241,
+              "A10": -0.0245192
+            }
+          },
+          {
+            "index": 3,
+            "radius": -2.5751,
+            "thickness": 0.1299,
+            "conic": -1.9536,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -0.0575322,
+              "A6": 0.0373684,
+              "A8": -0.0194362,
+              "A10": 0.00167264
+            }
+          },
+          {
+            "index": 4,
+            "radius": -10.7993,
+            "thickness": 0.7144,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.68893,
+              "abbe": 31.2
+            },
+            "conic": 38.4485,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -0.0876727,
+              "A6": 0.0808933,
+              "A8": -0.0329568,
+              "A10": 0.00467278
+            }
+          },
+          {
+            "index": 5,
+            "radius": 2.5077,
+            "thickness": 0.578,
+            "conic": -6.5984,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -0.00755307,
+              "A6": 0.0160916,
+              "A8": -0.00463016,
+              "A10": 0.000382715
+            }
+          },
+          {
+            "index": 6,
+            "radius": -26.920299999999997,
+            "thickness": 1.3799,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5312,
+              "abbe": 56.5
+            },
+            "conic": 118.4163,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": 0.0252424,
+              "A6": -0.0177707,
+              "A8": 0.00713316,
+              "A10": -0.000919027
+            }
+          },
+          {
+            "index": 7,
+            "radius": -1.8042999999999998,
+            "thickness": 0.2526,
+            "conic": -6.1287,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -0.0591461,
+              "A6": 0.0347283,
+              "A8": -0.0153311,
+              "A10": 0.00389272,
+              "A12": -0.000352452
+            }
+          },
+          {
+            "index": 8,
+            "radius": 3.1338,
+            "thickness": 0.6424,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5312,
+              "abbe": 56.5
+            },
+            "conic": -21.3035,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -0.0641858,
+              "A6": 0.00671696,
+              "A8": 0.000390142,
+              "A10": -5.93522e-05
+            }
+          },
+          {
+            "index": 9,
+            "radius": 1.217,
+            "thickness": 0.373,
+            "conic": -4.4641,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -0.0463899,
+              "A6": 0.00806727,
+              "A8": -0.00110297,
+              "A10": 8.56988e-05,
+              "A12": -2.8562e-06
+            }
+          },
+          {
+            "index": 10,
+            "radius": "inf",
+            "thickness": 0.3,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5768,
+              "abbe": 64.2
+            }
+          },
+          {
+            "index": 11,
+            "radius": "inf",
+            "thickness": 1.106320245917
+          },
+          {
+            "index": 12,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        24.0
+      ],
+      [
+        0.0,
+        36.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 2.7
+  }
+}

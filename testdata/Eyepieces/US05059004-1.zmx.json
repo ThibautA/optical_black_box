@@ -1,0 +1,112 @@
+{
+  "name": "US05059004-1",
+  "description": "Imported from Zemax: US05059004-1.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Eyepiece design for visual observation",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 8,
+    "source_file": "US05059004-1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US05059004-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 3.3,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 15.0,
+            "is_stop": true
+          },
+          {
+            "index": 2,
+            "radius": 8.621,
+            "thickness": 5.5,
+            "material": "N-PK51"
+          },
+          {
+            "index": 3,
+            "radius": -6.25,
+            "thickness": 1.0,
+            "material": "N-SF6"
+          },
+          {
+            "index": 4,
+            "radius": -20.492,
+            "thickness": 4.76
+          },
+          {
+            "index": 5,
+            "radius": 4.302,
+            "thickness": 3.0,
+            "material": "N-LASF9"
+          },
+          {
+            "index": 6,
+            "radius": 18.762,
+            "thickness": 1.480271683394
+          },
+          {
+            "index": 7,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "collimated",
+    "wavelengths": [
+      550.0
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        8.0
+      ],
+      [
+        0.0,
+        12.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "entrance_pupil_diameter": 3.3
+  }
+}

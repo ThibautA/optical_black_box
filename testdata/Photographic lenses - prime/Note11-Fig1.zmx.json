@@ -1,0 +1,156 @@
+{
+  "name": "Note11-Fig1",
+  "description": "Imported from Zemax: Note11-Fig1.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 15,
+    "source_file": "Note11-Fig1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "Note11-Fig1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 187.35625604647083,
+            "thickness": 23.7181406069,
+            "material": "S-FPL51Y"
+          },
+          {
+            "index": 2,
+            "radius": -225.71232384054127,
+            "thickness": 3.612610157759
+          },
+          {
+            "index": 3,
+            "radius": -214.24641683348273,
+            "thickness": 6.984316188578,
+            "material": "S-BAH27"
+          },
+          {
+            "index": 4,
+            "radius": 773.3369867991605,
+            "thickness": 1.181252717127
+          },
+          {
+            "index": 5,
+            "radius": 140.1392934165752,
+            "thickness": 18.3207566818,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.458464439354,
+              "abbe": 67.8782054107
+            }
+          },
+          {
+            "index": 6,
+            "radius": 1336.7582287539774,
+            "thickness": 88.00144304016
+          },
+          {
+            "index": 7,
+            "radius": -8093.403866802183,
+            "thickness": 54.05166578899,
+            "is_stop": true
+          },
+          {
+            "index": 8,
+            "radius": -9186.344484911346,
+            "thickness": 16.96573160447
+          },
+          {
+            "index": 9,
+            "radius": 280.97733231205484,
+            "thickness": 9.451742297272,
+            "material": "S-PHM52"
+          },
+          {
+            "index": 10,
+            "radius": 1332.9372870415089,
+            "thickness": 11.95386010194
+          },
+          {
+            "index": 11,
+            "radius": -78.81924897625093,
+            "thickness": 2.390253010953,
+            "material": "S-TIL1"
+          },
+          {
+            "index": 12,
+            "radius": 117.47410992033039,
+            "thickness": 9.069827350825,
+            "material": "S-LAH55V"
+          },
+          {
+            "index": 13,
+            "radius": -647.2883964765878,
+            "thickness": 66.15588557729
+          },
+          {
+            "index": 14,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        14.0
+      ],
+      [
+        0.0,
+        21.0
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 3.0
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "name": "US 3,536,379 Example 1 (Leica Telyt-S 800mm f/6.3)",
+  "description": "Prepared and converted by Bill Claff. See:; https://www.PhotonsToPhotos.net/Lenses/OpticalBench/OpticalBench.htm#/Data/US003536379_Example01P.txt",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 7,
+    "source_file": "US003536379_Example01P.zmx",
+    "zmx_name": "US 3,536,379 Example 1 (Leica Telyt-S 800mm f/6.3)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US 3,536,379 Example 1 (Leica Telyt-S 800mm f/6.3)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 411.32800000000015,
+            "thickness": 9.6,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.67245,
+              "abbe": 45.8
+            }
+          },
+          {
+            "index": 2,
+            "radius": 256.03299999999996,
+            "thickness": 20.0,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.54408,
+              "abbe": 73.0
+            }
+          },
+          {
+            "index": 3,
+            "radius": -256.03299999999996,
+            "thickness": 9.6,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.57125,
+              "abbe": 55.8
+            }
+          },
+          {
+            "index": 4,
+            "radius": -2699.0239999999985,
+            "thickness": 516.8
+          },
+          {
+            "index": 5,
+            "radius": "inf",
+            "thickness": 265.1685077829627,
+            "is_stop": true
+          },
+          {
+            "index": 6,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "collimated",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.12
+      ],
+      [
+        0.0,
+        21.6
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "float_by_stop_size": 22.3775
+  }
+}

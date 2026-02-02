@@ -1,0 +1,141 @@
+{
+  "name": "Nikon AI Nikkor 45mm f/2.8P (JP 2003-005030 Example 6)",
+  "description": "Prepared and converted by Bill Claff.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 10,
+    "source_file": "JP2003-005030_Example06_Tale78.zmx",
+    "zmx_name": "Nikon AI Nikkor 45mm f/2.8P (JP 2003-005030 Example 6)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "Nikon AI Nikkor 45mm f/2.8P (JP 2003-005030 Example 6)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 22.626499999999982,
+            "thickness": 3.998,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.816,
+              "abbe": 46.63
+            }
+          },
+          {
+            "index": 2,
+            "radius": 636.8927000000001,
+            "thickness": 1.5992
+          },
+          {
+            "index": 3,
+            "radius": "inf",
+            "thickness": 1.7991,
+            "is_stop": true
+          },
+          {
+            "index": 4,
+            "radius": -32.71979999999997,
+            "thickness": 1.2994,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.68893,
+              "abbe": 31.07
+            }
+          },
+          {
+            "index": 5,
+            "radius": 21.169699999999985,
+            "thickness": 3.4983
+          },
+          {
+            "index": 6,
+            "radius": -108.0444,
+            "thickness": 1.2994,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.68893,
+              "abbe": 31.07
+            }
+          },
+          {
+            "index": 7,
+            "radius": 31.003400000000024,
+            "thickness": 4.3978,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.883,
+              "abbe": 40.77
+            }
+          },
+          {
+            "index": 8,
+            "radius": -25.290699999999998,
+            "thickness": 38.7701
+          },
+          {
+            "index": 9,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.12
+      ],
+      [
+        0.0,
+        21.6
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 2.9
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "name": "US08503102-2",
+  "description": "Imported from Zemax: US08503102-2.ZMX",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 35,
+    "source_file": "US08503102-2.ZMX",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US08503102-2",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 287.687,
+            "thickness": 7.15,
+            "material": "S-TIL6"
+          },
+          {
+            "index": 2,
+            "radius": "inf",
+            "thickness": 0.3
+          },
+          {
+            "index": 3,
+            "radius": 96.98046,
+            "thickness": 3.77,
+            "material": "S-LAL18",
+            "conic": -17.9687,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": 4.28864e-06,
+              "A6": -1.85831e-09,
+              "A8": 7.97541e-13,
+              "A10": -1.32672e-16
+            }
+          },
+          {
+            "index": 4,
+            "radius": 30.905239999999996,
+            "thickness": 12.07
+          },
+          {
+            "index": 5,
+            "radius": 118.74600000000001,
+            "thickness": 3.4,
+            "material": "S-LAH65V"
+          },
+          {
+            "index": 6,
+            "radius": 37.006,
+            "thickness": 11.634
+          },
+          {
+            "index": 7,
+            "radius": 153.034,
+            "thickness": 7.92,
+            "material": "N-SF2"
+          },
+          {
+            "index": 8,
+            "radius": -69.966,
+            "thickness": 2.25,
+            "material": "N-FK5"
+          },
+          {
+            "index": 9,
+            "radius": 801.264,
+            "thickness": 5.677
+          },
+          {
+            "index": 10,
+            "radius": -39.2,
+            "thickness": 2.21,
+            "material": "N-LAK8"
+          },
+          {
+            "index": 11,
+            "radius": 117.401,
+            "thickness": 3.59113
+          },
+          {
+            "index": 12,
+            "radius": "inf",
+            "thickness": 9.4,
+            "material": "N-PSK53A"
+          },
+          {
+            "index": 13,
+            "radius": -32.274,
+            "thickness": 2.17,
+            "material": "S-LAH71"
+          },
+          {
+            "index": 14,
+            "radius": -57.474999999999994,
+            "thickness": 0.15
+          },
+          {
+            "index": 15,
+            "radius": 569.349,
+            "thickness": 6.68,
+            "material": "N-FK5"
+          },
+          {
+            "index": 16,
+            "radius": -56.488,
+            "thickness": 0.15
+          },
+          {
+            "index": 17,
+            "radius": 55.678,
+            "thickness": 6.39,
+            "material": "N-PK52A"
+          },
+          {
+            "index": 18,
+            "radius": -3013.3699999999994,
+            "thickness": 30.40089
+          },
+          {
+            "index": 19,
+            "radius": "inf",
+            "thickness": 3.477,
+            "is_stop": true
+          },
+          {
+            "index": 20,
+            "radius": -54.213,
+            "thickness": 1.6,
+            "material": "S-LAH58"
+          },
+          {
+            "index": 21,
+            "radius": 189.547,
+            "thickness": 2.715
+          },
+          {
+            "index": 22,
+            "radius": -72.144,
+            "thickness": 1.62,
+            "material": "S-LAH59"
+          },
+          {
+            "index": 23,
+            "radius": 72.642,
+            "thickness": 5.85,
+            "material": "N-SF57"
+          },
+          {
+            "index": 24,
+            "radius": -68.51,
+            "thickness": 1.47042
+          },
+          {
+            "index": 25,
+            "radius": -107.465,
+            "thickness": 4.72,
+            "material": "S-NSL36"
+          },
+          {
+            "index": 26,
+            "radius": -39.7636,
+            "thickness": 0.18
+          },
+          {
+            "index": 27,
+            "radius": 3735.652,
+            "thickness": 6.57,
+            "material": "N-PK52A"
+          },
+          {
+            "index": 28,
+            "radius": -34.52,
+            "thickness": 1.67,
+            "material": "N-SF57"
+          },
+          {
+            "index": 29,
+            "radius": -69.679,
+            "thickness": 21.63519
+          },
+          {
+            "index": 30,
+            "radius": 63.181999999999995,
+            "thickness": 8.27,
+            "material": "N-PK52A"
+          },
+          {
+            "index": 31,
+            "radius": -40.916,
+            "thickness": 0.897
+          },
+          {
+            "index": 32,
+            "radius": -40.432,
+            "thickness": 1.8,
+            "material": "S-LAH71"
+          },
+          {
+            "index": 33,
+            "radius": -86.495,
+            "thickness": 128.6131506137
+          },
+          {
+            "index": 34,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "collimated",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        8.0
+      ],
+      [
+        0.0,
+        13.0
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "float_by_stop_size": 11.0
+  }
+}

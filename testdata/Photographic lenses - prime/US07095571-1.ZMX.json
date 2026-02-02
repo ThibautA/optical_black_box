@@ -1,0 +1,175 @@
+{
+  "name": "Techwin cellphone camera",
+  "description": "US pat#7095571; 1/2 dia is about 1.75mm; assume 1.3Mpix camera -> 2.2um pixels",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 11,
+    "source_file": "US07095571-1.ZMX",
+    "zmx_name": "Techwin cellphone camera"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "Techwin cellphone camera",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 0.1301066284282,
+            "is_stop": true
+          },
+          {
+            "index": 2,
+            "radius": 1.88799,
+            "thickness": 0.8,
+            "material": "N-FK5"
+          },
+          {
+            "index": 3,
+            "radius": 7.41497,
+            "thickness": 0.5885843437759
+          },
+          {
+            "index": 4,
+            "radius": -5.73095,
+            "thickness": 1.1,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5247,
+              "abbe": 56.6
+            },
+            "conic": 9.289409,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -0.0929926,
+              "A6": -0.0213666,
+              "A8": 0.00576697,
+              "A10": -0.0951434
+            }
+          },
+          {
+            "index": 5,
+            "radius": -1.62199,
+            "thickness": 0.109166816847,
+            "conic": 0.220806,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -0.00267368,
+              "A6": -0.0283598,
+              "A8": 0.0312522,
+              "A10": -0.0160052
+            }
+          },
+          {
+            "index": 6,
+            "radius": "inf",
+            "thickness": 0.3,
+            "material": "N-BK7"
+          },
+          {
+            "index": 7,
+            "radius": "inf",
+            "thickness": 0.6989141821102
+          },
+          {
+            "index": 8,
+            "radius": -4.56488,
+            "thickness": 0.76,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.607,
+              "abbe": 27.6
+            },
+            "conic": 10.0,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -0.108744,
+              "A6": 0.00388674,
+              "A8": 0.0124078,
+              "A10": -0.0032684
+            }
+          },
+          {
+            "index": 9,
+            "radius": 2.38436,
+            "thickness": 0.6080465692416,
+            "conic": -5.12037,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -0.0605616,
+              "A6": 0.0102495,
+              "A8": 6.97619e-05,
+              "A10": -0.000243352
+            }
+          },
+          {
+            "index": 10,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.0
+      ],
+      [
+        0.0,
+        25.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "vignetting_y": [
+      0.0,
+      0.0,
+      0.1
+    ],
+    "telecentric": false,
+    "image_fno": 3.0
+  }
+}

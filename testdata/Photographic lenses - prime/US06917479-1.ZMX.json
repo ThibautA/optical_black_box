@@ -1,0 +1,190 @@
+{
+  "name": "Techwin DSC lens",
+  "description": "US pat #6917479; filed in 2003; 1/2 diag = 2.5mm",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 13,
+    "source_file": "US06917479-1.ZMX",
+    "zmx_name": "Techwin DSC lens"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "Techwin DSC lens",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 0.15,
+            "is_stop": true
+          },
+          {
+            "index": 2,
+            "radius": 4.504,
+            "thickness": 1.26,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.806,
+              "abbe": 46.5
+            }
+          },
+          {
+            "index": 3,
+            "radius": -8.721,
+            "thickness": 0.47
+          },
+          {
+            "index": 4,
+            "radius": -2.5,
+            "thickness": 0.5,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.847,
+              "abbe": 23.8
+            }
+          },
+          {
+            "index": 5,
+            "radius": 16.542,
+            "thickness": 0.17
+          },
+          {
+            "index": 6,
+            "radius": -13.967,
+            "thickness": 1.69,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.743,
+              "abbe": 49.3
+            },
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": 0.0160073,
+              "A6": -0.00822184,
+              "A8": 0.00125395
+            }
+          },
+          {
+            "index": 7,
+            "radius": -2.093,
+            "thickness": 0.1,
+            "conic": -5.182678,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -0.0551418,
+              "A6": 0.0150488,
+              "A8": -0.00328615,
+              "A10": 0.000255345
+            }
+          },
+          {
+            "index": 8,
+            "radius": 2.572,
+            "thickness": 0.8,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.525,
+              "abbe": 56.4
+            },
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -0.0491192,
+              "A6": -0.0075578,
+              "A8": 0.00238448,
+              "A10": -0.000305757
+            }
+          },
+          {
+            "index": 9,
+            "radius": 1.9470000000000003,
+            "thickness": 1.39,
+            "conic": -1.85383,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -0.057805,
+              "A6": 0.00250117,
+              "A8": 0.000520886,
+              "A10": -7.42182e-05
+            }
+          },
+          {
+            "index": 10,
+            "radius": "inf",
+            "thickness": 0.5,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.517,
+              "abbe": 64.2
+            }
+          },
+          {
+            "index": 11,
+            "radius": "inf",
+            "thickness": 1.012892746188
+          },
+          {
+            "index": 12,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        20.0
+      ],
+      [
+        0.0,
+        30.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 2.8
+  }
+}

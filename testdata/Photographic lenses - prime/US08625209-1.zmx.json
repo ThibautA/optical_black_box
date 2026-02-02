@@ -1,0 +1,213 @@
+{
+  "name": "US08625209-1",
+  "description": "Imported from Zemax: US08625209-1.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 22,
+    "source_file": "US08625209-1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US08625209-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": 5.9451,
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 24.6812,
+            "thickness": 6.0,
+            "material": "E-LAFH3"
+          },
+          {
+            "index": 2,
+            "radius": 50.7289,
+            "thickness": 1.0
+          },
+          {
+            "index": 3,
+            "radius": 52.2884,
+            "thickness": 2.0,
+            "material": "E-LAF2"
+          },
+          {
+            "index": 4,
+            "radius": 13.407300000000001,
+            "thickness": 5.0
+          },
+          {
+            "index": 5,
+            "radius": -2376.0313,
+            "thickness": 1.5,
+            "material": "E-SK16"
+          },
+          {
+            "index": 6,
+            "radius": 34.7824,
+            "thickness": 16.11885,
+            "conic": 3.6658,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -3.28165e-05,
+              "A6": -1.03604e-07,
+              "A8": 6.06737e-10,
+              "A10": -5.08467e-12
+            }
+          },
+          {
+            "index": 7,
+            "radius": 28.2031,
+            "thickness": 3.0,
+            "material": "E-SK15"
+          },
+          {
+            "index": 8,
+            "radius": 307.4304,
+            "thickness": 5.9024
+          },
+          {
+            "index": 9,
+            "radius": -149.4637,
+            "thickness": 5.0,
+            "material": "E-LASF016",
+            "conic": 122.722,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -3.31295e-05,
+              "A6": 7.94669e-08,
+              "A8": -2.33348e-09,
+              "A10": 1.71099e-11
+            }
+          },
+          {
+            "index": 10,
+            "radius": -12.4323,
+            "thickness": 2.0,
+            "material": "E-BASF2"
+          },
+          {
+            "index": 11,
+            "radius": 224.48710000000003,
+            "thickness": 4.50274
+          },
+          {
+            "index": 12,
+            "radius": "inf",
+            "thickness": 2.0,
+            "is_stop": true
+          },
+          {
+            "index": 13,
+            "radius": -54.2954,
+            "thickness": 3.0,
+            "material": "E-BK7"
+          },
+          {
+            "index": 14,
+            "radius": -26.6795,
+            "thickness": 0.2717
+          },
+          {
+            "index": 15,
+            "radius": 89.5597,
+            "thickness": 4.0,
+            "material": "E-FKH1"
+          },
+          {
+            "index": 16,
+            "radius": -36.6907,
+            "thickness": 9.1262
+          },
+          {
+            "index": 17,
+            "radius": 32.7548,
+            "thickness": 1.5,
+            "material": "E-LAF11"
+          },
+          {
+            "index": 18,
+            "radius": 22.7451,
+            "thickness": 2.5
+          },
+          {
+            "index": 19,
+            "radius": -253.54879999999997,
+            "thickness": 3.5,
+            "material": "E-FK5"
+          },
+          {
+            "index": 20,
+            "radius": -51.9404,
+            "thickness": 48.14041685972
+          },
+          {
+            "index": 21,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        9.0
+      ],
+      [
+        0.0,
+        14.0
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "vignetting_y": [
+      0.0,
+      0.1,
+      0.4
+    ],
+    "telecentric": false,
+    "image_fno": 2.9,
+    "object_distance": 5.9451
+  }
+}

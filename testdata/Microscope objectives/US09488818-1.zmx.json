@@ -1,0 +1,215 @@
+{
+  "name": "US 9,488,818 Example 1",
+  "description": "Prepared and converted by Bill Claff.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Microscope objective design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 24,
+    "source_file": "US09488818-1.zmx",
+    "zmx_name": "US 9,488,818 Example 1"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US 9,488,818 Example 1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": -8.292357315548841,
+            "is_stop": true
+          },
+          {
+            "index": 2,
+            "radius": -3.4062999999999994,
+            "thickness": 1.63,
+            "material": "N-SF1"
+          },
+          {
+            "index": 3,
+            "radius": -2.9980999999999987,
+            "thickness": 3.02,
+            "material": "N-FK5"
+          },
+          {
+            "index": 4,
+            "radius": -7.567299999999998,
+            "thickness": 11.4
+          },
+          {
+            "index": 5,
+            "radius": -6.814400000000018,
+            "thickness": 1.2,
+            "material": "N-LAK8"
+          },
+          {
+            "index": 6,
+            "radius": 49.92589999999991,
+            "thickness": 3.5,
+            "material": "FCD100"
+          },
+          {
+            "index": 7,
+            "radius": -6.443100000000013,
+            "thickness": 2.6
+          },
+          {
+            "index": 8,
+            "radius": -219.36250000000013,
+            "thickness": 1.2,
+            "material": "N-LASF31A"
+          },
+          {
+            "index": 9,
+            "radius": 8.679900000000028,
+            "thickness": 3.5,
+            "material": "FCD100"
+          },
+          {
+            "index": 10,
+            "radius": -15.853199999999992,
+            "thickness": 0.2
+          },
+          {
+            "index": 11,
+            "radius": 84.89670000000022,
+            "thickness": 1.2,
+            "material": "N-KZFS11"
+          },
+          {
+            "index": 12,
+            "radius": 8.96400000000001,
+            "thickness": 4.0,
+            "material": "FCD505"
+          },
+          {
+            "index": 13,
+            "radius": -35.6488,
+            "thickness": 0.25
+          },
+          {
+            "index": 14,
+            "radius": 11.154900000000001,
+            "thickness": 6.0,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.57098,
+              "abbe": 70.93
+            }
+          },
+          {
+            "index": 15,
+            "radius": -9.616099999999964,
+            "thickness": 1.2,
+            "material": "N-LASF44"
+          },
+          {
+            "index": 16,
+            "radius": -20.9134,
+            "thickness": 0.2
+          },
+          {
+            "index": 17,
+            "radius": 7.7848,
+            "thickness": 3.5,
+            "material": "FCD100"
+          },
+          {
+            "index": 18,
+            "radius": -257.5265,
+            "thickness": 0.2
+          },
+          {
+            "index": 19,
+            "radius": 2.4529999999999976,
+            "thickness": 3.15,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.57098,
+              "abbe": 70.93
+            }
+          },
+          {
+            "index": 20,
+            "radius": "inf",
+            "thickness": 0.53,
+            "material": "N-SSK8"
+          },
+          {
+            "index": 21,
+            "radius": "inf",
+            "thickness": 0.1,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.54,
+              "abbe": 0.0
+            }
+          },
+          {
+            "index": 22,
+            "radius": "inf",
+            "thickness": 0.17,
+            "material": "B270"
+          },
+          {
+            "index": 23,
+            "radius": "inf",
+            "thickness": 0.0,
+            "material": "B270"
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.2
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 0.4
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "name": "HoO-V2C18Ex05",
+  "description": "Imported from Zemax: HoO-V2C18Ex05.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Telescope optical system",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 9,
+    "source_file": "HoO-V2C18Ex05.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "HoO-V2C18Ex05",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 794.0
+          },
+          {
+            "index": 2,
+            "radius": -2139.7,
+            "thickness": -794.0,
+            "conic": -1.0778,
+            "is_stop": true
+          },
+          {
+            "index": 3,
+            "radius": -802.83,
+            "thickness": 853.96,
+            "conic": -4.579
+          },
+          {
+            "index": 4,
+            "radius": 67.73,
+            "thickness": 2.54,
+            "material": "N-BK7"
+          },
+          {
+            "index": 5,
+            "radius": 90.39,
+            "thickness": 9.9
+          },
+          {
+            "index": 6,
+            "radius": -1925.6000000000001,
+            "thickness": 1.27,
+            "material": "N-BK7"
+          },
+          {
+            "index": 7,
+            "radius": 129.1,
+            "thickness": 14.39
+          },
+          {
+            "index": 8,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.2
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 9.0
+  }
+}

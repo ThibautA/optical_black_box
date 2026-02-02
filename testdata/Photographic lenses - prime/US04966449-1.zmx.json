@@ -1,0 +1,176 @@
+{
+  "name": "US04966449-1",
+  "description": "Imported from Zemax: US04966449-1.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 19,
+    "source_file": "US04966449-1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US04966449-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 86.335,
+            "thickness": 10.5,
+            "material": "S-FPL51"
+          },
+          {
+            "index": 2,
+            "radius": -3296.081,
+            "thickness": 0.7
+          },
+          {
+            "index": 3,
+            "radius": 63.59300000000001,
+            "thickness": 8.2,
+            "material": "S-FPL51"
+          },
+          {
+            "index": 4,
+            "radius": 149.035,
+            "thickness": 26.2
+          },
+          {
+            "index": 5,
+            "radius": -3532.739,
+            "thickness": 3.1,
+            "material": "S-LAH60",
+            "is_stop": true
+          },
+          {
+            "index": 6,
+            "radius": 44.276,
+            "thickness": 1.5
+          },
+          {
+            "index": 7,
+            "radius": 36.532,
+            "thickness": 8.4,
+            "material": "S-FPL51"
+          },
+          {
+            "index": 8,
+            "radius": 2666.57,
+            "thickness": 27.1
+          },
+          {
+            "index": 9,
+            "radius": 65.325,
+            "thickness": 5.7,
+            "material": "S-FTM16"
+          },
+          {
+            "index": 10,
+            "radius": -29.783999999999995,
+            "thickness": 1.7,
+            "material": "S-LAH65"
+          },
+          {
+            "index": 11,
+            "radius": 263.183,
+            "thickness": 19.96
+          },
+          {
+            "index": 12,
+            "radius": -154.129,
+            "thickness": 2.3,
+            "material": "S-FTM16"
+          },
+          {
+            "index": 13,
+            "radius": -67.081,
+            "thickness": 1.0
+          },
+          {
+            "index": 14,
+            "radius": -128.278,
+            "thickness": 1.8,
+            "material": "S-LAH65"
+          },
+          {
+            "index": 15,
+            "radius": 40.136,
+            "thickness": 27.9
+          },
+          {
+            "index": 16,
+            "radius": 58.678,
+            "thickness": 3.9,
+            "material": "S-TIM35"
+          },
+          {
+            "index": 17,
+            "radius": 169.667,
+            "thickness": 40.35275940362
+          },
+          {
+            "index": 18,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        14.0
+      ],
+      [
+        0.0,
+        21.0
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 4.5,
+    "object_distance": 2100.0
+  }
+}

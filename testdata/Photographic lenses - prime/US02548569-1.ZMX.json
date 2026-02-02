@@ -1,0 +1,199 @@
+{
+  "name": "US Patent 2548569",
+  "description": "Designer: K. Tolle",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 16,
+    "source_file": "US02548569-1.ZMX",
+    "zmx_name": "US Patent 2548569"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US Patent 2548569",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 98.05844283192782,
+            "thickness": 18.8,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.755,
+              "abbe": 47.2
+            }
+          },
+          {
+            "index": 2,
+            "radius": -248.015873015873,
+            "thickness": 6.85,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.50137097618,
+              "abbe": 56.40916532073
+            }
+          },
+          {
+            "index": 3,
+            "radius": 38.101043968604735,
+            "thickness": 3.05
+          },
+          {
+            "index": 4,
+            "radius": 46.97482149567831,
+            "thickness": 7.2,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.620451058553,
+              "abbe": 38.08060148794
+            }
+          },
+          {
+            "index": 5,
+            "radius": 28.689465228368146,
+            "thickness": 74.45
+          },
+          {
+            "index": 6,
+            "radius": "inf",
+            "thickness": 11.0,
+            "is_stop": true
+          },
+          {
+            "index": 7,
+            "radius": 205.08613617719442,
+            "thickness": 10.25,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.734,
+              "abbe": 51.1
+            }
+          },
+          {
+            "index": 8,
+            "radius": -121.71372930866603,
+            "thickness": 3.4
+          },
+          {
+            "index": 9,
+            "radius": 1068.3760683760684,
+            "thickness": 13.65,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.517,
+              "abbe": 64.5
+            }
+          },
+          {
+            "index": 10,
+            "radius": -41.45593234391842,
+            "thickness": 4.8,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.689,
+              "abbe": 30.9
+            }
+          },
+          {
+            "index": 11,
+            "radius": -64.05329233922625,
+            "thickness": 7.8
+          },
+          {
+            "index": 12,
+            "radius": 64.05329233922625,
+            "thickness": 14.65,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.501,
+              "abbe": 56.5
+            }
+          },
+          {
+            "index": 13,
+            "radius": -40.62398440038999,
+            "thickness": 4.9,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.649,
+              "abbe": 33.8
+            }
+          },
+          {
+            "index": 14,
+            "radius": 141.24293785310735,
+            "thickness": 54.65
+          },
+          {
+            "index": 15,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      550.0
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        18.0
+      ],
+      [
+        0.0,
+        25.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "vignetting_x": [
+      0.0,
+      0.0,
+      0.02665118627548
+    ],
+    "vignetting_y": [
+      0.0,
+      0.0,
+      0.4886267004967
+    ],
+    "telecentric": false,
+    "image_fno": 2.0
+  }
+}

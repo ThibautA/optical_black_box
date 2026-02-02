@@ -1,0 +1,133 @@
+{
+  "name": "Amici microscope objective; Imaging Optics p. 501.",
+  "description": "Notes...; f = 6 mm, NA = 0.65, field diameter is 240 micron (F- to C-line).; =======",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Microscope objective design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 12,
+    "source_file": "Imaging_Optics_Figure_7_59b.zmx",
+    "zmx_name": "Amici microscope objective; Imaging Optics p. 501."
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "Amici microscope objective; Imaging Optics p. 501.",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": 0.0,
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 6000.0
+          },
+          {
+            "index": 2,
+            "radius": 17.050880000001303,
+            "thickness": 3.5,
+            "material": "N-SK11",
+            "is_stop": true
+          },
+          {
+            "index": 3,
+            "radius": -8.80909800000323,
+            "thickness": 1.0,
+            "material": "N-F2"
+          },
+          {
+            "index": 4,
+            "radius": "inf",
+            "thickness": 8.4999
+          },
+          {
+            "index": 5,
+            "radius": 8.290567000002673,
+            "thickness": 3.0,
+            "material": "N-SK11"
+          },
+          {
+            "index": 6,
+            "radius": -5.2159669999999405,
+            "thickness": 1.0,
+            "material": "N-F2"
+          },
+          {
+            "index": 7,
+            "radius": "inf",
+            "thickness": 0.100912
+          },
+          {
+            "index": 8,
+            "radius": 3.073329680000324,
+            "thickness": 4.37157,
+            "material": "N-SK16"
+          },
+          {
+            "index": 9,
+            "radius": "inf",
+            "thickness": 0.25
+          },
+          {
+            "index": 10,
+            "radius": "inf",
+            "thickness": 0.0
+          },
+          {
+            "index": 11,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.12
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 0.76923,
+    "object_distance": 0.0
+  }
+}

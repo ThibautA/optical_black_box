@@ -1,0 +1,276 @@
+{
+  "name": "US 2021/0026133 Example 4 (Nikon AF-P DX Nikkor 70-300mm f4.5-6.3G ED (VR))",
+  "description": "Prepared and converted by Bill Claff. See:; https://www.PhotonsToPhotos.net/Lenses/OpticalBench/OpticalBench.htm#/Data/US20210026133_Example04P.txt",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 27,
+    "source_file": "US20210026133_Example04P.zmx",
+    "zmx_name": "US 2021/0026133 Example 4 (Nikon AF-P DX Nikkor 70-300mm f4.5-6.3G ED (VR))"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US 2021/0026133 Example 4 (Nikon AF-P DX Nikkor 70-300mm f4.5-6.3G ED (VR))",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 93.8410000000004,
+            "thickness": 5.6,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5168,
+              "abbe": 63.88
+            }
+          },
+          {
+            "index": 2,
+            "radius": -447.91500000000036,
+            "thickness": 0.2
+          },
+          {
+            "index": 3,
+            "radius": 112.30299999999995,
+            "thickness": 1.7,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.61155,
+              "abbe": 31.26
+            }
+          },
+          {
+            "index": 4,
+            "radius": 39.024000000000036,
+            "thickness": 8.0,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.51742,
+              "abbe": 52.2
+            }
+          },
+          {
+            "index": 5,
+            "radius": 262.49999999999994,
+            "thickness": 2.306
+          },
+          {
+            "index": 6,
+            "radius": -239.03500000000008,
+            "thickness": 1.3,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.6968,
+              "abbe": 55.52
+            }
+          },
+          {
+            "index": 7,
+            "radius": 20.159000000000017,
+            "thickness": 4.0,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.80809,
+              "abbe": 22.74
+            }
+          },
+          {
+            "index": 8,
+            "radius": 61.045999999999836,
+            "thickness": 2.038
+          },
+          {
+            "index": 9,
+            "radius": -54.53700000000004,
+            "thickness": 1.4,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.85026,
+              "abbe": 32.35
+            }
+          },
+          {
+            "index": 10,
+            "radius": 167.45499999999998,
+            "thickness": 32.727
+          },
+          {
+            "index": 11,
+            "radius": 102.636,
+            "thickness": 3.4,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.58913,
+              "abbe": 61.22
+            }
+          },
+          {
+            "index": 12,
+            "radius": -68.89900000000004,
+            "thickness": 10.112
+          },
+          {
+            "index": 13,
+            "radius": 39.21799999999994,
+            "thickness": 5.5,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.497,
+              "abbe": 81.73
+            }
+          },
+          {
+            "index": 14,
+            "radius": -39.21199999999997,
+            "thickness": 1.3,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.85026,
+              "abbe": 32.35
+            }
+          },
+          {
+            "index": 15,
+            "radius": 207.54300000000015,
+            "thickness": 0.2
+          },
+          {
+            "index": 16,
+            "radius": 51.62999999999989,
+            "thickness": 3.7,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.48749,
+              "abbe": 70.31
+            }
+          },
+          {
+            "index": 17,
+            "radius": -98.2159999999997,
+            "thickness": 0.9
+          },
+          {
+            "index": 18,
+            "radius": "inf",
+            "thickness": 23.297,
+            "is_stop": true
+          },
+          {
+            "index": 19,
+            "radius": -79.94099999999975,
+            "thickness": 3.3,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.801,
+              "abbe": 34.92
+            }
+          },
+          {
+            "index": 20,
+            "radius": -17.991000000000014,
+            "thickness": 1.0,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.7,
+              "abbe": 48.11
+            }
+          },
+          {
+            "index": 21,
+            "radius": 29.976999999999993,
+            "thickness": 2.0
+          },
+          {
+            "index": 22,
+            "radius": 35.57300000000003,
+            "thickness": 3.5,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.60342,
+              "abbe": 38.03
+            }
+          },
+          {
+            "index": 23,
+            "radius": -52.78099999999997,
+            "thickness": 6.6996
+          },
+          {
+            "index": 24,
+            "radius": -20.537999999999997,
+            "thickness": 1.2,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.7725,
+              "abbe": 49.62
+            }
+          },
+          {
+            "index": 25,
+            "radius": -34.657000000000025,
+            "thickness": 43.294
+          },
+          {
+            "index": 26,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        10.325
+      ],
+      [
+        0.0,
+        14.75
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 4.707
+  }
+}

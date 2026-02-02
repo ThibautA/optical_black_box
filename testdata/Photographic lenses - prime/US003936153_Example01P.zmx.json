@@ -1,0 +1,161 @@
+{
+  "name": "US 3,936,153 Example 1 (Konica Minolta 35mm F2.8 MD)",
+  "description": "Prepared and converted by Bill Claff. See:; https://www.PhotonsToPhotos.net/Lenses/OpticalBench/OpticalBench.htm#/Data/US003936153_Example01P.txt",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 13,
+    "source_file": "US003936153_Example01P.zmx",
+    "zmx_name": "US 3,936,153 Example 1 (Konica Minolta 35mm F2.8 MD)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US 3,936,153 Example 1 (Konica Minolta 35mm F2.8 MD)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 82.02949999999996,
+            "thickness": 1.5435,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5714,
+              "abbe": 53.0
+            }
+          },
+          {
+            "index": 2,
+            "radius": 16.481500000000008,
+            "thickness": 12.383
+          },
+          {
+            "index": 3,
+            "radius": 21.720999999999993,
+            "thickness": 9.8,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.6583,
+              "abbe": 58.5
+            }
+          },
+          {
+            "index": 4,
+            "radius": -65.25049999999995,
+            "thickness": 5.812
+          },
+          {
+            "index": 5,
+            "radius": "inf",
+            "thickness": 5.325,
+            "is_stop": true
+          },
+          {
+            "index": 6,
+            "radius": -14.041999999999991,
+            "thickness": 1.3265,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.6889,
+              "abbe": 31.2
+            }
+          },
+          {
+            "index": 7,
+            "radius": 83.75500000000025,
+            "thickness": 0.9905
+          },
+          {
+            "index": 8,
+            "radius": -51.082500000000074,
+            "thickness": 2.345,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.72,
+              "abbe": 50.3
+            }
+          },
+          {
+            "index": 9,
+            "radius": -15.735999999999994,
+            "thickness": 0.1015
+          },
+          {
+            "index": 10,
+            "radius": 84.0665000000001,
+            "thickness": 2.38,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.6204,
+              "abbe": 60.3
+            }
+          },
+          {
+            "index": 11,
+            "radius": -41.758500000000026,
+            "thickness": 37.1
+          },
+          {
+            "index": 12,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.12
+      ],
+      [
+        0.0,
+        21.6
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 2.8
+  }
+}

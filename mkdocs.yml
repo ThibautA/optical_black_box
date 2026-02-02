@@ -1,0 +1,160 @@
+site_name: Optical BlackBox Documentation
+site_description: Secure format for encrypted optical lens designs
+site_author: Etendue
+site_url: https://github.com/ThibautA/obb
+
+repo_name: ThibautA/obb
+repo_url: https://github.com/ThibautA/obb
+edit_uri: edit/main/docs/
+
+copyright: Copyright &copy; 2026 Etendue
+
+theme:
+  name: material
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+    - toc.integrate
+  
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: getting-started/installation.md
+    - Quick Start: getting-started/quickstart.md
+    - CLI Usage: getting-started/cli.md
+  - User Guide:
+    - Encryption: guide/encryption.md
+    - Decryption: guide/decryption.md
+    - Key Management: guide/keys.md
+    - File Format: guide/file-format.md
+  - API Reference:
+    - Overview: api/overview.md
+    - Crypto: api/crypto.md
+    - Formats: api/formats.md
+    - Parsers: api/parsers.md
+    - Models: api/models.md
+    - Optics: api/optics.md
+  - Architecture:
+    - Overview: architecture/overview.md
+    - Security: architecture/security.md
+    - Design Patterns: architecture/patterns.md
+    - Extension Points: architecture/extensions.md
+  - Development:
+    - Contributing: CONTRIBUTING.md
+    - Testing: development/testing.md
+    - Code Style: development/style.md
+  - Reference:
+    - Changelog: CHANGELOG.md
+    - Security Policy: SECURITY.md
+    - Code of Conduct: CODE_OF_CONDUCT.md
+    - License: LICENSE
+    - MVP Limitations: MVP_LIMITATIONS.md
+
+plugins:
+  - search:
+      lang: en
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            show_source: true
+            show_root_heading: true
+            show_root_full_path: false
+            show_symbol_type_heading: true
+            show_symbol_type_toc: true
+            docstring_style: google
+            merge_init_into_class: true
+            filters:
+              - "!^_"  # Exclude private members
+
+markdown_extensions:
+  # Code highlighting
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  
+  # Admonitions
+  - admonition
+  - pymdownx.details
+  
+  # Lists
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  
+  # Tables
+  - tables
+  
+  # Formatting
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.keys
+  
+  # Code blocks
+  - pymdownx.tabbed:
+      alternate_style: true
+  
+  # Footnotes
+  - footnotes
+  
+  # Metadata
+  - meta
+  
+  # Abbreviations
+  - abbr
+  - attr_list
+  - md_in_html
+
+extra:
+  version:
+    provider: mike
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ThibautA/obb
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/optical-blackbox/
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js

@@ -1,0 +1,146 @@
+{
+  "name": "US 3,649,104 Example 3 (Leica Elcan 50mm F2)",
+  "description": "Prepared and converted by Bill Claff.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 11,
+    "source_file": "US003649104_Example03P.zmx",
+    "zmx_name": "US 3,649,104 Example 3 (Leica Elcan 50mm F2)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US 3,649,104 Example 3 (Leica Elcan 50mm F2)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 18.941000000000006,
+            "thickness": 5.1888,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.694,
+              "abbe": 54.5
+            }
+          },
+          {
+            "index": 2,
+            "radius": 95.1680999999998,
+            "thickness": 0.0961
+          },
+          {
+            "index": 3,
+            "radius": 16.069900000000008,
+            "thickness": 2.97875,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.6734,
+              "abbe": 46.8
+            }
+          },
+          {
+            "index": 4,
+            "radius": 24.972500000000018,
+            "thickness": 1.6335
+          },
+          {
+            "index": 5,
+            "radius": 100.24069999999996,
+            "thickness": 0.7687,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.7471,
+              "abbe": 27.4
+            }
+          },
+          {
+            "index": 6,
+            "radius": 11.713199999999993,
+            "thickness": 5.5591
+          },
+          {
+            "index": 7,
+            "radius": "inf",
+            "thickness": 5.395,
+            "is_stop": true
+          },
+          {
+            "index": 8,
+            "radius": 47.624400000000094,
+            "thickness": 5.7653,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.7546,
+              "abbe": 34.7
+            }
+          },
+          {
+            "index": 9,
+            "radius": -212.1935000000002,
+            "thickness": 25.2537
+          },
+          {
+            "index": 10,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.12
+      ],
+      [
+        0.0,
+        21.6
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 2.0
+  }
+}

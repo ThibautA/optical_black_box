@@ -1,0 +1,106 @@
+{
+  "name": "US05291340-14",
+  "description": "Imported from Zemax: US05291340-14.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Microscope objective design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 5,
+    "source_file": "US05291340-14.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US05291340-14",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 30.64372127687,
+            "is_stop": true
+          },
+          {
+            "index": 2,
+            "radius": 5.805,
+            "thickness": -24.429,
+            "conic": 0.3756,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -0.0001579,
+              "A6": 1.191e-06,
+              "A8": 9.051e-09,
+              "A10": 3.21e-10
+            }
+          },
+          {
+            "index": 3,
+            "radius": 31.612,
+            "thickness": 37.55143532916,
+            "conic": -0.0031,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -1.178e-08,
+              "A6": -2.067e-11,
+              "A8": 2.617e-14,
+              "A10": -4.283e-17
+            }
+          },
+          {
+            "index": 4,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      550.0
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 0.8
+  }
+}

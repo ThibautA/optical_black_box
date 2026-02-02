@@ -1,0 +1,138 @@
+{
+  "name": "HoO-V2C18Ex10",
+  "description": "Imported from Zemax: HoO-V2C18Ex10.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Telescope optical system",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 13,
+    "source_file": "HoO-V2C18Ex10.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "HoO-V2C18Ex10",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 6.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 12.0
+          },
+          {
+            "index": 2,
+            "radius": -33.99,
+            "thickness": -11.69,
+            "conic": -1.0,
+            "is_stop": true
+          },
+          {
+            "index": 3,
+            "radius": -10.61,
+            "thickness": 12.76,
+            "conic": -1.0
+          },
+          {
+            "index": 4,
+            "radius": 10.486,
+            "thickness": 0.877,
+            "material": "Si"
+          },
+          {
+            "index": 5,
+            "radius": 25.673,
+            "thickness": 0.462
+          },
+          {
+            "index": 6,
+            "radius": 48.33,
+            "thickness": 0.798,
+            "material": "Ge"
+          },
+          {
+            "index": 7,
+            "radius": 22.68,
+            "thickness": 7.57
+          },
+          {
+            "index": 8,
+            "radius": 3.5199999999999996,
+            "thickness": 1.0,
+            "material": "Si"
+          },
+          {
+            "index": 9,
+            "radius": 4.22,
+            "thickness": 0.377
+          },
+          {
+            "index": 10,
+            "radius": "inf",
+            "thickness": 0.16,
+            "material": "Al2O3"
+          },
+          {
+            "index": 11,
+            "radius": "inf",
+            "thickness": 0.396
+          },
+          {
+            "index": 12,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "collimated",
+    "wavelengths": [
+      3000.0,
+      4000.0,
+      5000.0
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        4.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "entrance_pupil_diameter": 6.0
+  }
+}

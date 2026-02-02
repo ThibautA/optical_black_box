@@ -1,0 +1,130 @@
+{
+  "name": "UK565851-1",
+  "description": "ject to the following conditions:; TH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Eyepiece design for visual observation",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 11,
+    "source_file": "UK565851-1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "UK565851-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 8.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 5.08,
+            "is_stop": true
+          },
+          {
+            "index": 2,
+            "radius": -28.319768100000005,
+            "thickness": 1.38684,
+            "material": "N-SF15"
+          },
+          {
+            "index": 3,
+            "radius": 60.4474060036,
+            "thickness": 0.20066
+          },
+          {
+            "index": 4,
+            "radius": 65.2285567664,
+            "thickness": 7.05866,
+            "material": "N-SK16"
+          },
+          {
+            "index": 5,
+            "radius": -23.9871564706,
+            "thickness": 0.20066
+          },
+          {
+            "index": 6,
+            "radius": 151.8230723248,
+            "thickness": 5.29336,
+            "material": "N-SK16"
+          },
+          {
+            "index": 7,
+            "radius": -46.25751228539999,
+            "thickness": 0.20066
+          },
+          {
+            "index": 8,
+            "radius": 40.921540204,
+            "thickness": 6.30174,
+            "material": "N-SK16"
+          },
+          {
+            "index": 9,
+            "radius": "inf",
+            "thickness": 24.08931681588
+          },
+          {
+            "index": 10,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "collimated",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        20.0
+      ],
+      [
+        0.0,
+        30.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "entrance_pupil_diameter": 8.0
+  }
+}

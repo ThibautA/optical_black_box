@@ -1,0 +1,161 @@
+{
+  "name": "US 4,514,051 Example ML 1 (Nikon Nikkor 180mm f/2.8 ED)",
+  "description": "Prepared and converted by Bill Claff.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 13,
+    "source_file": "US004514051_ExampleML01P.zmx",
+    "zmx_name": "US 4,514,051 Example ML 1 (Nikon Nikkor 180mm f/2.8 ED)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US 4,514,051 Example ML 1 (Nikon Nikkor 180mm f/2.8 ED)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 99.02100000000014,
+            "thickness": 11.5,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.50032,
+              "abbe": 81.9
+            }
+          },
+          {
+            "index": 2,
+            "radius": -140.839,
+            "thickness": 2.1
+          },
+          {
+            "index": 3,
+            "radius": -138.05599999999998,
+            "thickness": 3.7,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.7495,
+              "abbe": 35.0
+            }
+          },
+          {
+            "index": 4,
+            "radius": 373.0000000000004,
+            "thickness": 6.3
+          },
+          {
+            "index": 5,
+            "radius": 77.77400000000007,
+            "thickness": 9.2,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.65844,
+              "abbe": 50.8
+            }
+          },
+          {
+            "index": 6,
+            "radius": 239.9999999999998,
+            "thickness": 58.1
+          },
+          {
+            "index": 7,
+            "radius": "inf",
+            "thickness": 32.8,
+            "is_stop": true
+          },
+          {
+            "index": 8,
+            "radius": -35.50000000000005,
+            "thickness": 1.8,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.51454,
+              "abbe": 54.6
+            }
+          },
+          {
+            "index": 9,
+            "radius": -549.9999999999994,
+            "thickness": 0.5
+          },
+          {
+            "index": 10,
+            "radius": 219.9999999999998,
+            "thickness": 5.0,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.79668,
+              "abbe": 45.4
+            }
+          },
+          {
+            "index": 11,
+            "radius": -162.19299999999987,
+            "thickness": 41.26
+          },
+          {
+            "index": 12,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.12
+      ],
+      [
+        0.0,
+        21.6
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 2.8
+  }
+}

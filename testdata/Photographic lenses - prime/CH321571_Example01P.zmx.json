@@ -1,0 +1,166 @@
+{
+  "name": "CH 321571 Example 1 (Zeiss Distagon 60mm F5.6)",
+  "description": "Prepared and converted by Bill Claff.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 13,
+    "source_file": "CH321571_Example01P.zmx",
+    "zmx_name": "CH 321571 Example 1 (Zeiss Distagon 60mm F5.6)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "CH 321571 Example 1 (Zeiss Distagon 60mm F5.6)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 43.36182000000008,
+            "thickness": 1.149,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.55232,
+              "abbe": 63.5
+            }
+          },
+          {
+            "index": 2,
+            "radius": 18.28547999999999,
+            "thickness": 14.8566
+          },
+          {
+            "index": 3,
+            "radius": 48.65303999999997,
+            "thickness": 3.804,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.62299,
+              "abbe": 58.1
+            }
+          },
+          {
+            "index": 4,
+            "radius": -137.12580000000003,
+            "thickness": 0.3798
+          },
+          {
+            "index": 5,
+            "radius": 14.94851999999999,
+            "thickness": 4.9554,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.62045,
+              "abbe": 38.0
+            }
+          },
+          {
+            "index": 6,
+            "radius": -44.110260000000004,
+            "thickness": 1.119,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.72342,
+              "abbe": 38.0
+            }
+          },
+          {
+            "index": 7,
+            "radius": 13.133099999999994,
+            "thickness": 3.0
+          },
+          {
+            "index": 8,
+            "radius": "inf",
+            "thickness": 1.7556,
+            "is_stop": true
+          },
+          {
+            "index": 9,
+            "radius": -43.36182000000008,
+            "thickness": 0.7992,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.6014,
+              "abbe": 38.3
+            }
+          },
+          {
+            "index": 10,
+            "radius": 15.385080000000004,
+            "thickness": 5.3454,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.63854,
+              "abbe": 55.5
+            }
+          },
+          {
+            "index": 11,
+            "radius": -22.047059999999977,
+            "thickness": 67.05
+          },
+          {
+            "index": 12,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.12
+      ],
+      [
+        0.0,
+        21.6
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 5.6
+  }
+}

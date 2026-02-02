@@ -1,0 +1,161 @@
+{
+  "name": "US 3,467,462 Example 1 (Ricoh SMCT Pentax 6x7 300mm f4)",
+  "description": "Prepared and converted by Bill Claff.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 13,
+    "source_file": "US003467462_Example01P.zmx",
+    "zmx_name": "US 3,467,462 Example 1 (Ricoh SMCT Pentax 6x7 300mm f4)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US 3,467,462 Example 1 (Ricoh SMCT Pentax 6x7 300mm f4)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 107.70000000000003,
+            "thickness": 15.0,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5163,
+              "abbe": 64.0
+            }
+          },
+          {
+            "index": 2,
+            "radius": -2389.2900000000004,
+            "thickness": 9.0
+          },
+          {
+            "index": 3,
+            "radius": -350.9999999999999,
+            "thickness": 4.5,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.7174,
+              "abbe": 29.5
+            }
+          },
+          {
+            "index": 4,
+            "radius": 260.30999999999966,
+            "thickness": 0.6
+          },
+          {
+            "index": 5,
+            "radius": 79.80000000000003,
+            "thickness": 12.0,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5163,
+              "abbe": 64.0
+            }
+          },
+          {
+            "index": 6,
+            "radius": 138.95999999999992,
+            "thickness": 60.0
+          },
+          {
+            "index": 7,
+            "radius": 156.0,
+            "thickness": 12.0,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.6034,
+              "abbe": 38.0
+            }
+          },
+          {
+            "index": 8,
+            "radius": -2255.2199999999975,
+            "thickness": 3.0
+          },
+          {
+            "index": 9,
+            "radius": "inf",
+            "thickness": 30.0,
+            "is_stop": true
+          },
+          {
+            "index": 10,
+            "radius": -54.00000000000006,
+            "thickness": 3.0,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5111,
+              "abbe": 60.5
+            }
+          },
+          {
+            "index": 11,
+            "radius": -174.63000000000005,
+            "thickness": 120.53
+          },
+          {
+            "index": 12,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        31.36
+      ],
+      [
+        0.0,
+        44.8
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 4.0
+  }
+}

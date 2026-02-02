@@ -1,0 +1,179 @@
+{
+  "name": "US08531774-1",
+  "description": "Imported from Zemax: US08531774-1.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Eyepiece design for visual observation",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 13,
+    "source_file": "US08531774-1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US08531774-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 8.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 10.63,
+            "is_stop": true
+          },
+          {
+            "index": 2,
+            "radius": "inf",
+            "thickness": 1.0,
+            "material": "N-BK7"
+          },
+          {
+            "index": 3,
+            "radius": "inf",
+            "thickness": 0.5
+          },
+          {
+            "index": 4,
+            "radius": 15.6307,
+            "thickness": 6.9358,
+            "material": "ZeonexE48R",
+            "conic": -1.1538,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -4.67e-05,
+              "A6": 5.74e-07,
+              "A8": -1.26e-08
+            }
+          },
+          {
+            "index": 5,
+            "radius": -16.5376,
+            "thickness": 1.74022,
+            "conic": 1.4668,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": 0.000113,
+              "A6": -1.11e-07
+            }
+          },
+          {
+            "index": 6,
+            "radius": 42.9566,
+            "thickness": 1.0,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5,
+              "abbe": 40.0
+            },
+            "conic": 2.9954,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -0.00052,
+              "A6": 7.04e-06
+            }
+          },
+          {
+            "index": 7,
+            "radius": 10.6971,
+            "thickness": 14.2643,
+            "conic": 0.0778,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -0.000682,
+              "A6": 1.03e-05,
+              "A8": -1.56e-07,
+              "A10": 2.5e-09
+            }
+          },
+          {
+            "index": 8,
+            "radius": 13.2295,
+            "thickness": 4.8686,
+            "material": "ZeonexE48R",
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -3.61e-05,
+              "A6": 3.29e-07,
+              "A8": -1.73e-09
+            }
+          },
+          {
+            "index": 9,
+            "radius": 42.803,
+            "thickness": 3.0104
+          },
+          {
+            "index": 10,
+            "radius": "inf",
+            "thickness": 1.2,
+            "material": "N-BK7"
+          },
+          {
+            "index": 11,
+            "radius": "inf",
+            "thickness": 0.0
+          },
+          {
+            "index": 12,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "collimated",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        4.0
+      ],
+      [
+        0.0,
+        6.0
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "entrance_pupil_diameter": 8.0,
+    "object_distance": 1000.0
+  }
+}

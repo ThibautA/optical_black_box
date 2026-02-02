@@ -1,0 +1,224 @@
+{
+  "name": "US07855841-2",
+  "description": "Imported from Zemax: US07855841-2.ZMX",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 18,
+    "source_file": "US07855841-2.ZMX",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US07855841-2",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 11.0,
+            "thickness": 0.5,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5,
+              "abbe": 40.0
+            }
+          },
+          {
+            "index": 2,
+            "radius": 4.48,
+            "thickness": 1.75
+          },
+          {
+            "index": 3,
+            "radius": "inf",
+            "thickness": 4.8,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5,
+              "abbe": 40.0
+            }
+          },
+          {
+            "index": 4,
+            "radius": "inf",
+            "thickness": 0.383
+          },
+          {
+            "index": 5,
+            "radius": -13.2,
+            "thickness": 0.4,
+            "material": "N-BAF10"
+          },
+          {
+            "index": 6,
+            "radius": 7.280000000000001,
+            "thickness": 1.35,
+            "material": "E-FDS1"
+          },
+          {
+            "index": 7,
+            "radius": 37.5,
+            "thickness": 0.5687
+          },
+          {
+            "index": 8,
+            "radius": 4.0675,
+            "thickness": 1.6,
+            "material": "N-SK5",
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -0.00139,
+              "A6": 7.6e-05,
+              "A8": -2.15e-05,
+              "A10": 1.11e-06
+            }
+          },
+          {
+            "index": 9,
+            "radius": -25.542999999999996,
+            "thickness": 0.44,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": 0.00119,
+              "A6": 0.000119,
+              "A8": -2.96e-05,
+              "A10": 2.06e-06
+            }
+          },
+          {
+            "index": 10,
+            "radius": 8.24,
+            "thickness": 0.4,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5,
+              "abbe": 40.0
+            }
+          },
+          {
+            "index": 11,
+            "radius": 2.84,
+            "thickness": 2.11,
+            "material": "N-BK7",
+            "is_stop": true
+          },
+          {
+            "index": 12,
+            "radius": -8.16,
+            "thickness": 4.82663
+          },
+          {
+            "index": 13,
+            "radius": -15.052000000000001,
+            "thickness": 0.4,
+            "material": "ZeonexE48R",
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -0.0118,
+              "A6": 0.0047,
+              "A8": -0.00172,
+              "A10": 0.000256
+            }
+          },
+          {
+            "index": 14,
+            "radius": 3.6637,
+            "thickness": 4.87607,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -0.0109,
+              "A6": 0.00491,
+              "A8": -0.00165,
+              "A10": 0.000217
+            }
+          },
+          {
+            "index": 15,
+            "radius": -31.729000000000003,
+            "thickness": 1.6,
+            "material": "ZeonexE48R",
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": 0.000338,
+              "A6": -0.000151,
+              "A8": 2.97e-05,
+              "A10": -6.33e-07
+            }
+          },
+          {
+            "index": 16,
+            "radius": -4.337,
+            "thickness": 2.38,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": 0.00324,
+              "A6": -0.00027,
+              "A8": 2.19e-05,
+              "A10": 5.09e-07
+            }
+          },
+          {
+            "index": 17,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        8.0
+      ],
+      [
+        0.0,
+        14.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 4.82
+  }
+}

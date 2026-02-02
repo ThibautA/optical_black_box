@@ -1,0 +1,166 @@
+{
+  "name": "US 2,645,974 Example 1 (Canon Serenar 28mm f3.5)",
+  "description": "Prepared and converted by Bill Claff.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 13,
+    "source_file": "US002645974_Example01P.zmx",
+    "zmx_name": "US 2,645,974 Example 1 (Canon Serenar 28mm f3.5)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US 2,645,974 Example 1 (Canon Serenar 28mm f3.5)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 16.883999999999993,
+            "thickness": 1.904,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5638,
+              "abbe": 60.7
+            }
+          },
+          {
+            "index": 2,
+            "radius": 72.66000000000003,
+            "thickness": 0.14
+          },
+          {
+            "index": 3,
+            "radius": 13.216000000000008,
+            "thickness": 2.744,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.6237,
+              "abbe": 47.0
+            }
+          },
+          {
+            "index": 4,
+            "radius": -84.00000000000003,
+            "thickness": 0.672,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5955,
+              "abbe": 39.2
+            }
+          },
+          {
+            "index": 5,
+            "radius": 9.04399999999996,
+            "thickness": 1.4
+          },
+          {
+            "index": 6,
+            "radius": "inf",
+            "thickness": 1.4,
+            "is_stop": true
+          },
+          {
+            "index": 7,
+            "radius": -9.267999999999963,
+            "thickness": 0.476,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5785,
+              "abbe": 41.7
+            }
+          },
+          {
+            "index": 8,
+            "radius": 22.344,
+            "thickness": 3.472,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.6204,
+              "abbe": 60.3
+            }
+          },
+          {
+            "index": 9,
+            "radius": -11.983999999999998,
+            "thickness": 0.112
+          },
+          {
+            "index": 10,
+            "radius": "inf",
+            "thickness": 2.52,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.6204,
+              "abbe": 60.3
+            }
+          },
+          {
+            "index": 11,
+            "radius": -24.248000000000015,
+            "thickness": 22.4
+          },
+          {
+            "index": 12,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.12
+      ],
+      [
+        0.0,
+        21.6
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 3.5
+  }
+}

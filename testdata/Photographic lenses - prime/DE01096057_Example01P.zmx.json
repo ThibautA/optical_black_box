@@ -1,0 +1,146 @@
+{
+  "name": "DE 1096057 Example 1 (Leica Telyt 200mm F4)",
+  "description": "Prepared and converted by Bill Claff.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 11,
+    "source_file": "DE01096057_Example01P.zmx",
+    "zmx_name": "DE 1096057 Example 1 (Leica Telyt 200mm F4)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "DE 1096057 Example 1 (Leica Telyt 200mm F4)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 62.53999999999992,
+            "thickness": 10.0,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5709,
+              "abbe": 63.0
+            }
+          },
+          {
+            "index": 2,
+            "radius": -281.49999999999994,
+            "thickness": 5.5
+          },
+          {
+            "index": 3,
+            "radius": -140.00000000000006,
+            "thickness": 4.0,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.7343,
+              "abbe": 28.1
+            }
+          },
+          {
+            "index": 4,
+            "radius": 448.69999999999965,
+            "thickness": 32.64
+          },
+          {
+            "index": 5,
+            "radius": "inf",
+            "thickness": 4.16,
+            "is_stop": true
+          },
+          {
+            "index": 6,
+            "radius": -116.99999999999997,
+            "thickness": 5.0,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.7394,
+              "abbe": 40.8
+            }
+          },
+          {
+            "index": 7,
+            "radius": -62.59999999999996,
+            "thickness": 18.2
+          },
+          {
+            "index": 8,
+            "radius": -37.30000000000004,
+            "thickness": 4.0,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5035,
+              "abbe": 56.3
+            }
+          },
+          {
+            "index": 9,
+            "radius": -78.65999999999983,
+            "thickness": 103.24
+          },
+          {
+            "index": 10,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.12
+      ],
+      [
+        0.0,
+        21.6
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 4.0
+  }
+}

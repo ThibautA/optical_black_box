@@ -1,0 +1,176 @@
+{
+  "name": "US 4,099,850 Example 5 (Nikon Nikkor 28mm f/3.5)",
+  "description": "Prepared and converted by Bill Claff. See:; https://www.PhotonsToPhotos.net/Lenses/OpticalBench/OpticalBench.htm#/Data/US004099850_Example05P.txt",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 15,
+    "source_file": "US004099850_Example05P.zmx",
+    "zmx_name": "US 4,099,850 Example 5 (Nikon Nikkor 28mm f/3.5)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US 4,099,850 Example 5 (Nikon Nikkor 28mm f/3.5)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 102.04999999999997,
+            "thickness": 3.0,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.62374,
+              "abbe": 47.0
+            }
+          },
+          {
+            "index": 2,
+            "radius": 620.4000000000013,
+            "thickness": 0.1
+          },
+          {
+            "index": 3,
+            "radius": 57.00000000000003,
+            "thickness": 1.6,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.62041,
+              "abbe": 60.3
+            }
+          },
+          {
+            "index": 4,
+            "radius": 15.800000000000006,
+            "thickness": 27.3
+          },
+          {
+            "index": 5,
+            "radius": 24.3,
+            "thickness": 2.8,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.70154,
+              "abbe": 41.1
+            }
+          },
+          {
+            "index": 6,
+            "radius": -53.539999999999914,
+            "thickness": 0.8
+          },
+          {
+            "index": 7,
+            "radius": "inf",
+            "thickness": 4.8,
+            "is_stop": true
+          },
+          {
+            "index": 8,
+            "radius": -21.49000000000001,
+            "thickness": 4.5,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.7552,
+              "abbe": 27.5
+            }
+          },
+          {
+            "index": 9,
+            "radius": 34.900000000000034,
+            "thickness": 1.1
+          },
+          {
+            "index": 10,
+            "radius": -90.0000000000001,
+            "thickness": 2.7,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.62041,
+              "abbe": 60.3
+            }
+          },
+          {
+            "index": 11,
+            "radius": -18.080000000000013,
+            "thickness": 0.1
+          },
+          {
+            "index": 12,
+            "radius": 82.00000000000009,
+            "thickness": 2.5,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.58913,
+              "abbe": 61.2
+            }
+          },
+          {
+            "index": 13,
+            "radius": -49.799999999999905,
+            "thickness": 39.28
+          },
+          {
+            "index": 14,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "collimated",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.12
+      ],
+      [
+        0.0,
+        21.6
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "float_by_stop_size": 6.319
+  }
+}

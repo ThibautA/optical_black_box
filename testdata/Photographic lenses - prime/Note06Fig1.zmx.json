@@ -1,0 +1,206 @@
+{
+  "name": "Note06Fig1",
+  "description": "Clearly based on example 1 from 3,524,697. However, the patent doesn't call out an asphere on S1!",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 21,
+    "source_file": "Note06Fig1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "Note06Fig1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 4.746725267885,
+            "material": "S-LAH65V",
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A2": 0.006170741764053,
+              "A4": -1.644080707934e-06,
+              "A6": 5.971326710977e-10,
+              "A8": -3.73053265159e-13,
+              "A10": 7.792424276339e-17
+            }
+          },
+          {
+            "index": 2,
+            "radius": 31.31974231658751,
+            "thickness": 25.67298305185
+          },
+          {
+            "index": 3,
+            "radius": 80.80881738138423,
+            "thickness": 3.979368863981,
+            "material": "S-PHM53"
+          },
+          {
+            "index": 4,
+            "radius": 14.709809574817452,
+            "thickness": 15.99018623113
+          },
+          {
+            "index": 5,
+            "radius": -58.296841767497895,
+            "thickness": 1.296333684382,
+            "material": "S-NSL36"
+          },
+          {
+            "index": 6,
+            "radius": 17.381927312182995,
+            "thickness": 6.115117851186,
+            "material": "S-NPH1"
+          },
+          {
+            "index": 7,
+            "radius": 62.58180422667576,
+            "thickness": 3.299326501736
+          },
+          {
+            "index": 8,
+            "radius": "inf",
+            "thickness": 1.575665688976,
+            "material": "H-F1"
+          },
+          {
+            "index": 9,
+            "radius": "inf",
+            "thickness": 4.940957794474
+          },
+          {
+            "index": 10,
+            "radius": "inf",
+            "thickness": 2.097057800877,
+            "is_stop": true
+          },
+          {
+            "index": 11,
+            "radius": -391.75807248660664,
+            "thickness": 5.789930727379,
+            "material": "S-LAM66"
+          },
+          {
+            "index": 12,
+            "radius": 15.497288008399705,
+            "thickness": 11.73837001391,
+            "material": "S-LAL61"
+          },
+          {
+            "index": 13,
+            "radius": -33.100404573162244,
+            "thickness": 0.1150029936928
+          },
+          {
+            "index": 14,
+            "radius": -304.2529894456527,
+            "thickness": 5.191748363443,
+            "material": "S-LAL61"
+          },
+          {
+            "index": 15,
+            "radius": -60.34519209878383,
+            "thickness": 18.19768530845
+          },
+          {
+            "index": 16,
+            "radius": 83.9489033437936,
+            "thickness": 2.64976251853,
+            "material": "S-TIH11"
+          },
+          {
+            "index": 17,
+            "radius": 25.22011854440769,
+            "thickness": 18.16191339393,
+            "material": "S-PHM52"
+          },
+          {
+            "index": 18,
+            "radius": -38.11570495209394,
+            "thickness": 22.73379959764
+          },
+          {
+            "index": 19,
+            "radius": "inf",
+            "thickness": 5.453312253517
+          },
+          {
+            "index": 20,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        20.0
+      ],
+      [
+        0.0,
+        40.0
+      ],
+      [
+        0.0,
+        60.0
+      ],
+      [
+        0.0,
+        80.0
+      ],
+      [
+        0.0,
+        87.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 6.0
+  }
+}

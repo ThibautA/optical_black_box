@@ -1,0 +1,159 @@
+{
+  "name": "US08011793-1",
+  "description": "Imported from Zemax: US08011793-1.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Telescope optical system",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 8,
+    "source_file": "US08011793-1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US08011793-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 0.0
+          },
+          {
+            "index": 2,
+            "radius": -3565.9600000000005,
+            "thickness": 0.0,
+            "conic": 8.11561,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -2.70865e-11,
+              "A6": 3.14594e-17,
+              "A8": 4.06319e-24
+            }
+          },
+          {
+            "index": 3,
+            "radius": -2341.512,
+            "thickness": 0.0,
+            "conic": 4.2752,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -5.45677e-10,
+              "A6": -3.47241e-16
+            }
+          },
+          {
+            "index": 4,
+            "radius": 927.6960000000001,
+            "thickness": 0.0,
+            "is_stop": true,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -1.943596136597e-10,
+              "A6": -8.22925e-16
+            }
+          },
+          {
+            "index": 5,
+            "radius": 807.857,
+            "thickness": 0.0,
+            "conic": -0.225786,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": 7.93987e-11,
+              "A6": 1.41338e-16,
+              "A8": -5.15897e-23,
+              "A10": 9.07704e-28
+            }
+          },
+          {
+            "index": 6,
+            "radius": "inf",
+            "thickness": 0.0
+          },
+          {
+            "index": 7,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      550.0
+    ],
+    "field_points": [
+      [
+        0.0,
+        13.0
+      ],
+      [
+        13.0,
+        13.0
+      ],
+      [
+        -13.0,
+        13.0
+      ],
+      [
+        0.0,
+        16.0
+      ],
+      [
+        13.0,
+        16.0
+      ],
+      [
+        -13.0,
+        16.0
+      ],
+      [
+        0.0,
+        19.0
+      ],
+      [
+        13.0,
+        19.0
+      ],
+      [
+        -13.0,
+        19.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 3.5
+  }
+}

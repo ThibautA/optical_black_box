@@ -1,0 +1,99 @@
+{
+  "name": "US03748015-1",
+  "description": "ject to the following conditions:; TH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Projection optics",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 5,
+    "source_file": "US03748015-1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US03748015-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": -1000.0,
+            "thickness": -500.0
+          },
+          {
+            "index": 2,
+            "radius": -500.0,
+            "thickness": 500.0,
+            "is_stop": true
+          },
+          {
+            "index": 3,
+            "radius": -1000.0,
+            "thickness": -1000.059906574
+          },
+          {
+            "index": 4,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      550.0
+    ],
+    "field_points": [
+      [
+        0.0,
+        70.0
+      ],
+      [
+        0.0,
+        85.0
+      ],
+      [
+        22.0,
+        85.0
+      ],
+      [
+        0.0,
+        100.0
+      ]
+    ],
+    "field_type": "object_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 10.0,
+    "object_distance": 1000.0
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "name": "US20150248001-1",
+  "description": "Imported from Zemax: US20150248001-1.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Microscope objective design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 19,
+    "source_file": "US20150248001-1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US20150248001-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 15.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 12.517682923004916,
+            "is_stop": true
+          },
+          {
+            "index": 2,
+            "radius": 18.171,
+            "thickness": 2.0,
+            "material": "J-LASKH2"
+          },
+          {
+            "index": 3,
+            "radius": 10.82,
+            "thickness": 7.0,
+            "material": "N-FK51A"
+          },
+          {
+            "index": 4,
+            "radius": 73.918,
+            "thickness": 3.3
+          },
+          {
+            "index": 5,
+            "radius": -21.287,
+            "thickness": 12.52,
+            "material": "FCD100"
+          },
+          {
+            "index": 6,
+            "radius": -11.713000000000001,
+            "thickness": 2.47,
+            "material": "S-LAL8"
+          },
+          {
+            "index": 7,
+            "radius": -16.078,
+            "thickness": 0.1
+          },
+          {
+            "index": 8,
+            "radius": 24.233999999999998,
+            "thickness": 2.5,
+            "material": "J-LASKH2"
+          },
+          {
+            "index": 9,
+            "radius": 13.82,
+            "thickness": 10.4,
+            "material": "FCD100"
+          },
+          {
+            "index": 10,
+            "radius": -17.911,
+            "thickness": 2.02
+          },
+          {
+            "index": 11,
+            "radius": -15.962,
+            "thickness": 3.2,
+            "material": "S-NBH8"
+          },
+          {
+            "index": 12,
+            "radius": -10.984,
+            "thickness": 2.7,
+            "material": "N-PSK53A"
+          },
+          {
+            "index": 13,
+            "radius": 17.277,
+            "thickness": 0.92
+          },
+          {
+            "index": 14,
+            "radius": 22.386,
+            "thickness": 3.96,
+            "material": "FCD505"
+          },
+          {
+            "index": 15,
+            "radius": -38.68,
+            "thickness": 1.507
+          },
+          {
+            "index": 16,
+            "radius": 10.745,
+            "thickness": 7.97,
+            "material": "N-LASF31A"
+          },
+          {
+            "index": 17,
+            "radius": 7.716999999999999,
+            "thickness": 6.1154455646934345
+          },
+          {
+            "index": 18,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "collimated",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        4.0
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "entrance_pupil_diameter": 15.0
+  }
+}

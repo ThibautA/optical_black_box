@@ -1,0 +1,186 @@
+{
+  "name": "JP 1990-248910 Example 1 (Sigma 15mm F2.8 EX DG Diagonal Fisheye)",
+  "description": "Prepared and converted by Bill Claff. See:; https://www.PhotonsToPhotos.net/Lenses/OpticalBench/OpticalBench.htm#/Data/JP1990-248910_Example01P.txt",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 16,
+    "source_file": "JP1990-248910_Example01P.zmx",
+    "zmx_name": "JP 1990-248910 Example 1 (Sigma 15mm F2.8 EX DG Diagonal Fisheye)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "JP 1990-248910 Example 1 (Sigma 15mm F2.8 EX DG Diagonal Fisheye)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 74.95,
+            "thickness": 2.47,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.6968,
+              "abbe": 55.5
+            }
+          },
+          {
+            "index": 2,
+            "radius": 15.559999999999993,
+            "thickness": 16.88
+          },
+          {
+            "index": 3,
+            "radius": 45.96000000000002,
+            "thickness": 2.47,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.7859,
+              "abbe": 43.9
+            }
+          },
+          {
+            "index": 4,
+            "radius": 12.2,
+            "thickness": 3.01
+          },
+          {
+            "index": 5,
+            "radius": 21.32000000000001,
+            "thickness": 3.61,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.76182,
+              "abbe": 26.6
+            }
+          },
+          {
+            "index": 6,
+            "radius": -49.7300000000001,
+            "thickness": 1.05
+          },
+          {
+            "index": 7,
+            "radius": -35.00999999999996,
+            "thickness": 12.41,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.8061,
+              "abbe": 33.3
+            }
+          },
+          {
+            "index": 8,
+            "radius": -249.95999999999978,
+            "thickness": 1.5
+          },
+          {
+            "index": 9,
+            "radius": "inf",
+            "thickness": 1.55,
+            "is_stop": true
+          },
+          {
+            "index": 10,
+            "radius": 558.5300000000002,
+            "thickness": 5.2,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.48749,
+              "abbe": 70.4
+            }
+          },
+          {
+            "index": 11,
+            "radius": -16.119999999999997,
+            "thickness": 0.1
+          },
+          {
+            "index": 12,
+            "radius": 74.5900000000001,
+            "thickness": 5.04,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.48749,
+              "abbe": 70.4
+            }
+          },
+          {
+            "index": 13,
+            "radius": -13.329999999999995,
+            "thickness": 0.98,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.80518,
+              "abbe": 25.5
+            }
+          },
+          {
+            "index": 14,
+            "radius": -28.05999999999997,
+            "thickness": 38.96
+          },
+          {
+            "index": 15,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        62.8005
+      ],
+      [
+        0.0,
+        89.715
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 2.8
+  }
+}

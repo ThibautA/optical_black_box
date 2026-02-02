@@ -1,0 +1,139 @@
+{
+  "name": "US04326779-1",
+  "description": "Imported from Zemax: US04326779-1.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Microscope objective design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 13,
+    "source_file": "US04326779-1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US04326779-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 4.771509748725,
+            "is_stop": true
+          },
+          {
+            "index": 2,
+            "radius": 28.642288500000006,
+            "thickness": 2.766393,
+            "material": "N-SK11"
+          },
+          {
+            "index": 3,
+            "radius": -86.36544000000002,
+            "thickness": 4.5544275
+          },
+          {
+            "index": 4,
+            "radius": 15.33323925,
+            "thickness": 3.69414675,
+            "material": "CaF2"
+          },
+          {
+            "index": 5,
+            "radius": -34.14133800000001,
+            "thickness": 1.3831965,
+            "material": "N-KZFS1"
+          },
+          {
+            "index": 6,
+            "radius": 9.614902500000001,
+            "thickness": 3.69414675,
+            "material": "CaF2"
+          },
+          {
+            "index": 7,
+            "radius": 22.991424749999997,
+            "thickness": 15.856155
+          },
+          {
+            "index": 8,
+            "radius": 14.692245750000003,
+            "thickness": 2.68205175,
+            "material": "CaF2"
+          },
+          {
+            "index": 9,
+            "radius": -16.868250000000003,
+            "thickness": 0.5060475
+          },
+          {
+            "index": 10,
+            "radius": 5.2966305,
+            "thickness": 4.6219005,
+            "material": "H-LAF7"
+          },
+          {
+            "index": 11,
+            "radius": 2.61457875,
+            "thickness": 0.9000869284808
+          },
+          {
+            "index": 12,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        5.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 1.75,
+    "object_distance": 503.225414138
+  }
+}

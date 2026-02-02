@@ -1,0 +1,142 @@
+{
+  "name": "US02549158-3",
+  "description": "ject to the following conditions:; TH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Eyepiece design for visual observation",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 13,
+    "source_file": "US02549158-3.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US02549158-3",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 9.652,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 19.304,
+            "is_stop": true
+          },
+          {
+            "index": 2,
+            "radius": -26.569037667,
+            "thickness": 10.7442,
+            "material": "N-SK2"
+          },
+          {
+            "index": 3,
+            "radius": -25.069088038000004,
+            "thickness": 0.1524
+          },
+          {
+            "index": 4,
+            "radius": "inf",
+            "thickness": 7.6962,
+            "material": "N-SK2"
+          },
+          {
+            "index": 5,
+            "radius": -48.4640335772,
+            "thickness": 0.2032
+          },
+          {
+            "index": 6,
+            "radius": 83.69028006639999,
+            "thickness": 8.0264,
+            "material": "N-SK2"
+          },
+          {
+            "index": 7,
+            "radius": -139.79086405500001,
+            "thickness": 0.2286
+          },
+          {
+            "index": 8,
+            "radius": 44.884255164,
+            "thickness": 13.2334,
+            "material": "N-SK2"
+          },
+          {
+            "index": 9,
+            "radius": -78.0337941734,
+            "thickness": 0.8636,
+            "material": "N-SF8"
+          },
+          {
+            "index": 10,
+            "radius": 20.396691566200005,
+            "thickness": 11.4554,
+            "material": "N-F2"
+          },
+          {
+            "index": 11,
+            "radius": 61.21957098199999,
+            "thickness": 6.971386468294
+          },
+          {
+            "index": 12,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "collimated",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        16.0
+      ],
+      [
+        0.0,
+        24.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "entrance_pupil_diameter": 9.652
+  }
+}

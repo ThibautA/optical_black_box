@@ -1,0 +1,133 @@
+{
+  "name": "US 4,592,624 Example 1",
+  "description": "Prepared and converted by Bill Claff.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Microscope objective design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 12,
+    "source_file": "US04592624_1.zmx",
+    "zmx_name": "US 4,592,624 Example 1"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US 4,592,624 Example 1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": -3.434959718371385
+          },
+          {
+            "index": 2,
+            "radius": "inf",
+            "thickness": 3.434959718371385,
+            "is_stop": true
+          },
+          {
+            "index": 3,
+            "radius": 21.303999999999977,
+            "thickness": 3.101,
+            "material": "E-FKH1"
+          },
+          {
+            "index": 4,
+            "radius": -18.603000000000005,
+            "thickness": 1.033,
+            "material": "E-LAF11"
+          },
+          {
+            "index": 5,
+            "radius": -94.0490000000004,
+            "thickness": 0.052
+          },
+          {
+            "index": 6,
+            "radius": 11.367999999999997,
+            "thickness": 2.067,
+            "material": "N-BALF5"
+          },
+          {
+            "index": 7,
+            "radius": 38.755999999999986,
+            "thickness": 14.779
+          },
+          {
+            "index": 8,
+            "radius": -5.890999999999991,
+            "thickness": 2.274,
+            "material": "J-LASFH9"
+          },
+          {
+            "index": 9,
+            "radius": 4.031000000000007,
+            "thickness": 17.466,
+            "material": "F5"
+          },
+          {
+            "index": 10,
+            "radius": -9.30200000000001,
+            "thickness": 10.336
+          },
+          {
+            "index": 11,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 6.0,
+    "object_distance": 202.391
+  }
+}

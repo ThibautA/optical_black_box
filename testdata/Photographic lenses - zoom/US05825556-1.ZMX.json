@@ -1,0 +1,173 @@
+{
+  "name": "US05825556-1",
+  "description": "Imported from Zemax: US05825556-1.ZMX",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 13,
+    "source_file": "US05825556-1.ZMX",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US05825556-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 1.701986088537
+          },
+          {
+            "index": 2,
+            "radius": 7.189,
+            "thickness": 2.3,
+            "material": "N-SK5"
+          },
+          {
+            "index": 3,
+            "radius": -21.069,
+            "thickness": 0.639,
+            "material": "N-BASF2"
+          },
+          {
+            "index": 4,
+            "radius": 14.636,
+            "thickness": 1.145
+          },
+          {
+            "index": 5,
+            "radius": "inf",
+            "thickness": 5.95,
+            "is_stop": true
+          },
+          {
+            "index": 6,
+            "radius": -5.719,
+            "thickness": 0.9,
+            "material": "polystyren"
+          },
+          {
+            "index": 7,
+            "radius": -6.43,
+            "thickness": 0.2,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": 0.001636,
+              "A6": -4.395e-05,
+              "A8": 1.531e-05,
+              "A10": -1.187e-06,
+              "A12": 3.344e-08,
+              "A14": 1.791e-09,
+              "A16": -1.556e-10
+            }
+          },
+          {
+            "index": 8,
+            "radius": -245.80899999999997,
+            "thickness": 3.3,
+            "material": "N-SK5"
+          },
+          {
+            "index": 9,
+            "radius": -6.097,
+            "thickness": 0.9
+          },
+          {
+            "index": 10,
+            "radius": -7.098,
+            "thickness": 0.8,
+            "material": "N-SK16",
+            "conic": -2.77,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A6": -3.88e-05,
+              "A8": 2.482e-06,
+              "A10": -1.205e-07,
+              "A12": 1.722e-09,
+              "A14": 1.377e-10,
+              "A16": -5.562e-12
+            }
+          },
+          {
+            "index": 11,
+            "radius": 22.034,
+            "thickness": 12.16401391138,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": 2.238e-05,
+              "A6": -1.536e-05,
+              "A8": 2.889e-07,
+              "A10": -9.433e-10
+            }
+          },
+          {
+            "index": 12,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0
+      ],
+      [
+        0.0,
+        5.0
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "vignetting_y": [
+      0.0,
+      0.0,
+      0.2
+    ],
+    "telecentric": false,
+    "image_fno": 4.0
+  }
+}

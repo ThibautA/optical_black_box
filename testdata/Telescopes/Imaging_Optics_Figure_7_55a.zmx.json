@@ -1,0 +1,133 @@
+{
+  "name": "Falt-field three-mirror anastigmat Paul; Imaging Optics p. 492-493.",
+  "description": "Notes...; f = 50 meter, primary diameter is 39 meter; field is 2 x 9.6 arcminutes.; ====",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Telescope optical system",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 7,
+    "source_file": "Imaging_Optics_Figure_7_55a.zmx",
+    "zmx_name": "Falt-field three-mirror anastigmat Paul; Imaging Optics p. 492-493."
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "Falt-field three-mirror anastigmat Paul; Imaging Optics p. 492-493.",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 40.0
+          },
+          {
+            "index": 2,
+            "radius": "inf",
+            "thickness": -33.3333,
+            "is_stop": true,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A2": -0.00531912277,
+              "A4": -1.01414269e-08,
+              "A6": -3.00313329976e-12,
+              "A8": -3.633658709e-16,
+              "A10": -4.387210082e-20
+            }
+          },
+          {
+            "index": 3,
+            "radius": "inf",
+            "thickness": 33.3333,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A2": -0.0204872875,
+              "A4": -1.0974822e-05,
+              "A6": -3.16003870007e-08,
+              "A8": -9.90092909402e-11,
+              "A10": -3.2482006211e-13,
+              "A12": -2.406702674e-15
+            }
+          },
+          {
+            "index": 4,
+            "radius": "inf",
+            "thickness": -18.794186,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A2": -0.014999999,
+              "A4": -3.5994256e-06,
+              "A6": -1.727609699812e-09,
+              "A8": -1.03070890403e-12,
+              "A10": -7.8535754065e-16
+            }
+          },
+          {
+            "index": 5,
+            "radius": "inf",
+            "thickness": 0.0
+          },
+          {
+            "index": 6,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      550.0
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.06
+      ],
+      [
+        0.0,
+        0.12
+      ],
+      [
+        0.0,
+        0.14
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 1.28205
+  }
+}

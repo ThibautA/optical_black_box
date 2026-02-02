@@ -1,0 +1,181 @@
+{
+  "name": "Lens has no title.",
+  "description": "Notes...",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Projection optics",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 18,
+    "source_file": "US05612797-2.ZMX",
+    "zmx_name": "Lens has no title."
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "Lens has no title.",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 125.52439999999638,
+            "thickness": 7.0,
+            "material": "N-BASF2"
+          },
+          {
+            "index": 2,
+            "radius": 40.53149999999278,
+            "thickness": 22.4666
+          },
+          {
+            "index": 3,
+            "radius": -1204.91999999993,
+            "thickness": 7.0,
+            "material": "N-BASF2"
+          },
+          {
+            "index": 4,
+            "radius": 61.97549999998747,
+            "thickness": 16.0432
+          },
+          {
+            "index": 5,
+            "radius": 73.32430000000085,
+            "thickness": 16.5054,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.65844,
+              "abbe": 50.880001
+            }
+          },
+          {
+            "index": 6,
+            "radius": -104.00540000000404,
+            "thickness": 1.0
+          },
+          {
+            "index": 7,
+            "radius": 125.15520000000559,
+            "thickness": 8.0,
+            "material": "N-BASF2"
+          },
+          {
+            "index": 8,
+            "radius": 45.32590000000053,
+            "thickness": 62.8386
+          },
+          {
+            "index": 9,
+            "radius": "inf",
+            "thickness": 21.7668,
+            "is_stop": true
+          },
+          {
+            "index": 10,
+            "radius": -186.66430000001307,
+            "thickness": 4.0,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.72373,
+              "abbe": 38.110001
+            }
+          },
+          {
+            "index": 11,
+            "radius": 56.61069999998977,
+            "thickness": 18.9156,
+            "material": "N-BASF2"
+          },
+          {
+            "index": 12,
+            "radius": -101.6199999999969,
+            "thickness": 1.0
+          },
+          {
+            "index": 13,
+            "radius": 221.85389999999478,
+            "thickness": 13.0771,
+            "material": "N-SK15"
+          },
+          {
+            "index": 14,
+            "radius": -116.63590000000005,
+            "thickness": 140.0
+          },
+          {
+            "index": 15,
+            "radius": 83.33333000000013,
+            "thickness": 12.0,
+            "material": "N-SK15",
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -9.589e-07,
+              "A6": -3.041e-11,
+              "A8": -1.061e-13,
+              "A10": -9.091e-18
+            }
+          },
+          {
+            "index": 16,
+            "radius": "inf",
+            "thickness": 20.22097104816
+          },
+          {
+            "index": 17,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        30.0
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 2.8,
+    "object_distance": 278.0236290967
+  }
+}

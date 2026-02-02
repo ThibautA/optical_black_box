@@ -1,0 +1,181 @@
+{
+  "name": "FR 1.471.493 Example 1 (Leica Elmarit-R 35mm F2.8)",
+  "description": "Prepared and converted by Bill Claff.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 15,
+    "source_file": "FR1471493_Example01P.zmx",
+    "zmx_name": "FR 1.471.493 Example 1 (Leica Elmarit-R 35mm F2.8)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "FR 1.471.493 Example 1 (Leica Elmarit-R 35mm F2.8)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 39.02500000000001,
+            "thickness": 2.24,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.4892,
+              "abbe": 69.9
+            }
+          },
+          {
+            "index": 2,
+            "radius": 15.610000000000003,
+            "thickness": 15.365
+          },
+          {
+            "index": 3,
+            "radius": 52.11500000000004,
+            "thickness": 10.605,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.6713,
+              "abbe": 41.6
+            }
+          },
+          {
+            "index": 4,
+            "radius": -12.880000000000006,
+            "thickness": 1.855,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.6299,
+              "abbe": 38.8
+            }
+          },
+          {
+            "index": 5,
+            "radius": -115.25500000000005,
+            "thickness": 0.105
+          },
+          {
+            "index": 6,
+            "radius": 23.59,
+            "thickness": 2.975,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.6241,
+              "abbe": 60.1
+            }
+          },
+          {
+            "index": 7,
+            "radius": -609.9799999999993,
+            "thickness": 1.0
+          },
+          {
+            "index": 8,
+            "radius": "inf",
+            "thickness": 2.325,
+            "is_stop": true
+          },
+          {
+            "index": 9,
+            "radius": -39.934999999999995,
+            "thickness": 1.505,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.7046,
+              "abbe": 34.6
+            }
+          },
+          {
+            "index": 10,
+            "radius": 18.93499999999999,
+            "thickness": 1.96
+          },
+          {
+            "index": 11,
+            "radius": 400.92499999999933,
+            "thickness": 1.505,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.6734,
+              "abbe": 46.9
+            }
+          },
+          {
+            "index": 12,
+            "radius": 12.529999999999994,
+            "thickness": 6.3,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.694,
+              "abbe": 54.6
+            }
+          },
+          {
+            "index": 13,
+            "radius": -20.125000000000007,
+            "thickness": 38.3
+          },
+          {
+            "index": 14,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.12
+      ],
+      [
+        0.0,
+        21.6
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 2.8
+  }
+}

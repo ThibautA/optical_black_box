@@ -1,0 +1,184 @@
+{
+  "name": "US07706087-1",
+  "description": "Surface 6 is nanoparticle suspension, described in the patent",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 17,
+    "source_file": "US07706087-1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US07706087-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 41.3555,
+            "thickness": 5.0,
+            "material": "E-LASF015"
+          },
+          {
+            "index": 2,
+            "radius": 158.715,
+            "thickness": 0.1
+          },
+          {
+            "index": 3,
+            "radius": 27.3795,
+            "thickness": 5.5,
+            "material": "E-LASF05"
+          },
+          {
+            "index": 4,
+            "radius": 36.9003,
+            "thickness": 1.6
+          },
+          {
+            "index": 5,
+            "radius": 45.7517,
+            "thickness": 1.6,
+            "material": "E-SF15"
+          },
+          {
+            "index": 6,
+            "radius": 16.8163,
+            "thickness": 9.3
+          },
+          {
+            "index": 7,
+            "radius": "inf",
+            "thickness": 7.7,
+            "is_stop": true
+          },
+          {
+            "index": 8,
+            "radius": -17.2554,
+            "thickness": 1.8,
+            "material": "N-SF4"
+          },
+          {
+            "index": 9,
+            "radius": -153.0397,
+            "thickness": 6.5,
+            "material": "E-LASKH2"
+          },
+          {
+            "index": 10,
+            "radius": -26.6098,
+            "thickness": 0.2
+          },
+          {
+            "index": 11,
+            "radius": -50.0504,
+            "thickness": 4.0,
+            "material": "E-LASF05"
+          },
+          {
+            "index": 12,
+            "radius": -39.2206,
+            "thickness": 0.1
+          },
+          {
+            "index": 13,
+            "radius": 169.3173,
+            "thickness": 0.1,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.55281,
+              "abbe": 37.63
+            },
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -2.02e-06,
+              "A6": 7.7e-10,
+              "A8": -9.52e-13
+            }
+          },
+          {
+            "index": 14,
+            "radius": 169.3173,
+            "thickness": 5.5,
+            "material": "E-LAK18"
+          },
+          {
+            "index": 15,
+            "radius": -42.3874,
+            "thickness": 38.43429040811
+          },
+          {
+            "index": 16,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.0
+      ],
+      [
+        0.0,
+        21.0
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "vignetting_x": [
+      0.0,
+      0.5,
+      0.6
+    ],
+    "vignetting_y": [
+      0.0,
+      0.5,
+      0.6
+    ],
+    "telecentric": false,
+    "image_fno": 1.5
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "name": "Note31-Fig1",
+  "description": "Imported from Zemax: Note31-Fig1.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 20,
+    "source_file": "Note31-Fig1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "Note31-Fig1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 423.28432577319745,
+            "thickness": 29.82041075576,
+            "material": "S-FPL53"
+          },
+          {
+            "index": 2,
+            "radius": -1132.9032445165133,
+            "thickness": 0.976113223842
+          },
+          {
+            "index": 3,
+            "radius": 245.43094717909233,
+            "thickness": 33.49025931971,
+            "material": "S-BAL35"
+          },
+          {
+            "index": 4,
+            "radius": -1239.932144672106,
+            "thickness": 12.02032650196,
+            "material": "S-TIH18"
+          },
+          {
+            "index": 5,
+            "radius": 978.0178111570704,
+            "thickness": 88.68298800762
+          },
+          {
+            "index": 6,
+            "radius": -766.666162536018,
+            "thickness": 15.93399226154,
+            "material": "S-LAL56"
+          },
+          {
+            "index": 7,
+            "radius": -270.52652602402867,
+            "thickness": 5.880484448672,
+            "material": "S-BAL14"
+          },
+          {
+            "index": 8,
+            "radius": 684.4263681946692,
+            "thickness": 46.10289580593
+          },
+          {
+            "index": 9,
+            "radius": -328.17211430886783,
+            "thickness": 7.39148318292,
+            "material": "S-NSL36"
+          },
+          {
+            "index": 10,
+            "radius": 146.45257620940308,
+            "thickness": 48.35134869034
+          },
+          {
+            "index": 11,
+            "radius": 370.5604334604509,
+            "thickness": 14.02333889319,
+            "material": "S-LAH58"
+          },
+          {
+            "index": 12,
+            "radius": -275.66294911493264,
+            "thickness": 4.015749353487
+          },
+          {
+            "index": 13,
+            "radius": -486.9800872672683,
+            "thickness": 4.737096790483,
+            "material": "S-TIH10"
+          },
+          {
+            "index": 14,
+            "radius": 129.13185967490855,
+            "thickness": 23.4284467545,
+            "material": "S-LAH64"
+          },
+          {
+            "index": 15,
+            "radius": -376.0920327273046,
+            "thickness": 24.30434200828
+          },
+          {
+            "index": 16,
+            "radius": "inf",
+            "thickness": 23.17774710633,
+            "is_stop": true
+          },
+          {
+            "index": 17,
+            "radius": -279.6106816924117,
+            "thickness": 6.620873492718,
+            "material": "N-KZFS4"
+          },
+          {
+            "index": 18,
+            "radius": -805.1425795514194,
+            "thickness": 109.852731481
+          },
+          {
+            "index": 19,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        14.0
+      ],
+      [
+        0.0,
+        21.0
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 2.0
+  }
+}

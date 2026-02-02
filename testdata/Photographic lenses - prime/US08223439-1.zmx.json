@@ -1,0 +1,192 @@
+{
+  "name": "US08223439-1",
+  "description": "Imported from Zemax: US08223439-1.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 21,
+    "source_file": "US08223439-1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US08223439-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 64.5,
+            "thickness": 2.7,
+            "material": "E-LASF015"
+          },
+          {
+            "index": 2,
+            "radius": 18.5,
+            "thickness": 10.03
+          },
+          {
+            "index": 3,
+            "radius": 38.354,
+            "thickness": 2.3,
+            "material": "E-FK5"
+          },
+          {
+            "index": 4,
+            "radius": 12.731,
+            "thickness": 6.06
+          },
+          {
+            "index": 5,
+            "radius": -270.974,
+            "thickness": 1.2,
+            "material": "N-PK51"
+          },
+          {
+            "index": 6,
+            "radius": 24.737999999999996,
+            "thickness": 4.68,
+            "material": "E-LASFH6"
+          },
+          {
+            "index": 7,
+            "radius": -39.277,
+            "thickness": 0.5
+          },
+          {
+            "index": 8,
+            "radius": -42.382,
+            "thickness": 2.72,
+            "material": "J-LLF6"
+          },
+          {
+            "index": 9,
+            "radius": -14.484999999999998,
+            "thickness": 3.03,
+            "material": "E-LASF05"
+          },
+          {
+            "index": 10,
+            "radius": 72.84,
+            "thickness": 6.97
+          },
+          {
+            "index": 11,
+            "radius": -58.118,
+            "thickness": 0.33,
+            "is_stop": true
+          },
+          {
+            "index": 12,
+            "radius": 30.792999999999996,
+            "thickness": 7.1,
+            "material": "F6"
+          },
+          {
+            "index": 13,
+            "radius": -41.641,
+            "thickness": 3.34
+          },
+          {
+            "index": 14,
+            "radius": -250.083,
+            "thickness": 1.2,
+            "material": "E-LASF010"
+          },
+          {
+            "index": 15,
+            "radius": 26.923999999999996,
+            "thickness": 4.37,
+            "material": "N-PK51"
+          },
+          {
+            "index": 16,
+            "radius": -23.334,
+            "thickness": 0.12
+          },
+          {
+            "index": 17,
+            "radius": 38.196,
+            "thickness": 5.75,
+            "material": "N-PK51"
+          },
+          {
+            "index": 18,
+            "radius": -15.351,
+            "thickness": 2.1,
+            "material": "E-LASFH6"
+          },
+          {
+            "index": 19,
+            "radius": -39.005,
+            "thickness": 42.16552896077
+          },
+          {
+            "index": 20,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        55.0
+      ],
+      [
+        0.0,
+        85.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "vignetting_y": [
+      0.0,
+      0.4,
+      0.5
+    ],
+    "telecentric": false,
+    "image_fno": 2.85
+  }
+}

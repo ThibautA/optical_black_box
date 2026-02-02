@@ -1,0 +1,176 @@
+{
+  "name": "US 7,542,219 Example 1 (Ricoh HD Pentax-DA 70mm F2.4 Limited)",
+  "description": "Prepared and converted by Bill Claff. See:; https://www.PhotonsToPhotos.net/Lenses/OpticalBench/OpticalBench.htm#/Data/US007542219_Example01P.txt",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 15,
+    "source_file": "US007542219_Example01P.zmx",
+    "zmx_name": "US 7,542,219 Example 1 (Ricoh HD Pentax-DA 70mm F2.4 Limited)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US 7,542,219 Example 1 (Ricoh HD Pentax-DA 70mm F2.4 Limited)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 29.470000000000002,
+            "thickness": 4.39,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.69799,
+              "abbe": 55.5
+            }
+          },
+          {
+            "index": 2,
+            "radius": 112.72800000000004,
+            "thickness": 0.17
+          },
+          {
+            "index": 3,
+            "radius": 19.182000000000013,
+            "thickness": 4.08,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.68159,
+              "abbe": 57.5
+            }
+          },
+          {
+            "index": 4,
+            "radius": 33.85500000000005,
+            "thickness": 3.8
+          },
+          {
+            "index": 5,
+            "radius": 40.34499999999993,
+            "thickness": 1.15,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.79425,
+              "abbe": 25.5
+            }
+          },
+          {
+            "index": 6,
+            "radius": 13.258,
+            "thickness": 6.561
+          },
+          {
+            "index": 7,
+            "radius": "inf",
+            "thickness": 2.779,
+            "is_stop": true
+          },
+          {
+            "index": 8,
+            "radius": -25.120999999999977,
+            "thickness": 1.0,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.67648,
+              "abbe": 44.0
+            }
+          },
+          {
+            "index": 9,
+            "radius": -91.17100000000033,
+            "thickness": 1.6,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.54354,
+              "abbe": 60.1
+            }
+          },
+          {
+            "index": 10,
+            "radius": -46.17099999999999,
+            "thickness": 2.3
+          },
+          {
+            "index": 11,
+            "radius": "inf",
+            "thickness": 0.5
+          },
+          {
+            "index": 12,
+            "radius": 112.55700000000004,
+            "thickness": 2.4,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.801,
+              "abbe": 35.0
+            }
+          },
+          {
+            "index": 13,
+            "radius": -49.502000000000024,
+            "thickness": 37.8
+          },
+          {
+            "index": 14,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        10.71
+      ],
+      [
+        0.0,
+        15.3
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 2.5
+  }
+}

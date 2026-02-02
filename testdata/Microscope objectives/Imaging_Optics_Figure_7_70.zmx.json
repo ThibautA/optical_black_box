@@ -1,0 +1,147 @@
+{
+  "name": "Reflective CD-objective (Schwarzschild); Imaging Optics p. 513.",
+  "description": "Notes...; f = 0.84 mm, NA = 0.45, field diameter is 100 micron, lambda = 785 nm.; ====",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Microscope objective design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 12,
+    "source_file": "Imaging_Optics_Figure_7_70.zmx",
+    "zmx_name": "Reflective CD-objective (Schwarzschild); Imaging Optics p. 513."
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "Reflective CD-objective (Schwarzschild); Imaging Optics p. 513.",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": 0.0001,
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 0.87
+          },
+          {
+            "index": 2,
+            "radius": 4.545499999999995,
+            "thickness": 3.0,
+            "material": "N-BK7"
+          },
+          {
+            "index": 3,
+            "radius": 1.0492999999999686,
+            "thickness": -3.0,
+            "material": "N-BK7"
+          },
+          {
+            "index": 4,
+            "radius": 4.578799999999827,
+            "thickness": -0.001,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.569432,
+              "abbe": 34.557
+            }
+          },
+          {
+            "index": 5,
+            "radius": "inf",
+            "thickness": 0.001,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.569432,
+              "abbe": 34.557
+            },
+            "is_stop": true,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A2": 0.10994869,
+              "A4": 0.001162792,
+              "A6": 2.1204919e-05,
+              "A8": 5.0642054e-07
+            }
+          },
+          {
+            "index": 6,
+            "radius": 4.578799999999827,
+            "thickness": 3.04,
+            "material": "N-BK7"
+          },
+          {
+            "index": 7,
+            "radius": "inf",
+            "thickness": 1.586
+          },
+          {
+            "index": 8,
+            "radius": "inf",
+            "thickness": 1.2,
+            "material": "polycarbonate"
+          },
+          {
+            "index": 9,
+            "radius": "inf",
+            "thickness": 9.1e-05
+          },
+          {
+            "index": 10,
+            "radius": "inf",
+            "thickness": 0.0
+          },
+          {
+            "index": 11,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "point_source",
+    "wavelengths": [
+      785.0
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.05
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "object_na": 0.1,
+    "object_distance": 0.0001
+  }
+}

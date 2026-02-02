@@ -1,0 +1,142 @@
+{
+  "name": "US Pat 2601805",
+  "description": "Notes...",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 13,
+    "source_file": "US02601805-1.ZMX",
+    "zmx_name": "US Pat 2601805"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US Pat 2601805",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 170.31071403250925,
+            "thickness": 23.106667691,
+            "material": "N-LAF2"
+          },
+          {
+            "index": 2,
+            "radius": 813.3744840036594,
+            "thickness": 2.987931167
+          },
+          {
+            "index": 3,
+            "radius": 80.37582662813152,
+            "thickness": 33.863219893,
+            "material": "N-SK5"
+          },
+          {
+            "index": 4,
+            "radius": 310.8542620668375,
+            "thickness": 6.9718393896,
+            "material": "N-F2"
+          },
+          {
+            "index": 5,
+            "radius": 49.89865008327685,
+            "thickness": 21.911495225
+          },
+          {
+            "index": 6,
+            "radius": "inf",
+            "thickness": 21.911495225,
+            "is_stop": true
+          },
+          {
+            "index": 7,
+            "radius": -73.30367672496752,
+            "thickness": 6.9718393896,
+            "material": "N-SF8"
+          },
+          {
+            "index": 8,
+            "radius": 109.55747612283929,
+            "thickness": 45.81494456,
+            "material": "N-LAF2"
+          },
+          {
+            "index": 9,
+            "radius": -102.58815014288707,
+            "thickness": 1.9919541113
+          },
+          {
+            "index": 10,
+            "radius": 246.0113759817792,
+            "thickness": 33.863219893,
+            "material": "N-LAF2"
+          },
+          {
+            "index": 11,
+            "radius": -408.27097998035464,
+            "thickness": 109.91349571
+          },
+          {
+            "index": 12,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.09999999999997,
+      587.6,
+      656.3
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        4.0
+      ],
+      [
+        0.0,
+        6.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 2.0
+  }
+}

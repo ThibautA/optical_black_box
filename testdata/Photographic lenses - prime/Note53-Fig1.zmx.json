@@ -1,0 +1,170 @@
+{
+  "name": "Ai AF Fisheye-Nikkor 16mm f/2.8D",
+  "description": "according to http://www.nikkor.com:80/story/0053/",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 18,
+    "source_file": "Note53-Fig1.zmx",
+    "zmx_name": "Ai AF Fisheye-Nikkor 16mm f/2.8D"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "Ai AF Fisheye-Nikkor 16mm f/2.8D",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 89.77276527593112,
+            "thickness": 2.124709627452,
+            "material": "S-BSM16"
+          },
+          {
+            "index": 2,
+            "radius": 19.3306094126017,
+            "thickness": 13.25588245513
+          },
+          {
+            "index": 3,
+            "radius": 171.66350625322838,
+            "thickness": 2.21789444857,
+            "material": "S-LAM60"
+          },
+          {
+            "index": 4,
+            "radius": 19.24742341974414,
+            "thickness": 5.116154502874
+          },
+          {
+            "index": 5,
+            "radius": 42.26275818780189,
+            "thickness": 10.35303169242,
+            "material": "S-TIM28"
+          },
+          {
+            "index": 6,
+            "radius": -19.840701676243167,
+            "thickness": 11.50677812311,
+            "material": "S-LAL59"
+          },
+          {
+            "index": 7,
+            "radius": -53.60884791776296,
+            "thickness": 8.42019400865
+          },
+          {
+            "index": 8,
+            "radius": "inf",
+            "thickness": 5.740769214826,
+            "is_stop": true
+          },
+          {
+            "index": 9,
+            "radius": -99.06331546657884,
+            "thickness": 1.592976716646,
+            "material": "S-TIH13"
+          },
+          {
+            "index": 10,
+            "radius": 31.483182486154806,
+            "thickness": 6.293087610791,
+            "material": "S-BSL7"
+          },
+          {
+            "index": 11,
+            "radius": -26.91624947182135,
+            "thickness": 0.2888143841319
+          },
+          {
+            "index": 12,
+            "radius": 61.662832120463676,
+            "thickness": 7.078860015861,
+            "material": "S-LAM3"
+          },
+          {
+            "index": 13,
+            "radius": -24.929457056848992,
+            "thickness": 1.646218875391,
+            "material": "S-TIH14"
+          },
+          {
+            "index": 14,
+            "radius": -52.00191268060283,
+            "thickness": 1.143708728455
+          },
+          {
+            "index": 15,
+            "radius": "inf",
+            "thickness": 1.494233045824,
+            "material": "S-FTL10"
+          },
+          {
+            "index": 16,
+            "radius": "inf",
+            "thickness": 37.4690588421
+          },
+          {
+            "index": 17,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        60.0
+      ],
+      [
+        0.0,
+        90.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 3.4
+  }
+}

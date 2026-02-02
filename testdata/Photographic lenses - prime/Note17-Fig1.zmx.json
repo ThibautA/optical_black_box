@@ -1,0 +1,186 @@
+{
+  "name": "PC-NIKKOR 28mm f/4",
+  "description": "from http://nikkor.com/story/0017/",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 21,
+    "source_file": "Note17-Fig1.zmx",
+    "zmx_name": "PC-NIKKOR 28mm f/4"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "PC-NIKKOR 28mm f/4",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 75.20947822835045,
+            "thickness": 6.446754906785,
+            "material": "S-TIH10"
+          },
+          {
+            "index": 2,
+            "radius": 170.5671187544715,
+            "thickness": 0.189941302831
+          },
+          {
+            "index": 3,
+            "radius": 56.599858583915264,
+            "thickness": 1.702893596725,
+            "material": "S-PHM52"
+          },
+          {
+            "index": 4,
+            "radius": 27.878383949680266,
+            "thickness": 8.9807073805
+          },
+          {
+            "index": 5,
+            "radius": 51.88254129986004,
+            "thickness": 2.040815397178,
+            "material": "S-LAH66"
+          },
+          {
+            "index": 6,
+            "radius": 19.19568833259988,
+            "thickness": 9.974163210467
+          },
+          {
+            "index": 7,
+            "radius": 383.7904374163106,
+            "thickness": 3.502664323935,
+            "material": "S-LAM2"
+          },
+          {
+            "index": 8,
+            "radius": 25.548496673642212,
+            "thickness": 15.13598128567,
+            "material": "S-LAM2"
+          },
+          {
+            "index": 9,
+            "radius": -140.29433780395917,
+            "thickness": 0.2019262278065
+          },
+          {
+            "index": 10,
+            "radius": 45.57156167746906,
+            "thickness": 14.83766826892,
+            "material": "S-LAL61"
+          },
+          {
+            "index": 11,
+            "radius": -45.80679093691965,
+            "thickness": 0.8612749134496
+          },
+          {
+            "index": 12,
+            "radius": 1354165432.888,
+            "thickness": 4.288303743452,
+            "is_stop": true
+          },
+          {
+            "index": 13,
+            "radius": -28.78499103566215,
+            "thickness": 1.339352427655,
+            "material": "S-NPH1"
+          },
+          {
+            "index": 14,
+            "radius": 38.825182117313204,
+            "thickness": 4.087527544296,
+            "material": "S-NSL3"
+          },
+          {
+            "index": 15,
+            "radius": 69.67992156918085,
+            "thickness": 1.917681219678
+          },
+          {
+            "index": 16,
+            "radius": -110.13095319496138,
+            "thickness": 2.703932973845,
+            "material": "S-LAM66"
+          },
+          {
+            "index": 17,
+            "radius": -28.90539543158475,
+            "thickness": 0.165121909068
+          },
+          {
+            "index": 18,
+            "radius": -406.60893413390284,
+            "thickness": 3.629468089341,
+            "material": "S-LAM2"
+          },
+          {
+            "index": 19,
+            "radius": -32.44788326881643,
+            "thickness": 41.79655912218
+          },
+          {
+            "index": 20,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        20.0
+      ],
+      [
+        0.0,
+        40.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 4.0
+  }
+}

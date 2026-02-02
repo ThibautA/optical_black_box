@@ -1,0 +1,160 @@
+{
+  "name": "US 8,879,901 Example 3 (Metabones Canon EF Lens to Sony E Mount T Speed Booster Ultra 0.71x)",
+  "description": "Prepared and converted by Bill Claff. See:; https://www.PhotonsToPhotos.net/Lenses/OpticalBench/OpticalBench.htm#/Data/US008879901_Example03P.txt",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 13,
+    "source_file": "US008879901_Example03P.zmx",
+    "zmx_name": "US 8,879,901 Example 3 (Metabones Canon EF Lens to Sony E Mount T Speed Booster Ultra 0.71x)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US 8,879,901 Example 3 (Metabones Canon EF Lens to Sony E Mount T Speed Booster Ultra 0.71x)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 25.0
+          },
+          {
+            "index": 2,
+            "radius": -286.09699999999975,
+            "thickness": 1.2,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.51742,
+              "abbe": 52.43
+            }
+          },
+          {
+            "index": 3,
+            "radius": 82.85800000000008,
+            "thickness": 0.25
+          },
+          {
+            "index": 4,
+            "radius": 24.68700000000003,
+            "thickness": 7.3,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.83481,
+              "abbe": 42.71
+            }
+          },
+          {
+            "index": 5,
+            "radius": 144.812,
+            "thickness": 1.307
+          },
+          {
+            "index": 6,
+            "radius": 538.0310000000011,
+            "thickness": 1.0,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.71736,
+              "abbe": 29.52
+            }
+          },
+          {
+            "index": 7,
+            "radius": 19.711999999999993,
+            "thickness": 2.855
+          },
+          {
+            "index": 8,
+            "radius": 33.860999999999954,
+            "thickness": 4.681,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.7725,
+              "abbe": 49.6
+            }
+          },
+          {
+            "index": 9,
+            "radius": -631.9589999999981,
+            "thickness": 8.93
+          },
+          {
+            "index": 10,
+            "radius": "inf",
+            "thickness": 2.0,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.51742,
+              "abbe": 52.43
+            }
+          },
+          {
+            "index": 11,
+            "radius": "inf",
+            "thickness": 2.0
+          },
+          {
+            "index": 12,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        9.87
+      ],
+      [
+        0.0,
+        14.1
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 0.9
+  }
+}

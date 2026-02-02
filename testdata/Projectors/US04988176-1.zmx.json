@@ -1,0 +1,137 @@
+{
+  "name": "US04988176-1",
+  "description": "ject to the following conditions:; TH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Projection optics",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 12,
+    "source_file": "US04988176-1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US04988176-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 50.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 43.0,
+            "material": "N-F2"
+          },
+          {
+            "index": 2,
+            "radius": "inf",
+            "thickness": 5.0
+          },
+          {
+            "index": 3,
+            "radius": 66.994,
+            "thickness": 6.971,
+            "material": "N-LAF2"
+          },
+          {
+            "index": 4,
+            "radius": 501.904,
+            "thickness": 5.89
+          },
+          {
+            "index": 5,
+            "radius": "inf",
+            "thickness": 1.7,
+            "material": "N-BASF2"
+          },
+          {
+            "index": 6,
+            "radius": 271.265,
+            "thickness": 0.95,
+            "is_stop": true
+          },
+          {
+            "index": 7,
+            "radius": "inf",
+            "thickness": 1.6,
+            "material": "N-SF4"
+          },
+          {
+            "index": 8,
+            "radius": 81.05,
+            "thickness": 16.394
+          },
+          {
+            "index": 9,
+            "radius": "inf",
+            "thickness": 3.9,
+            "material": "N-SF2"
+          },
+          {
+            "index": 10,
+            "radius": -146.207,
+            "thickness": 318.686
+          },
+          {
+            "index": 11,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "collimated",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1000.0
+      ],
+      [
+        0.0,
+        1400.0
+      ]
+    ],
+    "field_type": "object_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "entrance_pupil_diameter": 50.0,
+    "object_distance": 1722.0
+  }
+}

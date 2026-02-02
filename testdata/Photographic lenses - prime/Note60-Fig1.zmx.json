@@ -1,0 +1,147 @@
+{
+  "name": "AI NIKKOR 50mm f/1.8S",
+  "description": "According to http://nikkor.com/story/0060/",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 14,
+    "source_file": "Note60-Fig1.zmx",
+    "zmx_name": "AI NIKKOR 50mm f/1.8S"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "AI NIKKOR 50mm f/1.8S",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 50.995042141201544,
+            "thickness": 3.467330978232,
+            "material": "S-LAL12"
+          },
+          {
+            "index": 2,
+            "radius": "inf",
+            "thickness": 0.189872127778
+          },
+          {
+            "index": 3,
+            "radius": 20.132709794604963,
+            "thickness": 4.124241343781,
+            "material": "H-LAF50B"
+          },
+          {
+            "index": 4,
+            "radius": 34.489992036336346,
+            "thickness": 1.336224037815
+          },
+          {
+            "index": 5,
+            "radius": 70.18559054277213,
+            "thickness": 0.9879161511319,
+            "material": "S-TIM27"
+          },
+          {
+            "index": 6,
+            "radius": 16.2112346251439,
+            "thickness": 6.027828835399
+          },
+          {
+            "index": 7,
+            "radius": "inf",
+            "thickness": 5.486665866624,
+            "is_stop": true
+          },
+          {
+            "index": 8,
+            "radius": -16.771911765187888,
+            "thickness": 0.9919491799359,
+            "material": "S-TIM27"
+          },
+          {
+            "index": 9,
+            "radius": -212.70610020933816,
+            "thickness": 4.933834166551,
+            "material": "S-LAL18"
+          },
+          {
+            "index": 10,
+            "radius": -20.923983550160127,
+            "thickness": 0.1678704794836
+          },
+          {
+            "index": 11,
+            "radius": 403.2388700383589,
+            "thickness": 2.849664030246,
+            "material": "S-LAH64"
+          },
+          {
+            "index": 12,
+            "radius": -53.32889996465853,
+            "thickness": 37.14951845779
+          },
+          {
+            "index": 13,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.0
+      ],
+      [
+        0.0,
+        21.0
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 1.8
+  }
+}

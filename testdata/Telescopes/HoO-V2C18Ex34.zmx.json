@@ -1,0 +1,110 @@
+{
+  "name": "HoO-V2C18Ex34",
+  "description": "Imported from Zemax: HoO-V2C18Ex34.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Telescope optical system",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 8,
+    "source_file": "HoO-V2C18Ex34.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "HoO-V2C18Ex34",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": -23.3,
+            "thickness": 2.0,
+            "material": "N-SK2",
+            "is_stop": true
+          },
+          {
+            "index": 2,
+            "radius": -25.468,
+            "thickness": 39.5
+          },
+          {
+            "index": 3,
+            "radius": -83.33,
+            "thickness": -40.0
+          },
+          {
+            "index": 4,
+            "radius": -1.67,
+            "thickness": -1.0,
+            "material": "N-BK7"
+          },
+          {
+            "index": 5,
+            "radius": 9.85,
+            "thickness": -0.5,
+            "material": "N-SF5"
+          },
+          {
+            "index": 6,
+            "radius": -7.709999999999999,
+            "thickness": -0.942
+          },
+          {
+            "index": 7,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.8
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 1.0
+  }
+}

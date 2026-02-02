@@ -1,0 +1,158 @@
+{
+  "name": "US08184368-2",
+  "description": "Imported from Zemax: US08184368-2.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Telescope optical system",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 7,
+    "source_file": "US08184368-2.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US08184368-2",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 45.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 0.0,
+            "is_stop": true
+          },
+          {
+            "index": 2,
+            "radius": -156.15313625766515,
+            "thickness": 0.0,
+            "conic": -1.0,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -2.183275536029e-09,
+              "A6": 7.682428195524e-14,
+              "A8": -8.409830883919e-17,
+              "A10": 2.19652946873e-20,
+              "A12": -5.270455240661e-25,
+              "A14": -3.587543828928e-28
+            }
+          },
+          {
+            "index": 3,
+            "radius": -33.30017745664566,
+            "thickness": 0.0,
+            "conic": -56.52968,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -9.003188886643e-05,
+              "A6": 3.240514322501e-06,
+              "A8": -4.097080544773e-08,
+              "A10": -2.628729205021e-09,
+              "A12": 1.249392944067e-10,
+              "A14": -1.586293880459e-12
+            }
+          },
+          {
+            "index": 4,
+            "radius": -86.21759942613566,
+            "thickness": 0.0,
+            "conic": -0.103782,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": 7.259479772393e-09,
+              "A6": 6.111672559463e-12,
+              "A8": -6.145523784189e-15,
+              "A10": 4.797749692465e-18,
+              "A12": -1.869100457154e-21,
+              "A14": 2.868530897073e-25
+            }
+          },
+          {
+            "index": 5,
+            "radius": "inf",
+            "thickness": 0.0
+          },
+          {
+            "index": 6,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "collimated",
+    "wavelengths": [
+      550.0
+    ],
+    "field_points": [
+      [
+        -1.0,
+        -1.0
+      ],
+      [
+        1.0,
+        -1.0
+      ],
+      [
+        0.5,
+        -0.5
+      ],
+      [
+        -0.5,
+        -0.5
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.5,
+        0.5
+      ],
+      [
+        -0.5,
+        0.5
+      ],
+      [
+        -1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "entrance_pupil_diameter": 45.0
+  }
+}

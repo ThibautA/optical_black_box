@@ -1,0 +1,171 @@
+{
+  "name": "JP 1979-030821 Example 1 (Konica Minolta Hexanon 40mm F1.8)",
+  "description": "Prepared and converted by Bill Claff.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 14,
+    "source_file": "JP1979-030821_Example01P.zmx",
+    "zmx_name": "JP 1979-030821 Example 1 (Konica Minolta Hexanon 40mm F1.8)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "JP 1979-030821 Example 1 (Konica Minolta Hexanon 40mm F1.8)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 39.80399999999995,
+            "thickness": 2.9,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.713,
+              "abbe": 53.9
+            }
+          },
+          {
+            "index": 2,
+            "radius": 159.07600000000005,
+            "thickness": 0.096
+          },
+          {
+            "index": 3,
+            "radius": 17.096,
+            "thickness": 1.932,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.58144,
+              "abbe": 40.7
+            }
+          },
+          {
+            "index": 4,
+            "radius": 11.491999999999999,
+            "thickness": 2.124
+          },
+          {
+            "index": 5,
+            "radius": 12.208000000000002,
+            "thickness": 3.864,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.67003,
+              "abbe": 47.3
+            }
+          },
+          {
+            "index": 6,
+            "radius": 12.504,
+            "thickness": 4.335
+          },
+          {
+            "index": 7,
+            "radius": "inf",
+            "thickness": 3.781,
+            "is_stop": true
+          },
+          {
+            "index": 8,
+            "radius": -13.363999999999997,
+            "thickness": 0.868,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.7552,
+              "abbe": 27.5
+            }
+          },
+          {
+            "index": 9,
+            "radius": 1556.356000000001,
+            "thickness": 5.316,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.6779,
+              "abbe": 55.3
+            }
+          },
+          {
+            "index": 10,
+            "radius": -15.86400000000001,
+            "thickness": 0.096
+          },
+          {
+            "index": 11,
+            "radius": 449.276,
+            "thickness": 2.9,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.883,
+              "abbe": 40.8
+            }
+          },
+          {
+            "index": 12,
+            "radius": -36.66799999999998,
+            "thickness": 33.856
+          },
+          {
+            "index": 13,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.12
+      ],
+      [
+        0.0,
+        21.6
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 1.8
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "name": "DE 2246966 Example 1 (Leica Macro-Elmar-M 90mm F4)",
+  "description": "Prepared and converted by Bill Claff.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 11,
+    "source_file": "DE02246966_Example01P.zmx",
+    "zmx_name": "DE 2246966 Example 1 (Leica Macro-Elmar-M 90mm F4)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "DE 2246966 Example 1 (Leica Macro-Elmar-M 90mm F4)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 23.179499999999983,
+            "thickness": 4.032,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.64304,
+              "abbe": 59.85
+            }
+          },
+          {
+            "index": 2,
+            "radius": 94.0544999999999,
+            "thickness": 0.072
+          },
+          {
+            "index": 3,
+            "radius": 20.85030000000002,
+            "thickness": 3.699,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.64304,
+              "abbe": 59.85
+            }
+          },
+          {
+            "index": 4,
+            "radius": 47.044800000000045,
+            "thickness": 1.863
+          },
+          {
+            "index": 5,
+            "radius": 91.84950000000013,
+            "thickness": 1.485,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.75458,
+              "abbe": 34.72
+            }
+          },
+          {
+            "index": 6,
+            "radius": 14.251499999999991,
+            "thickness": 9.615
+          },
+          {
+            "index": 7,
+            "radius": "inf",
+            "thickness": 13.272,
+            "is_stop": true
+          },
+          {
+            "index": 8,
+            "radius": 59.30190000000006,
+            "thickness": 2.952,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.7918,
+              "abbe": 25.87
+            }
+          },
+          {
+            "index": 9,
+            "radius": 112.68450000000003,
+            "thickness": 45.85
+          },
+          {
+            "index": 10,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.12
+      ],
+      [
+        0.0,
+        21.6
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 4.0
+  }
+}

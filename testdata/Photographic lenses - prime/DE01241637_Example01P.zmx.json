@@ -1,0 +1,162 @@
+{
+  "name": "DE 1,241,637 Example 1 (Zeiss Hologon f8 15mm)",
+  "description": "Prepared and converted by Bill Claff.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 11,
+    "source_file": "DE01241637_Example01P.zmx",
+    "zmx_name": "DE 1,241,637 Example 1 (Zeiss Hologon f8 15mm)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "DE 1,241,637 Example 1 (Zeiss Hologon f8 15mm)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 11.64,
+            "thickness": 7.9785,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.80518,
+              "abbe": 25.46
+            }
+          },
+          {
+            "index": 2,
+            "radius": 3.843000000000005,
+            "thickness": 2.703
+          },
+          {
+            "index": 3,
+            "radius": 5.668499999999995,
+            "thickness": 4.1685,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.713,
+              "abbe": 53.89
+            }
+          },
+          {
+            "index": 4,
+            "radius": "inf",
+            "thickness": 0.0
+          },
+          {
+            "index": 5,
+            "radius": "inf",
+            "thickness": 0.0,
+            "is_stop": true
+          },
+          {
+            "index": 6,
+            "radius": "inf",
+            "thickness": 3.48,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.713,
+              "abbe": 53.89
+            }
+          },
+          {
+            "index": 7,
+            "radius": -5.507999999999988,
+            "thickness": 2.4045
+          },
+          {
+            "index": 8,
+            "radius": -3.6285000000000007,
+            "thickness": 5.2365,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.80518,
+              "abbe": 25.46
+            }
+          },
+          {
+            "index": 9,
+            "radius": -8.98350000000002,
+            "thickness": 4.542
+          },
+          {
+            "index": 10,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        10.0
+      ],
+      [
+        0.0,
+        20.0
+      ],
+      [
+        0.0,
+        30.0
+      ],
+      [
+        0.0,
+        40.0
+      ],
+      [
+        0.0,
+        50.0
+      ],
+      [
+        0.0,
+        60.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 8.0
+  }
+}

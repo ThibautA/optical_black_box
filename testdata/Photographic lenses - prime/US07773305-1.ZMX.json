@@ -1,0 +1,167 @@
+{
+  "name": "US07773305-1",
+  "description": "Imported from Zemax: US07773305-1.ZMX",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 13,
+    "source_file": "US07773305-1.ZMX",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US07773305-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 0.5,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 20.73,
+            "thickness": 1.0
+          },
+          {
+            "index": 2,
+            "radius": 19.734,
+            "thickness": 1.0,
+            "material": "N-F2"
+          },
+          {
+            "index": 3,
+            "radius": 3.447,
+            "thickness": 3.34
+          },
+          {
+            "index": 4,
+            "radius": -4.285,
+            "thickness": 1.0,
+            "material": "SF57HT"
+          },
+          {
+            "index": 5,
+            "radius": 8.383,
+            "thickness": 0.4,
+            "conic": -97.078624,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": 0.0450558,
+              "A6": 0.0115498
+            }
+          },
+          {
+            "index": 6,
+            "radius": -36.489,
+            "thickness": 1.5,
+            "material": "N-PSK53A"
+          },
+          {
+            "index": 7,
+            "radius": -2.39,
+            "thickness": 0.2
+          },
+          {
+            "index": 8,
+            "radius": "inf",
+            "thickness": 0.2,
+            "is_stop": true
+          },
+          {
+            "index": 9,
+            "radius": 10.242,
+            "thickness": 1.0,
+            "material": "N-PSK53A"
+          },
+          {
+            "index": 10,
+            "radius": -3.447,
+            "thickness": 1.99993593095
+          },
+          {
+            "index": 11,
+            "radius": "inf",
+            "thickness": 3.0,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.546,
+              "abbe": 55.0
+            }
+          },
+          {
+            "index": 12,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "collimated",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        10.0
+      ],
+      [
+        0.0,
+        25.0
+      ],
+      [
+        0.0,
+        40.0
+      ],
+      [
+        0.0,
+        55.0
+      ],
+      [
+        0.0,
+        75.0
+      ],
+      [
+        0.0,
+        95.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "entrance_pupil_diameter": 0.5
+  }
+}

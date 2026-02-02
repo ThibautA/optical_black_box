@@ -1,0 +1,136 @@
+{
+  "name": "US07672057-1",
+  "description": "Imported from Zemax: US07672057-1.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Microscope objective design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 12,
+    "source_file": "US07672057-1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US07672057-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": -19.815,
+            "thickness": 6.0,
+            "material": "J-FK5"
+          },
+          {
+            "index": 2,
+            "radius": -10.093,
+            "thickness": 1.5,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5,
+              "abbe": 40.0
+            }
+          },
+          {
+            "index": 3,
+            "radius": -18.45,
+            "thickness": 0.3
+          },
+          {
+            "index": 4,
+            "radius": 30.690000000000005,
+            "thickness": 2.4,
+            "material": "N-SK16"
+          },
+          {
+            "index": 5,
+            "radius": -50.93,
+            "thickness": 1.731679562508
+          },
+          {
+            "index": 6,
+            "radius": "inf",
+            "thickness": 20.16132043749,
+            "is_stop": true
+          },
+          {
+            "index": 7,
+            "radius": 7.047,
+            "thickness": 3.5,
+            "material": "J-FK5"
+          },
+          {
+            "index": 8,
+            "radius": 22.91,
+            "thickness": 5.009
+          },
+          {
+            "index": 9,
+            "radius": "inf",
+            "thickness": 0.17,
+            "material": "J-K5"
+          },
+          {
+            "index": 10,
+            "radius": "inf",
+            "thickness": 0.09086821076949
+          },
+          {
+            "index": 11,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.5
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 2.0
+  }
+}

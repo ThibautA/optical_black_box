@@ -1,0 +1,161 @@
+{
+  "name": "US 4,493,536 Example 1 (Konica Minolta 28mm F2.8 MD v2)",
+  "description": "Prepared and converted by Bill Claff.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 13,
+    "source_file": "US004493536_Example01P.zmx",
+    "zmx_name": "US 4,493,536 Example 1 (Konica Minolta 28mm F2.8 MD v2)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US 4,493,536 Example 1 (Konica Minolta 28mm F2.8 MD v2)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 43.56499999999993,
+            "thickness": 1.677,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.78831,
+              "abbe": 47.32
+            }
+          },
+          {
+            "index": 2,
+            "radius": 18.029000000000014,
+            "thickness": 21.339
+          },
+          {
+            "index": 3,
+            "radius": 30.265000000000025,
+            "thickness": 7.854,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.805,
+              "abbe": 44.53
+            }
+          },
+          {
+            "index": 4,
+            "radius": -61.60000000000012,
+            "thickness": 2.046
+          },
+          {
+            "index": 5,
+            "radius": "inf",
+            "thickness": 6.08,
+            "is_stop": true
+          },
+          {
+            "index": 6,
+            "radius": -17.26499999999999,
+            "thickness": 4.343,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.75,
+              "abbe": 25.14
+            }
+          },
+          {
+            "index": 7,
+            "radius": 60.104999999999976,
+            "thickness": 0.798
+          },
+          {
+            "index": 8,
+            "radius": -79.41099999999972,
+            "thickness": 2.08,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.7725,
+              "abbe": 49.77
+            }
+          },
+          {
+            "index": 9,
+            "radius": -19.001,
+            "thickness": 0.084
+          },
+          {
+            "index": 10,
+            "radius": -498.52300000000116,
+            "thickness": 2.078,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.6968,
+              "abbe": 56.47
+            }
+          },
+          {
+            "index": 11,
+            "radius": -30.895000000000017,
+            "thickness": 35.75
+          },
+          {
+            "index": 12,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.12
+      ],
+      [
+        0.0,
+        21.6
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 2.8
+  }
+}

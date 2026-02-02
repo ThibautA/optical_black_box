@@ -1,0 +1,157 @@
+{
+  "name": "Original Double Gauss",
+  "description": "From U.S. Patent 583336, example 2. Nearest modern Schott glasses chosen.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 14,
+    "source_file": "US00583336-2-scaled.zmx",
+    "zmx_name": "Original Double Gauss"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "Original Double Gauss",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 4.5
+          },
+          {
+            "index": 2,
+            "radius": 14.1615,
+            "thickness": 1.386,
+            "material": "N-BAK1"
+          },
+          {
+            "index": 3,
+            "radius": 69.408,
+            "thickness": 0.117
+          },
+          {
+            "index": 4,
+            "radius": 16.1955,
+            "thickness": 2.313,
+            "material": "N-BAK1"
+          },
+          {
+            "index": 5,
+            "radius": -19.664999999999996,
+            "thickness": 1.386,
+            "material": "N-BALF4"
+          },
+          {
+            "index": 6,
+            "radius": 8.793,
+            "thickness": 2.313
+          },
+          {
+            "index": 7,
+            "radius": "inf",
+            "thickness": 2.313,
+            "is_stop": true
+          },
+          {
+            "index": 8,
+            "radius": -8.793,
+            "thickness": 1.386,
+            "material": "N-BALF4"
+          },
+          {
+            "index": 9,
+            "radius": 19.664999999999996,
+            "thickness": 2.313,
+            "material": "N-BAK1"
+          },
+          {
+            "index": 10,
+            "radius": -16.1955,
+            "thickness": 0.117
+          },
+          {
+            "index": 11,
+            "radius": -69.408,
+            "thickness": 1.386,
+            "material": "N-BAK1"
+          },
+          {
+            "index": 12,
+            "radius": -14.1615,
+            "thickness": 42.35170011441
+          },
+          {
+            "index": 13,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        17.0
+      ],
+      [
+        0.0,
+        24.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "vignetting_x": [
+      0.0,
+      0.002455956935883,
+      0.0020477435112
+    ],
+    "vignetting_y": [
+      0.0,
+      0.1556542586327,
+      0.364762539196
+    ],
+    "telecentric": false,
+    "image_fno": 4.5
+  }
+}

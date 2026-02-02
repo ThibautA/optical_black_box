@@ -1,0 +1,156 @@
+{
+  "name": "DE 753 329 C Example 1 (Schneider Xenar 2.8 / 50)",
+  "description": "Prepared and converted by Bill Claff.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 12,
+    "source_file": "DE00753329_Example01P.zmx",
+    "zmx_name": "DE 753 329 C Example 1 (Schneider Xenar 2.8 / 50)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "DE 753 329 C Example 1 (Schneider Xenar 2.8 / 50)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 21.61499999999999,
+            "thickness": 2.8585,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.589,
+              "abbe": 61.2
+            }
+          },
+          {
+            "index": 2,
+            "radius": -611.6999999999994,
+            "thickness": 0.2035
+          },
+          {
+            "index": 3,
+            "radius": 27.119999999999994,
+            "thickness": 2.035,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.6375,
+              "abbe": 56.1
+            }
+          },
+          {
+            "index": 4,
+            "radius": 42.605000000000025,
+            "thickness": 2.442
+          },
+          {
+            "index": 5,
+            "radius": -36.19000000000006,
+            "thickness": 0.8235,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.6045,
+              "abbe": 37.8
+            }
+          },
+          {
+            "index": 6,
+            "radius": 16.464999999999986,
+            "thickness": 3.1
+          },
+          {
+            "index": 7,
+            "radius": "inf",
+            "thickness": 0.989,
+            "is_stop": true
+          },
+          {
+            "index": 8,
+            "radius": -101.95499999999996,
+            "thickness": 1.4245,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5145,
+              "abbe": 54.7
+            }
+          },
+          {
+            "index": 9,
+            "radius": 19.524999999999984,
+            "thickness": 3.721,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.6025,
+              "abbe": 59.5
+            }
+          },
+          {
+            "index": 10,
+            "radius": -19.675000000000004,
+            "thickness": 40.93
+          },
+          {
+            "index": 11,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.12
+      ],
+      [
+        0.0,
+        21.6
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 2.9
+  }
+}

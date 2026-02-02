@@ -1,0 +1,180 @@
+{
+  "name": "AF Nikkor 85mm f/1.4D IF",
+  "description": "according to http://nikkor.com/story/0041",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 20,
+    "source_file": "Note41-Fig1.zmx",
+    "zmx_name": "AF Nikkor 85mm f/1.4D IF"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "AF Nikkor 85mm f/1.4D IF",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 57.33942285592005,
+            "thickness": 10.936654583,
+            "material": "S-FPL51Y"
+          },
+          {
+            "index": 2,
+            "radius": 402.12667888882675,
+            "thickness": 0.3088424199217
+          },
+          {
+            "index": 3,
+            "radius": 43.56473997708956,
+            "thickness": 8.27892460286,
+            "material": "S-LAH66"
+          },
+          {
+            "index": 4,
+            "radius": 72.48871266155413,
+            "thickness": 4.96350876461
+          },
+          {
+            "index": 5,
+            "radius": 112.8668687338029,
+            "thickness": 2.503317978955,
+            "material": "S-TIM22"
+          },
+          {
+            "index": 6,
+            "radius": 29.483729566164516,
+            "thickness": 18.6617350125
+          },
+          {
+            "index": 7,
+            "radius": 48.45757043536226,
+            "thickness": 4.590491252114,
+            "material": "S-LAH59"
+          },
+          {
+            "index": 8,
+            "radius": 238.74779294567688,
+            "thickness": 2.58009440282
+          },
+          {
+            "index": 9,
+            "radius": -86.28684600989905,
+            "thickness": 2.294885718129,
+            "material": "S-TIM2"
+          },
+          {
+            "index": 10,
+            "radius": 46.2026792207541,
+            "thickness": 4.280465997551
+          },
+          {
+            "index": 11,
+            "radius": "inf",
+            "thickness": 3.443791740958,
+            "is_stop": true
+          },
+          {
+            "index": 12,
+            "radius": -56.90235627141627,
+            "thickness": 2.132705214275,
+            "material": "S-TIL1"
+          },
+          {
+            "index": 13,
+            "radius": 68.16537405481742,
+            "thickness": 9.911823739668,
+            "material": "S-LAH65V"
+          },
+          {
+            "index": 14,
+            "radius": -58.980973246211484,
+            "thickness": 0.2927470187561
+          },
+          {
+            "index": 15,
+            "radius": 94.74214706835468,
+            "thickness": 3.540738139748,
+            "material": "S-LAL8"
+          },
+          {
+            "index": 16,
+            "radius": -259.461729122669,
+            "thickness": 1.25607738348
+          },
+          {
+            "index": 17,
+            "radius": -346.60683780250423,
+            "thickness": 2.049216149081,
+            "material": "S-LAH79"
+          },
+          {
+            "index": 18,
+            "radius": -269.5492773885058,
+            "thickness": 44.74452325468
+          },
+          {
+            "index": 19,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.0
+      ],
+      [
+        0.0,
+        21.0
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 1.8
+  }
+}

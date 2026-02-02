@@ -1,0 +1,109 @@
+{
+  "name": "US03126786-1",
+  "description": "Imported from Zemax: US03126786-1.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Projection optics",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 7,
+    "source_file": "US03126786-1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US03126786-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 106.0,
+            "thickness": 6.0,
+            "material": "B270"
+          },
+          {
+            "index": 2,
+            "radius": 153.5,
+            "thickness": 57.15
+          },
+          {
+            "index": 3,
+            "radius": "inf",
+            "thickness": 57.14,
+            "is_stop": true
+          },
+          {
+            "index": 4,
+            "radius": -153.5,
+            "thickness": 6.0,
+            "material": "B270"
+          },
+          {
+            "index": 5,
+            "radius": -106.0,
+            "thickness": 300.7286922432
+          },
+          {
+            "index": 6,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        130.0
+      ],
+      [
+        0.0,
+        175.0
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 4.1,
+    "object_distance": 3000.0
+  }
+}

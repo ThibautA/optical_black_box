@@ -1,0 +1,185 @@
+{
+  "name": "High-NA apochromatic objective; Imaging Optics p. 503",
+  "description": "Notes...; f = 2 mm, NA=0.85, wavelength: 420 to 690 nm, field diameter 100 micron.; ====",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Microscope objective design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 18,
+    "source_file": "Imaging_Optics_Figure_7_62.zmx",
+    "zmx_name": "High-NA apochromatic objective; Imaging Optics p. 503"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "High-NA apochromatic objective; Imaging Optics p. 503",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": 1984.52,
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 1.6442
+          },
+          {
+            "index": 2,
+            "radius": -14.871199999999504,
+            "thickness": 2.8,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5,
+              "abbe": 40.0
+            }
+          },
+          {
+            "index": 3,
+            "radius": -2.8029999999996495,
+            "thickness": 1.2,
+            "material": "N-LAK9"
+          },
+          {
+            "index": 4,
+            "radius": -22.41449999999964,
+            "thickness": 8.4082
+          },
+          {
+            "index": 5,
+            "radius": 10.277999999999503,
+            "thickness": 2.3,
+            "material": "P-SK58A"
+          },
+          {
+            "index": 6,
+            "radius": -3.5165000000004447,
+            "thickness": 1.1,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5,
+              "abbe": 40.0
+            }
+          },
+          {
+            "index": 7,
+            "radius": 2.7754999999996564,
+            "thickness": 2.3,
+            "material": "P-SK58A"
+          },
+          {
+            "index": 8,
+            "radius": 59.403599999996786,
+            "thickness": 0.1,
+            "is_stop": true
+          },
+          {
+            "index": 9,
+            "radius": 3.9731000000005268,
+            "thickness": 2.5,
+            "material": "P-SK58A"
+          },
+          {
+            "index": 10,
+            "radius": -2.8728000000000926,
+            "thickness": 1.0,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5,
+              "abbe": 40.0
+            }
+          },
+          {
+            "index": 11,
+            "radius": 14.07209999999949,
+            "thickness": 0.1706
+          },
+          {
+            "index": 12,
+            "radius": 2.3859000000002504,
+            "thickness": 1.312,
+            "material": "N-LAK8"
+          },
+          {
+            "index": 13,
+            "radius": 3.7836000000005297,
+            "thickness": 0.0996
+          },
+          {
+            "index": 14,
+            "radius": 1.0913000000000346,
+            "thickness": 1.1365,
+            "material": "N-LAK8"
+          },
+          {
+            "index": 15,
+            "radius": 1.4285999999999885,
+            "thickness": 0.2497
+          },
+          {
+            "index": 16,
+            "radius": "inf",
+            "thickness": -0.01603224431652046
+          },
+          {
+            "index": 17,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "point_source",
+    "wavelengths": [
+      420.0,
+      435.0,
+      450.0,
+      480.0,
+      651.0,
+      555.0,
+      600.0,
+      645.0,
+      690.0
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.07
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "object_na": 0.00085,
+    "object_distance": 1984.52
+  }
+}

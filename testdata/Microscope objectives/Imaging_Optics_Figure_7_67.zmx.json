@@ -1,0 +1,123 @@
+{
+  "name": "Aspheric objective (single element); Imaging Optics p. 509.",
+  "description": "Notes...; f = 4.5 mm, NA=0.45, lambda = 785 nm, field diameter 0.24 mm (curved).; ==========",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Microscope objective design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 7,
+    "source_file": "Imaging_Optics_Figure_7_67.zmx",
+    "zmx_name": "Aspheric objective (single element); Imaging Optics p. 509."
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "Aspheric objective (single element); Imaging Optics p. 509.",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 0.012,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.569432,
+              "abbe": 34.557
+            },
+            "is_stop": true,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A2": 0.1361267,
+              "A4": 0.00067205161,
+              "A6": -1.7891378e-05,
+              "A8": -2.0417936e-06
+            }
+          },
+          {
+            "index": 2,
+            "radius": 3.92310000000054,
+            "thickness": 3.4,
+            "material": "N-LASF9"
+          },
+          {
+            "index": 3,
+            "radius": "inf",
+            "thickness": 1.882
+          },
+          {
+            "index": 4,
+            "radius": "inf",
+            "thickness": 1.2,
+            "material": "polycarbonate"
+          },
+          {
+            "index": 5,
+            "radius": "inf",
+            "thickness": 0.0
+          },
+          {
+            "index": 6,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      785.0
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.04
+      ],
+      [
+        0.0,
+        0.08
+      ],
+      [
+        0.0,
+        0.12
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 1.1111,
+    "object_distance": 45000.0
+  }
+}

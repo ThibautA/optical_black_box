@@ -1,0 +1,137 @@
+{
+  "name": "HoO-V2C18Ex36",
+  "description": "Imported from Zemax: HoO-V2C18Ex36.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Telescope optical system",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 12,
+    "source_file": "HoO-V2C18Ex36.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "HoO-V2C18Ex36",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 22.5,
+            "thickness": 4.28,
+            "material": "N-BK7"
+          },
+          {
+            "index": 2,
+            "radius": 19.13,
+            "thickness": 19.75
+          },
+          {
+            "index": 3,
+            "radius": -11783.0,
+            "thickness": 1.4,
+            "material": "N-F2",
+            "is_stop": true,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -5.58e-07,
+              "A6": 2.44e-09
+            }
+          },
+          {
+            "index": 4,
+            "radius": -135.5,
+            "thickness": 1.3,
+            "material": "N-SK2"
+          },
+          {
+            "index": 5,
+            "radius": "inf",
+            "thickness": 23.92
+          },
+          {
+            "index": 6,
+            "radius": -29.309999999999995,
+            "thickness": 4.28,
+            "material": "N-BK7"
+          },
+          {
+            "index": 7,
+            "radius": -32.42,
+            "thickness": 25.1
+          },
+          {
+            "index": 8,
+            "radius": -55.0,
+            "thickness": -25.1
+          },
+          {
+            "index": 9,
+            "radius": -32.42,
+            "thickness": -4.28,
+            "material": "N-BK7"
+          },
+          {
+            "index": 10,
+            "radius": -29.309999999999995,
+            "thickness": -1.45
+          },
+          {
+            "index": 11,
+            "radius": -24.18455278743163,
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        20.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 1.2
+  }
+}

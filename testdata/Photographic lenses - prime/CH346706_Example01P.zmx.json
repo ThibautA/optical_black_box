@@ -1,0 +1,166 @@
+{
+  "name": "CH 346706 Example 1 (Schneider Xenon 1.9 / 50)",
+  "description": "Prepared and converted by Bill Claff.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 13,
+    "source_file": "CH346706_Example01P.zmx",
+    "zmx_name": "CH 346706 Example 1 (Schneider Xenon 1.9 / 50)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "CH 346706 Example 1 (Schneider Xenon 1.9 / 50)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 27.419999999999984,
+            "thickness": 3.35,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.67003,
+              "abbe": 47.2
+            }
+          },
+          {
+            "index": 2,
+            "radius": 78.13000000000028,
+            "thickness": 0.64
+          },
+          {
+            "index": 3,
+            "radius": 19.840000000000003,
+            "thickness": 4.47,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.69347,
+              "abbe": 53.5
+            }
+          },
+          {
+            "index": 4,
+            "radius": 84.1600000000003,
+            "thickness": 1.76,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.66446,
+              "abbe": 35.9
+            }
+          },
+          {
+            "index": 5,
+            "radius": 12.950000000000003,
+            "thickness": 6.07
+          },
+          {
+            "index": 6,
+            "radius": "inf",
+            "thickness": 4.54,
+            "is_stop": true
+          },
+          {
+            "index": 7,
+            "radius": -15.100000000000001,
+            "thickness": 1.59,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.6398,
+              "abbe": 34.6
+            }
+          },
+          {
+            "index": 8,
+            "radius": 45.090000000000074,
+            "thickness": 5.94,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.65844,
+              "abbe": 50.8
+            }
+          },
+          {
+            "index": 9,
+            "radius": -20.93999999999999,
+            "thickness": 0.11
+          },
+          {
+            "index": 10,
+            "radius": 1179.69,
+            "thickness": 2.63,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.74472,
+              "abbe": 44.7
+            }
+          },
+          {
+            "index": 11,
+            "radius": -38.62000000000003,
+            "thickness": 36.2
+          },
+          {
+            "index": 12,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.12
+      ],
+      [
+        0.0,
+        21.6
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 2.0
+  }
+}

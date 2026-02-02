@@ -1,0 +1,144 @@
+{
+  "name": "US02343385-1",
+  "description": "ject to the following conditions:; TH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 12,
+    "source_file": "US02343385-1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US02343385-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 4.572,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 20.8026208026,
+            "thickness": 1.8034,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5,
+              "abbe": 40.0
+            }
+          },
+          {
+            "index": 2,
+            "radius": 8.0262908308,
+            "thickness": 2.6924
+          },
+          {
+            "index": 3,
+            "radius": 12.242733883800001,
+            "thickness": 2.8956,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5,
+              "abbe": 40.0
+            }
+          },
+          {
+            "index": 4,
+            "radius": -43.8384535726,
+            "thickness": 3.1242
+          },
+          {
+            "index": 5,
+            "radius": "inf",
+            "thickness": 0.508,
+            "is_stop": true
+          },
+          {
+            "index": 6,
+            "radius": -104.22650800579999,
+            "thickness": 1.2446,
+            "material": "F4"
+          },
+          {
+            "index": 7,
+            "radius": 11.7093859538,
+            "thickness": 2.4638
+          },
+          {
+            "index": 8,
+            "radius": 92.0289855124,
+            "thickness": 1.1684,
+            "material": "F4"
+          },
+          {
+            "index": 9,
+            "radius": 12.420537896999997,
+            "thickness": 4.9276,
+            "material": "N-SK2"
+          },
+          {
+            "index": 10,
+            "radius": -11.657258245,
+            "thickness": 25.84856716087
+          },
+          {
+            "index": 11,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "collimated",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        14.0
+      ],
+      [
+        0.0,
+        21.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "entrance_pupil_diameter": 4.572
+  }
+}

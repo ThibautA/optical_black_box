@@ -1,0 +1,258 @@
+{
+  "name": "US08867147-1",
+  "description": "Imported from Zemax: US08867147-1.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 28,
+    "source_file": "US08867147-1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US08867147-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 57.119,
+            "thickness": 2.5,
+            "material": "E-LAK12"
+          },
+          {
+            "index": 2,
+            "radius": 15.5,
+            "thickness": 12.56,
+            "conic": -0.8923,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": 6.44e-06,
+              "A6": -1.03e-08,
+              "A8": 7.31e-11,
+              "A10": -1.76e-13
+            }
+          },
+          {
+            "index": 3,
+            "radius": 55.93,
+            "thickness": 2.0,
+            "material": "H-LAK61"
+          },
+          {
+            "index": 4,
+            "radius": 25.916,
+            "thickness": 10.96,
+            "conic": -1.5549,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": 1.93e-05,
+              "A6": 2.2e-08,
+              "A8": -5.95e-11,
+              "A10": 5.24e-13
+            }
+          },
+          {
+            "index": 5,
+            "radius": -41.336,
+            "thickness": 2.0,
+            "material": "E-FKH1"
+          },
+          {
+            "index": 6,
+            "radius": 42.788,
+            "thickness": 0.1
+          },
+          {
+            "index": 7,
+            "radius": 39.3,
+            "thickness": 6.64,
+            "material": "E-LASF013"
+          },
+          {
+            "index": 8,
+            "radius": -166.812,
+            "thickness": 2.35
+          },
+          {
+            "index": 9,
+            "radius": 42.931,
+            "thickness": 2.0,
+            "material": "E-LASF05"
+          },
+          {
+            "index": 10,
+            "radius": 20.0,
+            "thickness": 8.75,
+            "material": "E-BAF8"
+          },
+          {
+            "index": 11,
+            "radius": -81.122,
+            "thickness": 0.1
+          },
+          {
+            "index": 12,
+            "radius": 169.295,
+            "thickness": 3.24,
+            "material": "E-BK7"
+          },
+          {
+            "index": 13,
+            "radius": 314.929,
+            "thickness": 3.3
+          },
+          {
+            "index": 14,
+            "radius": "inf",
+            "thickness": 5.67,
+            "is_stop": true
+          },
+          {
+            "index": 15,
+            "radius": -43.335,
+            "thickness": 1.0,
+            "material": "E-LASF05"
+          },
+          {
+            "index": 16,
+            "radius": 293.607,
+            "thickness": 0.1
+          },
+          {
+            "index": 17,
+            "radius": 43.567,
+            "thickness": 4.62,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5,
+              "abbe": 40.0
+            }
+          },
+          {
+            "index": 18,
+            "radius": 118.46800000000002,
+            "thickness": 0.1
+          },
+          {
+            "index": 19,
+            "radius": 33.408,
+            "thickness": 1.0,
+            "material": "M-TAF1"
+          },
+          {
+            "index": 20,
+            "radius": 20.0,
+            "thickness": 10.42,
+            "material": "E-FKH1"
+          },
+          {
+            "index": 21,
+            "radius": -161.758,
+            "thickness": 1.57
+          },
+          {
+            "index": 22,
+            "radius": 35.268,
+            "thickness": 9.59,
+            "material": "E-FKH1"
+          },
+          {
+            "index": 23,
+            "radius": -38.947,
+            "thickness": 0.1
+          },
+          {
+            "index": 24,
+            "radius": 157.428,
+            "thickness": 1.0,
+            "material": "E-LASF03",
+            "conic": -191.0565,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -7.21e-06,
+              "A6": -2.58e-08,
+              "A8": 3.52e-11
+            }
+          },
+          {
+            "index": 25,
+            "radius": 20.0,
+            "thickness": 8.77,
+            "material": "E-SK5"
+          },
+          {
+            "index": 26,
+            "radius": -520.433,
+            "thickness": 40.0
+          },
+          {
+            "index": 27,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        30.0
+      ],
+      [
+        0.0,
+        50.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "vignetting_y": [
+      0.0,
+      0.4,
+      0.6
+    ],
+    "telecentric": false,
+    "image_fno": 1.9,
+    "object_distance": 521.48
+  }
+}

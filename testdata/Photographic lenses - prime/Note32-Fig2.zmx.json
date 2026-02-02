@@ -1,0 +1,169 @@
+{
+  "name": "Ai AF DC Nikkor 135mm f/2S",
+  "description": "according to http://nikkor.com/story/0032/",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 18,
+    "source_file": "Note32-Fig2.zmx",
+    "zmx_name": "Ai AF DC Nikkor 135mm f/2S"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "Ai AF DC Nikkor 135mm f/2S",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 59.739069266664785,
+            "thickness": 13.9551743777,
+            "material": "S-PHM52"
+          },
+          {
+            "index": 2,
+            "radius": -567.8979384816291,
+            "thickness": 3.060746040863,
+            "material": "S-TIM28"
+          },
+          {
+            "index": 3,
+            "radius": 406.8774297060581,
+            "thickness": 9.976790163265
+          },
+          {
+            "index": 4,
+            "radius": 48.14449267203056,
+            "thickness": 7.913914834817,
+            "material": "S-NSL3"
+          },
+          {
+            "index": 5,
+            "radius": 89.3092648177785,
+            "thickness": 3.06649718886
+          },
+          {
+            "index": 6,
+            "radius": 625.8701553257268,
+            "thickness": 2.99337310741,
+            "material": "S-TIL6"
+          },
+          {
+            "index": 7,
+            "radius": 33.926997092159446,
+            "thickness": 9.876337107395
+          },
+          {
+            "index": 8,
+            "radius": "inf",
+            "thickness": 29.77174265137,
+            "is_stop": true
+          },
+          {
+            "index": 9,
+            "radius": -34.01626474969247,
+            "thickness": 3.014263546421,
+            "material": "S-TIM25"
+          },
+          {
+            "index": 10,
+            "radius": -138.70400469055042,
+            "thickness": 4.980758423356
+          },
+          {
+            "index": 11,
+            "radius": -152.17606907266781,
+            "thickness": 4.965862531818,
+            "material": "S-LAL12"
+          },
+          {
+            "index": 12,
+            "radius": -45.18493249563808,
+            "thickness": 1.069847109949
+          },
+          {
+            "index": 13,
+            "radius": 139.27730525112864,
+            "thickness": 3.94085101169,
+            "material": "S-LAH59"
+          },
+          {
+            "index": 14,
+            "radius": -210.0560111663903,
+            "thickness": 7.049530305061
+          },
+          {
+            "index": 15,
+            "radius": "inf",
+            "thickness": 1.959584742741,
+            "material": "S-BSL7"
+          },
+          {
+            "index": 16,
+            "radius": "inf",
+            "thickness": 64.0584767527
+          },
+          {
+            "index": 17,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.0
+      ],
+      [
+        0.0,
+        21.0
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 2.3
+  }
+}

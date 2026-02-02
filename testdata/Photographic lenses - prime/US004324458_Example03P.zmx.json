@@ -1,0 +1,156 @@
+{
+  "name": "US 4,324,458 Example 3 (Canon FD300mm f5.6 SSC)",
+  "description": "Prepared and converted by Bill Claff.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 12,
+    "source_file": "US004324458_Example03P.zmx",
+    "zmx_name": "US 4,324,458 Example 3 (Canon FD300mm f5.6 SSC)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US 4,324,458 Example 3 (Canon FD300mm f5.6 SSC)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 98.54340000000012,
+            "thickness": 9.642,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.58913,
+              "abbe": 61.1
+            }
+          },
+          {
+            "index": 2,
+            "radius": -106.68720000000002,
+            "thickness": 3.225
+          },
+          {
+            "index": 3,
+            "radius": -96.73529999999977,
+            "thickness": 4.272,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.6727,
+              "abbe": 32.1
+            }
+          },
+          {
+            "index": 4,
+            "radius": -1868.9093999999998,
+            "thickness": 53.209
+          },
+          {
+            "index": 5,
+            "radius": "inf",
+            "thickness": 23.0,
+            "is_stop": true
+          },
+          {
+            "index": 6,
+            "radius": 28.624200000000027,
+            "thickness": 4.068,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.58913,
+              "abbe": 61.1
+            }
+          },
+          {
+            "index": 7,
+            "radius": 25.857000000000003,
+            "thickness": 8.247
+          },
+          {
+            "index": 8,
+            "radius": 98.71319999999997,
+            "thickness": 1.626,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.713,
+              "abbe": 53.9
+            }
+          },
+          {
+            "index": 9,
+            "radius": 45.915299999999995,
+            "thickness": 2.055,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.80518,
+              "abbe": 25.4
+            }
+          },
+          {
+            "index": 10,
+            "radius": 59.817900000000165,
+            "thickness": 126.0326849618648
+          },
+          {
+            "index": 11,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.12
+      ],
+      [
+        0.0,
+        21.6
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 5.6
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "name": "US 3,490,825 Example 1 (Ricoh Pentax Ultra-Achromatic-Takumar 85mm F4.5)",
+  "description": "Prepared and converted by Bill Claff. See:; https://www.PhotonsToPhotos.net/Lenses/OpticalBench/OpticalBench.htm#/Data/US003490825_Example01P.txt",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 13,
+    "source_file": "US003490825_Example01P.zmx",
+    "zmx_name": "US 3,490,825 Example 1 (Ricoh Pentax Ultra-Achromatic-Takumar 85mm F4.5)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US 3,490,825 Example 1 (Ricoh Pentax Ultra-Achromatic-Takumar 85mm F4.5)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": -32.72500000000005,
+            "thickness": 1.275,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.45854,
+              "abbe": 69.6
+            }
+          },
+          {
+            "index": 2,
+            "radius": 96.46699999999997,
+            "thickness": 0.85
+          },
+          {
+            "index": 3,
+            "radius": 47.17499999999997,
+            "thickness": 4.25,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.43387,
+              "abbe": 94.9
+            }
+          },
+          {
+            "index": 4,
+            "radius": -44.961999999999904,
+            "thickness": 0.17
+          },
+          {
+            "index": 5,
+            "radius": 20.82500000000001,
+            "thickness": 5.1,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.43387,
+              "abbe": 94.9
+            }
+          },
+          {
+            "index": 6,
+            "radius": -115.895,
+            "thickness": 3.225
+          },
+          {
+            "index": 7,
+            "radius": "inf",
+            "thickness": 4.0,
+            "is_stop": true
+          },
+          {
+            "index": 8,
+            "radius": -32.300000000000026,
+            "thickness": 1.7,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.45854,
+              "abbe": 69.6
+            }
+          },
+          {
+            "index": 9,
+            "radius": 17.005999999999993,
+            "thickness": 5.95
+          },
+          {
+            "index": 10,
+            "radius": 33.15,
+            "thickness": 3.4,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.43387,
+              "abbe": 94.9
+            }
+          },
+          {
+            "index": 11,
+            "radius": -51.387999999999934,
+            "thickness": 66.71
+          },
+          {
+            "index": 12,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.148
+      ],
+      [
+        0.0,
+        21.64
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 4.5
+  }
+}

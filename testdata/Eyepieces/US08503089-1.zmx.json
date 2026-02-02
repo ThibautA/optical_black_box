@@ -1,0 +1,179 @@
+{
+  "name": "US08503089-1",
+  "description": "Imported from Zemax: US08503089-1.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Eyepiece design for visual observation",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 20,
+    "source_file": "US08503089-1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US08503089-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 6.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 15.3,
+            "is_stop": true
+          },
+          {
+            "index": 2,
+            "radius": -34.0,
+            "thickness": 7.5,
+            "material": "N-SK16"
+          },
+          {
+            "index": 3,
+            "radius": -25.0,
+            "thickness": 0.5
+          },
+          {
+            "index": 4,
+            "radius": -118.0,
+            "thickness": 10.0,
+            "material": "E-LAK18"
+          },
+          {
+            "index": 5,
+            "radius": -36.4,
+            "thickness": 0.5
+          },
+          {
+            "index": 6,
+            "radius": 109.0,
+            "thickness": 2.5,
+            "material": "N-SF6"
+          },
+          {
+            "index": 7,
+            "radius": 38.7,
+            "thickness": 16.0,
+            "material": "E-LAK01"
+          },
+          {
+            "index": 8,
+            "radius": -200.0,
+            "thickness": 0.5
+          },
+          {
+            "index": 9,
+            "radius": 72.0,
+            "thickness": 8.0,
+            "material": "E-LAK18"
+          },
+          {
+            "index": 10,
+            "radius": 300.0,
+            "thickness": 35.0
+          },
+          {
+            "index": 11,
+            "radius": 70.0,
+            "thickness": 12.0,
+            "material": "E-LAK18"
+          },
+          {
+            "index": 12,
+            "radius": 745.0,
+            "thickness": 20.0
+          },
+          {
+            "index": 13,
+            "radius": 50.0,
+            "thickness": 5.0,
+            "material": "E-LAK01"
+          },
+          {
+            "index": 14,
+            "radius": 15.299999999999999,
+            "thickness": 5.5,
+            "material": "N-SF6"
+          },
+          {
+            "index": 15,
+            "radius": 23.6,
+            "thickness": 8.0
+          },
+          {
+            "index": 16,
+            "radius": -19.8,
+            "thickness": 5.0,
+            "material": "E-LLF1"
+          },
+          {
+            "index": 17,
+            "radius": -26.4,
+            "thickness": 5.0,
+            "material": "N-BK7"
+          },
+          {
+            "index": 18,
+            "radius": -98.99999999999999,
+            "thickness": 0.0
+          },
+          {
+            "index": 19,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "collimated",
+    "wavelengths": [
+      550.0
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        30.0
+      ],
+      [
+        0.0,
+        50.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "entrance_pupil_diameter": 6.0
+  }
+}

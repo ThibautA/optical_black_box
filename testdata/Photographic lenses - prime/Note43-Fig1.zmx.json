@@ -1,0 +1,125 @@
+{
+  "name": "NIKKOR-Q.C 13.5cm f/4",
+  "description": "according to http://nikkor.com/story/0043",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 10,
+    "source_file": "Note43-Fig1.zmx",
+    "zmx_name": "NIKKOR-Q.C 13.5cm f/4"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "NIKKOR-Q.C 13.5cm f/4",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 67.37465465017836,
+            "thickness": 4.42321175088,
+            "material": "H-QK3L"
+          },
+          {
+            "index": 2,
+            "radius": 429.4513392366131,
+            "thickness": 0.4815526331381
+          },
+          {
+            "index": 3,
+            "radius": 34.90610798380272,
+            "thickness": 16.43984608383,
+            "material": "S-BSL7"
+          },
+          {
+            "index": 4,
+            "radius": -148.0065105367825,
+            "thickness": 12.823820578,
+            "material": "S-TIM2"
+          },
+          {
+            "index": 5,
+            "radius": 23.224983342494976,
+            "thickness": 4.870975385073
+          },
+          {
+            "index": 6,
+            "radius": "inf",
+            "thickness": 18.27342620634,
+            "is_stop": true
+          },
+          {
+            "index": 7,
+            "radius": 54.157301613562865,
+            "thickness": 2.964190146473,
+            "material": "S-TIH18"
+          },
+          {
+            "index": 8,
+            "radius": 102.0068721098696,
+            "thickness": 64.2876990647
+          },
+          {
+            "index": 9,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.0
+      ],
+      [
+        0.0,
+        21.0
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 4.0
+  }
+}

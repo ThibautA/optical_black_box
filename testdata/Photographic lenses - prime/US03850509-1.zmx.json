@@ -1,0 +1,191 @@
+{
+  "name": "US03850509-1",
+  "description": "Imported from Zemax: US03850509-1.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 21,
+    "source_file": "US03850509-1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US03850509-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 5.5184,
+            "thickness": 0.1237,
+            "material": "S-BAL35"
+          },
+          {
+            "index": 2,
+            "radius": 0.737,
+            "thickness": 0.4157
+          },
+          {
+            "index": 3,
+            "radius": 1.6084,
+            "thickness": 0.1856,
+            "material": "S-LAH51"
+          },
+          {
+            "index": 4,
+            "radius": 3.4234,
+            "thickness": 0.0928
+          },
+          {
+            "index": 5,
+            "radius": -86.6068,
+            "thickness": 0.0742,
+            "material": "S-BAL35"
+          },
+          {
+            "index": 6,
+            "radius": 0.6965,
+            "thickness": 0.2598
+          },
+          {
+            "index": 7,
+            "radius": 1.8556000000000001,
+            "thickness": 0.0619,
+            "material": "S-LAL14"
+          },
+          {
+            "index": 8,
+            "radius": 0.6771,
+            "thickness": 0.1534,
+            "material": "S-TIM35"
+          },
+          {
+            "index": 9,
+            "radius": 46.7176,
+            "thickness": 0.0792
+          },
+          {
+            "index": 10,
+            "radius": "inf",
+            "thickness": 0.0742,
+            "material": "S-BSL7"
+          },
+          {
+            "index": 11,
+            "radius": "inf",
+            "thickness": 0.0829,
+            "is_stop": true
+          },
+          {
+            "index": 12,
+            "radius": 2.2085,
+            "thickness": 0.0749,
+            "material": "S-TIH11"
+          },
+          {
+            "index": 13,
+            "radius": 0.6517,
+            "thickness": 0.2017,
+            "material": "S-TIM5"
+          },
+          {
+            "index": 14,
+            "radius": -6.6704,
+            "thickness": 0.2116
+          },
+          {
+            "index": 15,
+            "radius": -2.4646,
+            "thickness": 0.1237,
+            "material": "S-APL1"
+          },
+          {
+            "index": 16,
+            "radius": -1.1253,
+            "thickness": 0.0062
+          },
+          {
+            "index": 17,
+            "radius": 4.9175,
+            "thickness": 0.0619,
+            "material": "S-TIH6"
+          },
+          {
+            "index": 18,
+            "radius": 1.3087,
+            "thickness": 0.1856,
+            "material": "S-TIH6"
+          },
+          {
+            "index": 19,
+            "radius": -1.119,
+            "thickness": 1.075006893097
+          },
+          {
+            "index": 20,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        30.0
+      ],
+      [
+        0.0,
+        60.0
+      ],
+      [
+        0.0,
+        90.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 3.6
+  }
+}

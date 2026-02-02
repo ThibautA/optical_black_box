@@ -1,0 +1,141 @@
+{
+  "name": "AI Nikkor 105mm f/1.8S",
+  "description": "according to http://nikkor.com/story/0059/",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 13,
+    "source_file": "Note59-Fig1.zmx",
+    "zmx_name": "AI Nikkor 105mm f/1.8S"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "AI Nikkor 105mm f/1.8S",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 57.41688381394985,
+            "thickness": 10.01279027278,
+            "material": "H-LAK52"
+          },
+          {
+            "index": 2,
+            "radius": 484.0971907494593,
+            "thickness": 3.284289919245
+          },
+          {
+            "index": 3,
+            "radius": 40.67376331020484,
+            "thickness": 12.19277880842,
+            "material": "S-LAL12"
+          },
+          {
+            "index": 4,
+            "radius": 72.7951380242887,
+            "thickness": 2.595364269778
+          },
+          {
+            "index": 5,
+            "radius": 216.49098242809973,
+            "thickness": 5.933834316691,
+            "material": "S-TIH11"
+          },
+          {
+            "index": 6,
+            "radius": 25.158348873499776,
+            "thickness": 12.2706642923
+          },
+          {
+            "index": 7,
+            "radius": "inf",
+            "thickness": 7.854611384214,
+            "is_stop": true
+          },
+          {
+            "index": 8,
+            "radius": -32.84029514074591,
+            "thickness": 4.120705026132,
+            "material": "S-BAL2"
+          },
+          {
+            "index": 9,
+            "radius": -50.60402280312765,
+            "thickness": 4.333071441353
+          },
+          {
+            "index": 10,
+            "radius": 322.8914353745397,
+            "thickness": 5.317835292351,
+            "material": "S-LAH66"
+          },
+          {
+            "index": 11,
+            "radius": -53.14011821059797,
+            "thickness": 51.59333756278
+          },
+          {
+            "index": 12,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.0
+      ],
+      [
+        0.0,
+        21.0
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 1.8
+  }
+}

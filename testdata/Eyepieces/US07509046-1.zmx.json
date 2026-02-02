@@ -1,0 +1,257 @@
+{
+  "name": "US07509046-1",
+  "description": "Imported from Zemax: US07509046-1.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Eyepiece design for visual observation",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 28,
+    "source_file": "US07509046-1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US07509046-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 6.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 23.0,
+            "is_stop": true
+          },
+          {
+            "index": 2,
+            "radius": "inf",
+            "thickness": 3.3,
+            "material": "N-LASF31"
+          },
+          {
+            "index": 3,
+            "radius": -37.54,
+            "thickness": 3.36
+          },
+          {
+            "index": 4,
+            "radius": 39.79,
+            "thickness": 3.62,
+            "material": "E-LASF01"
+          },
+          {
+            "index": 5,
+            "radius": -244.69000000000003,
+            "thickness": 0.5
+          },
+          {
+            "index": 6,
+            "radius": 20.0,
+            "thickness": 6.56,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5,
+              "abbe": 40.0
+            }
+          },
+          {
+            "index": 7,
+            "radius": -66.77,
+            "thickness": 1.37,
+            "material": "N-SF57"
+          },
+          {
+            "index": 8,
+            "radius": 14.7,
+            "thickness": 12.48
+          },
+          {
+            "index": 9,
+            "radius": "inf",
+            "thickness": 0.0
+          },
+          {
+            "index": 10,
+            "radius": "inf",
+            "thickness": 3.05,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5,
+              "abbe": 40.0
+            }
+          },
+          {
+            "index": 11,
+            "radius": -56.07,
+            "thickness": 21.67,
+            "conic": -0.663,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -3.0506e-05
+            }
+          },
+          {
+            "index": 12,
+            "radius": 276.45,
+            "thickness": 5.55,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5,
+              "abbe": 40.0
+            },
+            "conic": 84.1,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -1.2911e-05
+            }
+          },
+          {
+            "index": 13,
+            "radius": -30.04,
+            "thickness": 22.93,
+            "conic": -0.84,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -1.3875e-05
+            }
+          },
+          {
+            "index": 14,
+            "radius": 22.88,
+            "thickness": 5.46,
+            "material": "E-LASF015"
+          },
+          {
+            "index": 15,
+            "radius": -26.5,
+            "thickness": 1.6,
+            "material": "N-SF1"
+          },
+          {
+            "index": 16,
+            "radius": -300.05,
+            "thickness": 8.92
+          },
+          {
+            "index": 17,
+            "radius": -10.42,
+            "thickness": 1.1,
+            "material": "N-SF57"
+          },
+          {
+            "index": 18,
+            "radius": 14.5,
+            "thickness": 2.84
+          },
+          {
+            "index": 19,
+            "radius": -25.38,
+            "thickness": 4.81,
+            "material": "E-LASF015"
+          },
+          {
+            "index": 20,
+            "radius": -14.060000000000002,
+            "thickness": 0.44
+          },
+          {
+            "index": 21,
+            "radius": -200.43,
+            "thickness": 4.72,
+            "material": "MC-LAC130"
+          },
+          {
+            "index": 22,
+            "radius": -14.94,
+            "thickness": 16.8,
+            "conic": 0.116,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -6.4822e-06
+            }
+          },
+          {
+            "index": 23,
+            "radius": "inf",
+            "thickness": 10.8,
+            "material": "N-BK7"
+          },
+          {
+            "index": 24,
+            "radius": "inf",
+            "thickness": 22.8,
+            "material": "N-BK7"
+          },
+          {
+            "index": 25,
+            "radius": "inf",
+            "thickness": 10.0,
+            "material": "N-BK7"
+          },
+          {
+            "index": 26,
+            "radius": "inf",
+            "thickness": 7.429610327153
+          },
+          {
+            "index": 27,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "collimated",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.0
+      ],
+      [
+        0.0,
+        20.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "entrance_pupil_diameter": 6.0
+  }
+}

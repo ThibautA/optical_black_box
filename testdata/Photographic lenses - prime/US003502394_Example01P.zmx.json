@@ -1,0 +1,161 @@
+{
+  "name": "US 3,502,394 Example 1 (Ricoh Pentax Super-Takumar 300mm f4)",
+  "description": "Prepared and converted by Bill Claff.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 13,
+    "source_file": "US003502394_Example01P.zmx",
+    "zmx_name": "US 3,502,394 Example 1 (Ricoh Pentax Super-Takumar 300mm f4)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US 3,502,394 Example 1 (Ricoh Pentax Super-Takumar 300mm f4)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 120.75000000000004,
+            "thickness": 13.2,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.50977,
+              "abbe": 61.9
+            }
+          },
+          {
+            "index": 2,
+            "radius": -846.0299999999997,
+            "thickness": 16.05
+          },
+          {
+            "index": 3,
+            "radius": -223.51500000000016,
+            "thickness": 3.0,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.71736,
+              "abbe": 29.5
+            }
+          },
+          {
+            "index": 4,
+            "radius": 480.9899999999998,
+            "thickness": 0.3
+          },
+          {
+            "index": 5,
+            "radius": 84.66600000000025,
+            "thickness": 10.5,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.48749,
+              "abbe": 70.0
+            }
+          },
+          {
+            "index": 6,
+            "radius": 1035.3299999999997,
+            "thickness": 82.0
+          },
+          {
+            "index": 7,
+            "radius": "inf",
+            "thickness": 29.0,
+            "is_stop": true
+          },
+          {
+            "index": 8,
+            "radius": -37.649999999999956,
+            "thickness": 1.5,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.72916,
+              "abbe": 54.8
+            }
+          },
+          {
+            "index": 9,
+            "radius": 210.3780000000001,
+            "thickness": 2.628
+          },
+          {
+            "index": 10,
+            "radius": 122.39999999999993,
+            "thickness": 3.0,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.762,
+              "abbe": 40.3
+            }
+          },
+          {
+            "index": 11,
+            "radius": -87.74099999999986,
+            "thickness": 74.84
+          },
+          {
+            "index": 12,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.12
+      ],
+      [
+        0.0,
+        21.6
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 4.0
+  }
+}

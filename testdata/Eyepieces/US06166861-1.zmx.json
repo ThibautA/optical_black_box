@@ -1,0 +1,141 @@
+{
+  "name": "US06166861-1",
+  "description": "Imported from Zemax: US06166861-1.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Eyepiece design for visual observation",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 13,
+    "source_file": "US06166861-1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US06166861-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 3.3,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 15.98,
+            "is_stop": true
+          },
+          {
+            "index": 2,
+            "radius": "inf",
+            "thickness": 5.549,
+            "material": "N-SK5"
+          },
+          {
+            "index": 3,
+            "radius": -23.117,
+            "thickness": 0.516
+          },
+          {
+            "index": 4,
+            "radius": 151.866,
+            "thickness": 4.287,
+            "material": "N-SK5"
+          },
+          {
+            "index": 5,
+            "radius": -50.228,
+            "thickness": 0.516
+          },
+          {
+            "index": 6,
+            "radius": 30.821999999999996,
+            "thickness": 8.048,
+            "material": "N-SK5"
+          },
+          {
+            "index": 7,
+            "radius": -30.821999999999996,
+            "thickness": 0.0
+          },
+          {
+            "index": 8,
+            "radius": -30.821999999999996,
+            "thickness": 2.396,
+            "material": "FD110"
+          },
+          {
+            "index": 9,
+            "radius": 35.537,
+            "thickness": 3.368
+          },
+          {
+            "index": 10,
+            "radius": 24.089,
+            "thickness": 4.967,
+            "material": "N-SK5"
+          },
+          {
+            "index": 11,
+            "radius": 141.075,
+            "thickness": 4.521805508168
+          },
+          {
+            "index": 12,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "collimated",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        21.0
+      ],
+      [
+        0.0,
+        32.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "entrance_pupil_diameter": 3.3
+  }
+}

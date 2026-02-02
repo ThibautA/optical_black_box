@@ -1,0 +1,204 @@
+{
+  "name": "Techwin DSC",
+  "description": "US pat #7,106,522; filed 2004; 1/2 diag field = 3.6mm",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 16,
+    "source_file": "US07106522-1.ZMX",
+    "zmx_name": "Techwin DSC"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "Techwin DSC",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 7.678299688158
+          },
+          {
+            "index": 2,
+            "radius": 184.865,
+            "thickness": 1.32,
+            "material": "M-NBFD130",
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -0.000149652,
+              "A6": 1.1782e-05,
+              "A8": -2.6574e-07,
+              "A10": 2.27204e-09
+            }
+          },
+          {
+            "index": 3,
+            "radius": 5.385,
+            "thickness": 1.59,
+            "conic": -0.029739,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -0.000633576,
+              "A6": -2.0221e-06,
+              "A8": 3.49313e-07,
+              "A10": -3.82755e-08
+            }
+          },
+          {
+            "index": 4,
+            "radius": 8.83,
+            "thickness": 1.86,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.8467,
+              "abbe": 23.78
+            }
+          },
+          {
+            "index": 5,
+            "radius": 25.847,
+            "thickness": 6.043
+          },
+          {
+            "index": 6,
+            "radius": "inf",
+            "thickness": 0.22,
+            "is_stop": true
+          },
+          {
+            "index": 7,
+            "radius": 4.326,
+            "thickness": 2.09,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.6935,
+              "abbe": 53.2
+            },
+            "conic": -1.173577,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": 0.00102349,
+              "A6": -7.375e-05,
+              "A8": 8.32566e-06,
+              "A10": -2.11766e-06
+            }
+          },
+          {
+            "index": 8,
+            "radius": -16.927,
+            "thickness": 0.22,
+            "conic": 0.177981,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": 0.000211388,
+              "A6": -1.19775e-05,
+              "A8": -2.92611e-05,
+              "A10": 1.24517e-06
+            }
+          },
+          {
+            "index": 9,
+            "radius": 16.431,
+            "thickness": 0.94,
+            "material": "M-FDS910"
+          },
+          {
+            "index": 10,
+            "radius": 3.7789999999999995,
+            "thickness": 11.563,
+            "conic": 0.129121,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": 0.00200441,
+              "A6": -0.000233347,
+              "A8": 0.000182909,
+              "A10": -2.02375e-05
+            }
+          },
+          {
+            "index": 11,
+            "radius": 51.571,
+            "thickness": 1.59,
+            "material": "MC-TAF101-100"
+          },
+          {
+            "index": 12,
+            "radius": -19.128,
+            "thickness": 1.872
+          },
+          {
+            "index": 13,
+            "radius": "inf",
+            "thickness": 2.0,
+            "material": "N-BK7"
+          },
+          {
+            "index": 14,
+            "radius": "inf",
+            "thickness": 1.013700311805
+          },
+          {
+            "index": 15,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        11.0
+      ],
+      [
+        0.0,
+        17.78
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 4.14
+  }
+}

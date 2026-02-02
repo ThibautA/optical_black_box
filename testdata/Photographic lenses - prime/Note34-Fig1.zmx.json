@@ -1,0 +1,137 @@
+{
+  "name": "NIKKOR-H·C 5cm F2",
+  "description": "according to http://www.nikkor.com/story/0034/",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 12,
+    "source_file": "Note34-Fig1.zmx",
+    "zmx_name": "NIKKOR-H·C 5cm F2"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "NIKKOR-H·C 5cm F2",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 26.501847672581935,
+            "thickness": 4.021045025579,
+            "material": "S-LAL58"
+          },
+          {
+            "index": 2,
+            "radius": 92.26999875708788,
+            "thickness": 0.3148664275894
+          },
+          {
+            "index": 3,
+            "radius": 16.62796009055878,
+            "thickness": 3.843954551738,
+            "material": "S-BSM18"
+          },
+          {
+            "index": 4,
+            "radius": 35.275590767164864,
+            "thickness": 3.442646614148,
+            "material": "H-QK3L"
+          },
+          {
+            "index": 5,
+            "radius": "inf",
+            "thickness": 1.462160781516,
+            "material": "S-BAH27"
+          },
+          {
+            "index": 6,
+            "radius": 11.22323471810115,
+            "thickness": 4.27912869277
+          },
+          {
+            "index": 7,
+            "radius": "inf",
+            "thickness": 1.734913392847,
+            "is_stop": true
+          },
+          {
+            "index": 8,
+            "radius": -96.54042561311755,
+            "thickness": 2.042907222767,
+            "material": "S-NBM51"
+          },
+          {
+            "index": 9,
+            "radius": 17.300629219778756,
+            "thickness": 8.796515435695,
+            "material": "S-LAL59"
+          },
+          {
+            "index": 10,
+            "radius": -44.6381991711093,
+            "thickness": 24.68675530571
+          },
+          {
+            "index": 11,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        11.0
+      ],
+      [
+        0.0,
+        22.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 2.0
+  }
+}

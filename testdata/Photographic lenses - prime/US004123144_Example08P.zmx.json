@@ -1,0 +1,166 @@
+{
+  "name": "US 4,123,144 Example 8 (Leica Summicron R 50mm f/2)",
+  "description": "Prepared and converted by Bill Claff. See:; https://www.PhotonsToPhotos.net/Lenses/OpticalBench/OpticalBench.htm#/Data/US004123144_Example08P.txt",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 13,
+    "source_file": "US004123144_Example08P.zmx",
+    "zmx_name": "US 4,123,144 Example 8 (Leica Summicron R 50mm f/2)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US 4,123,144 Example 8 (Leica Summicron R 50mm f/2)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 42.71000000000008,
+            "thickness": 3.99,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.7343,
+              "abbe": 28.19
+            }
+          },
+          {
+            "index": 2,
+            "radius": 195.38000000000008,
+            "thickness": 0.2
+          },
+          {
+            "index": 3,
+            "radius": 20.49999999999998,
+            "thickness": 7.18,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.67133,
+              "abbe": 41.64
+            }
+          },
+          {
+            "index": 4,
+            "radius": "inf",
+            "thickness": 1.29,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.7919,
+              "abbe": 25.55
+            }
+          },
+          {
+            "index": 5,
+            "radius": 14.939999999999994,
+            "thickness": 5.35
+          },
+          {
+            "index": 6,
+            "radius": "inf",
+            "thickness": 7.61,
+            "is_stop": true
+          },
+          {
+            "index": 7,
+            "radius": -14.939999999999994,
+            "thickness": 1.0,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.65222,
+              "abbe": 33.6
+            }
+          },
+          {
+            "index": 8,
+            "radius": "inf",
+            "thickness": 5.22,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.79227,
+              "abbe": 47.15
+            }
+          },
+          {
+            "index": 9,
+            "radius": -20.49999999999998,
+            "thickness": 0.2
+          },
+          {
+            "index": 10,
+            "radius": "inf",
+            "thickness": 3.69,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.79227,
+              "abbe": 47.15
+            }
+          },
+          {
+            "index": 11,
+            "radius": -42.71000000000008,
+            "thickness": 37.32
+          },
+          {
+            "index": 12,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "collimated",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.12
+      ],
+      [
+        0.0,
+        21.6
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "float_by_stop_size": 9.0295
+  }
+}

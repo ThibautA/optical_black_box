@@ -1,0 +1,164 @@
+{
+  "name": "US03006249-1",
+  "description": "ject to the following conditions:; TH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 17,
+    "source_file": "US03006249-1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US03006249-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 6.35,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 22.098486156,
+            "thickness": 1.7526,
+            "material": "N-LAF2"
+          },
+          {
+            "index": 2,
+            "radius": 30.836469594400004,
+            "thickness": 0.1524
+          },
+          {
+            "index": 3,
+            "radius": 8.4075336802,
+            "thickness": 2.6416,
+            "material": "N-LAF2"
+          },
+          {
+            "index": 4,
+            "radius": 37.5684070322,
+            "thickness": 0.762,
+            "material": "N-SF5"
+          },
+          {
+            "index": 5,
+            "radius": 6.146846710599999,
+            "thickness": 1.3716
+          },
+          {
+            "index": 6,
+            "radius": 12.547547295,
+            "thickness": 1.1176,
+            "material": "N-LAK10"
+          },
+          {
+            "index": 7,
+            "radius": 15.418234797200002,
+            "thickness": 1.778
+          },
+          {
+            "index": 8,
+            "radius": "inf",
+            "thickness": 0.762,
+            "is_stop": true
+          },
+          {
+            "index": 9,
+            "radius": -29.945767515,
+            "thickness": 1.1176,
+            "material": "N-LAK10"
+          },
+          {
+            "index": 10,
+            "radius": -13.258860985399998,
+            "thickness": 0.9906
+          },
+          {
+            "index": 11,
+            "radius": -6.6547893573999986,
+            "thickness": 0.762,
+            "material": "N-SF15"
+          },
+          {
+            "index": 12,
+            "radius": -46.25751228539999,
+            "thickness": 2.6416,
+            "material": "N-LAF2"
+          },
+          {
+            "index": 13,
+            "radius": -8.7375300992,
+            "thickness": 1.524
+          },
+          {
+            "index": 14,
+            "radius": -21.4129151878,
+            "thickness": 2.2606,
+            "material": "N-LAF2"
+          },
+          {
+            "index": 15,
+            "radius": -15.722686486999997,
+            "thickness": 16.54417567159
+          },
+          {
+            "index": 16,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "collimated",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        21.0
+      ],
+      [
+        0.0,
+        31.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "entrance_pupil_diameter": 6.35
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "name": "W-Nikkor 3.5cm F2.5",
+  "description": "according to http://nikkor.com/story/0037/",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 13,
+    "source_file": "Note37-Fig1.zmx",
+    "zmx_name": "W-Nikkor 3.5cm F2.5"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "W-Nikkor 3.5cm F2.5",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 27.49445364800474,
+            "thickness": 2.570178509156,
+            "material": "H-F1"
+          },
+          {
+            "index": 2,
+            "radius": 130.6110869189406,
+            "thickness": 0.2319651844682
+          },
+          {
+            "index": 3,
+            "radius": 12.397458068988513,
+            "thickness": 3.717197848896,
+            "material": "S-PHM52"
+          },
+          {
+            "index": 4,
+            "radius": 68.77945993934472,
+            "thickness": 1.023890401577,
+            "material": "S-TIM2"
+          },
+          {
+            "index": 5,
+            "radius": 9.134085740111939,
+            "thickness": 2.773312242842
+          },
+          {
+            "index": 6,
+            "radius": "inf",
+            "thickness": 1.993416942942,
+            "is_stop": true
+          },
+          {
+            "index": 7,
+            "radius": -12.607388493758922,
+            "thickness": 1.040213979099,
+            "material": "S-TIM2"
+          },
+          {
+            "index": 8,
+            "radius": 30.890236681120847,
+            "thickness": 4.090030792174,
+            "material": "S-LAH66"
+          },
+          {
+            "index": 9,
+            "radius": -17.603049667753588,
+            "thickness": 0.182312543411
+          },
+          {
+            "index": 10,
+            "radius": 201.73919664878747,
+            "thickness": 2.705277210398,
+            "material": "S-FSL5"
+          },
+          {
+            "index": 11,
+            "radius": -31.371807069671398,
+            "thickness": 25.13923574828
+          },
+          {
+            "index": 12,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.0
+      ],
+      [
+        0.0,
+        21.0
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 2.5
+  }
+}

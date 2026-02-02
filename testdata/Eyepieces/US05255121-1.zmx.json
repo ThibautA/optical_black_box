@@ -1,0 +1,171 @@
+{
+  "name": "US05255121-1",
+  "description": "Imported from Zemax: US05255121-1.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Eyepiece design for visual observation",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 17,
+    "source_file": "US05255121-1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US05255121-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 19.39704100095,
+            "is_stop": true
+          },
+          {
+            "index": 2,
+            "radius": -39.6789,
+            "thickness": 2.0,
+            "material": "N-SF57"
+          },
+          {
+            "index": 3,
+            "radius": 224.4094,
+            "thickness": 7.8,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5,
+              "abbe": 40.0
+            }
+          },
+          {
+            "index": 4,
+            "radius": -22.932900000000004,
+            "thickness": 0.15
+          },
+          {
+            "index": 5,
+            "radius": 90.5779,
+            "thickness": 5.5,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5,
+              "abbe": 40.0
+            }
+          },
+          {
+            "index": 6,
+            "radius": -77.0584,
+            "thickness": 0.2
+          },
+          {
+            "index": 7,
+            "radius": 34.6242,
+            "thickness": 6.7,
+            "material": "N-SK14"
+          },
+          {
+            "index": 8,
+            "radius": -258.591,
+            "thickness": 3.8
+          },
+          {
+            "index": 9,
+            "radius": -92.83200000000001,
+            "thickness": 3.5,
+            "material": "E-SF4"
+          },
+          {
+            "index": 10,
+            "radius": 68.3048,
+            "thickness": 14.4967
+          },
+          {
+            "index": 11,
+            "radius": "inf",
+            "thickness": 8.001
+          },
+          {
+            "index": 12,
+            "radius": 51.97339999999999,
+            "thickness": 4.5,
+            "material": "E-SF4"
+          },
+          {
+            "index": 13,
+            "radius": 675.2436,
+            "thickness": 4.5
+          },
+          {
+            "index": 14,
+            "radius": -38.1555,
+            "thickness": 3.0,
+            "material": "E-SF4"
+          },
+          {
+            "index": 15,
+            "radius": -97.2143,
+            "thickness": -14.89397866991
+          },
+          {
+            "index": 16,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        9.0
+      ],
+      [
+        0.0,
+        13.0
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 4.0
+  }
+}

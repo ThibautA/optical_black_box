@@ -1,0 +1,125 @@
+{
+  "name": "Note48-Fig1",
+  "description": "Imported from Zemax: Note48-Fig1.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 10,
+    "source_file": "Note48-Fig1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "Note48-Fig1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 330.2318884571715,
+            "thickness": 48.86145128267,
+            "material": "S-BAL14",
+            "is_stop": true
+          },
+          {
+            "index": 2,
+            "radius": -389.5754029874603,
+            "thickness": 21.59318603273,
+            "material": "S-TIM25"
+          },
+          {
+            "index": 3,
+            "radius": 1637.920037608029,
+            "thickness": 341.0210824142
+          },
+          {
+            "index": 4,
+            "radius": 453.3123647472898,
+            "thickness": 71.31752526333,
+            "material": "S-PHM52"
+          },
+          {
+            "index": 5,
+            "radius": -2375.583170904219,
+            "thickness": 22.96699799535
+          },
+          {
+            "index": 6,
+            "radius": -13238.80329357386,
+            "thickness": 151.6318276464
+          },
+          {
+            "index": 7,
+            "radius": -227.7480559880409,
+            "thickness": 13.4016777389,
+            "material": "S-TIL1"
+          },
+          {
+            "index": 8,
+            "radius": -1996.111083179736,
+            "thickness": 67.07062110133
+          },
+          {
+            "index": 9,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        4.0
+      ],
+      [
+        0.0,
+        6.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 4.0
+  }
+}

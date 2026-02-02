@@ -1,0 +1,114 @@
+{
+  "name": "HoO-V2C18Ex33",
+  "description": "Imported from Zemax: HoO-V2C18Ex33.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Telescope optical system",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 8,
+    "source_file": "HoO-V2C18Ex33.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "HoO-V2C18Ex33",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 1.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 30.0,
+            "thickness": 30.0
+          },
+          {
+            "index": 2,
+            "radius": 12.467,
+            "thickness": -9.684
+          },
+          {
+            "index": 3,
+            "radius": -4.81,
+            "thickness": -1.267,
+            "material": "N-FK51"
+          },
+          {
+            "index": 4,
+            "radius": -3.762,
+            "thickness": -3.679
+          },
+          {
+            "index": 5,
+            "radius": "inf",
+            "thickness": -17.189,
+            "is_stop": true
+          },
+          {
+            "index": 6,
+            "radius": 15.979999999999999,
+            "thickness": 10.64
+          },
+          {
+            "index": 7,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "collimated",
+    "wavelengths": [
+      550.0
+    ],
+    "field_points": [
+      [
+        0.0,
+        20.0
+      ],
+      [
+        0.0,
+        40.0
+      ],
+      [
+        0.0,
+        60.0
+      ],
+      [
+        0.0,
+        80.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "entrance_pupil_diameter": 1.0
+  }
+}

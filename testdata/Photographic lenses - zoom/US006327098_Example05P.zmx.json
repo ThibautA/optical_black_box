@@ -1,0 +1,249 @@
+{
+  "name": "US 6,327,098 Example 5 (Ricoh smc Pentax-FA 20-35mm F4AL)",
+  "description": "Prepared and converted by Bill Claff. See:; https://www.PhotonsToPhotos.net/Lenses/OpticalBench/OpticalBench.htm#/Data/US006327098_Example05P.txt",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 22,
+    "source_file": "US006327098_Example05P.zmx",
+    "zmx_name": "US 6,327,098 Example 5 (Ricoh smc Pentax-FA 20-35mm F4AL)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US 6,327,098 Example 5 (Ricoh smc Pentax-FA 20-35mm F4AL)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 54.9000000000001,
+            "thickness": 1.5,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.7725,
+              "abbe": 49.6
+            }
+          },
+          {
+            "index": 2,
+            "radius": 17.92899999999999,
+            "thickness": 7.3
+          },
+          {
+            "index": 3,
+            "radius": 71.7000000000002,
+            "thickness": 1.5,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.804,
+              "abbe": 46.6
+            }
+          },
+          {
+            "index": 4,
+            "radius": 24.600000000000026,
+            "thickness": 0.28,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.53256,
+              "abbe": 45.9
+            }
+          },
+          {
+            "index": 5,
+            "radius": 19.581000000000014,
+            "thickness": 8.93,
+            "conic": -1.0,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -9.67e-06,
+              "A6": -1.87e-08,
+              "A8": -8.47e-11
+            }
+          },
+          {
+            "index": 6,
+            "radius": 37.34999999999993,
+            "thickness": 3.05,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.84666,
+              "abbe": 23.8
+            }
+          },
+          {
+            "index": 7,
+            "radius": 84.31800000000011,
+            "thickness": 14.651
+          },
+          {
+            "index": 8,
+            "radius": 56.40499999999992,
+            "thickness": 5.0,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.51742,
+              "abbe": 52.4
+            }
+          },
+          {
+            "index": 9,
+            "radius": -23.706999999999987,
+            "thickness": 1.5,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.804,
+              "abbe": 46.6
+            }
+          },
+          {
+            "index": 10,
+            "radius": -59.15500000000003,
+            "thickness": 8.485
+          },
+          {
+            "index": 11,
+            "radius": "inf",
+            "thickness": 1.7,
+            "is_stop": true
+          },
+          {
+            "index": 12,
+            "radius": "inf",
+            "thickness": 2.73,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.61772,
+              "abbe": 49.8
+            }
+          },
+          {
+            "index": 13,
+            "radius": -33.20900000000002,
+            "thickness": 0.1
+          },
+          {
+            "index": 14,
+            "radius": 24.406000000000002,
+            "thickness": 5.4,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.48749,
+              "abbe": 70.2
+            }
+          },
+          {
+            "index": 15,
+            "radius": -24.406000000000002,
+            "thickness": 1.5,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.8061,
+              "abbe": 40.9
+            }
+          },
+          {
+            "index": 16,
+            "radius": 134.99999999999994,
+            "thickness": 8.38
+          },
+          {
+            "index": 17,
+            "radius": 46.23799999999993,
+            "thickness": 2.08,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.84666,
+              "abbe": 23.8
+            }
+          },
+          {
+            "index": 18,
+            "radius": 21.50000000000002,
+            "thickness": 1.73
+          },
+          {
+            "index": 19,
+            "radius": -138.99999999999994,
+            "thickness": 3.0,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.58913,
+              "abbe": 61.2
+            }
+          },
+          {
+            "index": 20,
+            "radius": -22.003000000000014,
+            "thickness": 36.91,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": 2.53e-06,
+              "A6": -6.23e-09,
+              "A8": -2.97e-10
+            }
+          },
+          {
+            "index": 21,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "collimated",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.12
+      ],
+      [
+        0.0,
+        21.6
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "float_by_stop_size": 6.7615
+  }
+}

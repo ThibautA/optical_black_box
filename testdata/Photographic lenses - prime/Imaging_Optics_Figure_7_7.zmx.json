@@ -1,0 +1,118 @@
+{
+  "name": "Aprochromatic collimator (365 to 1050 nm), Imaging Optics p. 434",
+  "description": "With the aid of FK51 and BaK2/F2 glasses apochromatic bahaviour is obtained for the wavelength region from 365 nm to 1050 nm.; f = 100mm, NA = 0.10.; ================",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 8,
+    "source_file": "Imaging_Optics_Figure_7_7.zmx",
+    "zmx_name": "Aprochromatic collimator (365 to 1050 nm), Imaging Optics p. 434"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "Aprochromatic collimator (365 to 1050 nm), Imaging Optics p. 434",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": 100000.0,
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 47.841599999999275,
+            "thickness": 4.0,
+            "material": "N-FK51"
+          },
+          {
+            "index": 2,
+            "radius": -41.318699999996724,
+            "thickness": 1.5,
+            "material": "N-BAK2"
+          },
+          {
+            "index": 3,
+            "radius": 26.062000000002115,
+            "thickness": 4.0,
+            "material": "N-FK51"
+          },
+          {
+            "index": 4,
+            "radius": "inf",
+            "thickness": 2.0,
+            "material": "N-F2",
+            "is_stop": true
+          },
+          {
+            "index": 5,
+            "radius": -189.6924999999916,
+            "thickness": 93.695
+          },
+          {
+            "index": 6,
+            "radius": "inf",
+            "thickness": 0.0
+          },
+          {
+            "index": 7,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "point_source",
+    "wavelengths": [
+      365.0,
+      390.0,
+      420.0,
+      450.0,
+      480.0,
+      550.0,
+      650.0,
+      850.0,
+      1050.0
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "object_na": 0.0001,
+    "object_distance": 100000.0
+  }
+}

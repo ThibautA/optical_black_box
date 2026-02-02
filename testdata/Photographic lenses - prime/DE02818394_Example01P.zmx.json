@@ -1,0 +1,136 @@
+{
+  "name": "DE 2818394 Example 1 (Rodenstock Geronar 210mm f6.8)",
+  "description": "Prepared and converted by Bill Claff.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 10,
+    "source_file": "DE02818394_Example01P.zmx",
+    "zmx_name": "DE 2818394 Example 1 (Rodenstock Geronar 210mm f6.8)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "DE 2818394 Example 1 (Rodenstock Geronar 210mm f6.8)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 33.28999999999999,
+            "thickness": 5.25,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.6229,
+              "abbe": 60.07
+            }
+          },
+          {
+            "index": 2,
+            "radius": -1030.28,
+            "thickness": 3.4
+          },
+          {
+            "index": 3,
+            "radius": -151.40999999999994,
+            "thickness": 0.8,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.551,
+              "abbe": 45.47
+            }
+          },
+          {
+            "index": 4,
+            "radius": 30.52999999999997,
+            "thickness": 5.55
+          },
+          {
+            "index": 5,
+            "radius": "inf",
+            "thickness": 10.7
+          },
+          {
+            "index": 6,
+            "radius": "inf",
+            "thickness": 4.81,
+            "is_stop": true
+          },
+          {
+            "index": 7,
+            "radius": 377.58000000000004,
+            "thickness": 8.11,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5187,
+              "abbe": 63.96
+            }
+          },
+          {
+            "index": 8,
+            "radius": -141.39000000000001,
+            "thickness": 177.95
+          },
+          {
+            "index": 9,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        73.5
+      ],
+      [
+        0.0,
+        105.0
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 6.8
+  }
+}

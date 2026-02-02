@@ -1,0 +1,295 @@
+{
+  "name": "US 6,128,140 Example 4 (Ricoh smc Pentax-FA 24-90mm F3.5-4.5 AL [IF])",
+  "description": "Prepared and converted by Bill Claff. See:; https://www.PhotonsToPhotos.net/Lenses/OpticalBench/OpticalBench.htm#/Data/US006128140_Example04P.txt",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 28,
+    "source_file": "US006128140_Example04P.zmx",
+    "zmx_name": "US 6,128,140 Example 4 (Ricoh smc Pentax-FA 24-90mm F3.5-4.5 AL [IF])"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US 6,128,140 Example 4 (Ricoh smc Pentax-FA 24-90mm F3.5-4.5 AL [IF])",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 445.9199999999995,
+            "thickness": 1.8,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.84666,
+              "abbe": 23.8
+            }
+          },
+          {
+            "index": 2,
+            "radius": 81.22399999999992,
+            "thickness": 5.75,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.7725,
+              "abbe": 49.6
+            }
+          },
+          {
+            "index": 3,
+            "radius": -2385.6740000000013,
+            "thickness": 0.1
+          },
+          {
+            "index": 4,
+            "radius": 47.973999999999975,
+            "thickness": 4.73,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.7725,
+              "abbe": 49.6
+            }
+          },
+          {
+            "index": 5,
+            "radius": 128.25200000000004,
+            "thickness": 12.2
+          },
+          {
+            "index": 6,
+            "radius": 159.75000000000003,
+            "thickness": 0.3,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5263,
+              "abbe": 51.1
+            },
+            "conic": -1.0,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": 1.909e-05,
+              "A6": -4.356e-08,
+              "A8": 1e-10
+            }
+          },
+          {
+            "index": 7,
+            "radius": 102.0,
+            "thickness": 1.3,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.83481,
+              "abbe": 42.7
+            }
+          },
+          {
+            "index": 8,
+            "radius": 14.371999999999996,
+            "thickness": 5.73
+          },
+          {
+            "index": 9,
+            "radius": -40.94900000000005,
+            "thickness": 4.85,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.51742,
+              "abbe": 52.4
+            }
+          },
+          {
+            "index": 10,
+            "radius": -16.569999999999997,
+            "thickness": 1.2,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.83481,
+              "abbe": 42.7
+            }
+          },
+          {
+            "index": 11,
+            "radius": -234.00000000000023,
+            "thickness": 0.11
+          },
+          {
+            "index": 12,
+            "radius": 52.96899999999996,
+            "thickness": 4.23,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.84666,
+              "abbe": 23.8
+            }
+          },
+          {
+            "index": 13,
+            "radius": -26.249999999999996,
+            "thickness": 0.23
+          },
+          {
+            "index": 14,
+            "radius": -23.44000000000002,
+            "thickness": 1.2,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.804,
+              "abbe": 46.6
+            }
+          },
+          {
+            "index": 15,
+            "radius": -354.60000000000025,
+            "thickness": 6.58
+          },
+          {
+            "index": 16,
+            "radius": "inf",
+            "thickness": 1.2,
+            "is_stop": true
+          },
+          {
+            "index": 17,
+            "radius": 37.77999999999994,
+            "thickness": 4.52,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.618,
+              "abbe": 63.4
+            }
+          },
+          {
+            "index": 18,
+            "radius": -46.69399999999994,
+            "thickness": 0.1
+          },
+          {
+            "index": 19,
+            "radius": 21.72999999999999,
+            "thickness": 4.4,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.48749,
+              "abbe": 70.2
+            }
+          },
+          {
+            "index": 20,
+            "radius": 599.9999999999987,
+            "thickness": 2.5
+          },
+          {
+            "index": 21,
+            "radius": -38.75400000000004,
+            "thickness": 1.2,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.84666,
+              "abbe": 23.8
+            }
+          },
+          {
+            "index": 22,
+            "radius": 90.46699999999976,
+            "thickness": 4.02
+          },
+          {
+            "index": 23,
+            "radius": 42.227000000000075,
+            "thickness": 5.0,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.60311,
+              "abbe": 60.7
+            }
+          },
+          {
+            "index": 24,
+            "radius": -24.139999999999976,
+            "thickness": 0.1
+          },
+          {
+            "index": 25,
+            "radius": -376.14699999999976,
+            "thickness": 2.0,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.75041,
+              "abbe": 45.4
+            },
+            "conic": -1.0,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -4.1e-05,
+              "A6": -5.54e-08,
+              "A8": -3.629e-10
+            }
+          },
+          {
+            "index": 26,
+            "radius": 34.999999999999964,
+            "thickness": 56.99105379341281
+          },
+          {
+            "index": 27,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "collimated",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.12
+      ],
+      [
+        0.0,
+        21.6
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "float_by_stop_size": 7.7435
+  }
+}

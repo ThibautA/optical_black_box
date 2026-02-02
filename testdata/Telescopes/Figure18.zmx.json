@@ -1,0 +1,146 @@
+{
+  "name": "Baker Super - Schmidt",
+  "description": "From the Handbook of optics. Chapter 18. Reflective and Catadioptric Objectives Lloyd Jones",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Telescope optical system",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 14,
+    "source_file": "Figure18.zmx",
+    "zmx_name": "Baker Super - Schmidt"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "Baker Super - Schmidt",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 10.0
+          },
+          {
+            "index": 2,
+            "radius": 22.5,
+            "thickness": 4.28,
+            "material": "N-BK7"
+          },
+          {
+            "index": 3,
+            "radius": 19.13,
+            "thickness": 21.7070169363
+          },
+          {
+            "index": 4,
+            "radius": "inf",
+            "thickness": -1.9570169363,
+            "is_stop": true
+          },
+          {
+            "index": 5,
+            "radius": 11783.0,
+            "thickness": 1.4,
+            "material": "N-F2"
+          },
+          {
+            "index": 6,
+            "radius": -135.5,
+            "thickness": 1.3,
+            "material": "N-SK4"
+          },
+          {
+            "index": 7,
+            "radius": "inf",
+            "thickness": 23.92
+          },
+          {
+            "index": 8,
+            "radius": -29.309999999999995,
+            "thickness": 4.28,
+            "material": "N-BK7"
+          },
+          {
+            "index": 9,
+            "radius": -32.42,
+            "thickness": 25.1
+          },
+          {
+            "index": 10,
+            "radius": -55.0,
+            "thickness": -25.1
+          },
+          {
+            "index": 11,
+            "radius": -32.42,
+            "thickness": -4.28,
+            "material": "N-BK7"
+          },
+          {
+            "index": 12,
+            "radius": -29.309999999999995,
+            "thickness": -1.374428977584
+          },
+          {
+            "index": 13,
+            "radius": -24.39277010352943,
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        10.0
+      ],
+      [
+        0.0,
+        20.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 1.2
+  }
+}

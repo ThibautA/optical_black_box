@@ -1,0 +1,123 @@
+{
+  "name": "Anastigmatic 8-meter Couder telescope; Imaging Optics p.482.",
+  "description": "Notes...; Hyperbola-ellipsoid sequence; f = 20 meter, NA = 0.20, field is 2 x 2.5 mrad.; ========",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Telescope optical system",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 7,
+    "source_file": "Imaging_Optics_Figure_7_46.zmx",
+    "zmx_name": "Anastigmatic 8-meter Couder telescope; Imaging Optics p.482."
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "Anastigmatic 8-meter Couder telescope; Imaging Optics p.482.",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 40.0
+          },
+          {
+            "index": 2,
+            "radius": -114.2857000000018,
+            "thickness": -40.0,
+            "conic": -8.20189,
+            "is_stop": true
+          },
+          {
+            "index": 3,
+            "radius": 18.461500000001358,
+            "thickness": 6.0,
+            "conic": -0.68948
+          },
+          {
+            "index": 4,
+            "radius": "inf",
+            "thickness": 0.0004
+          },
+          {
+            "index": 5,
+            "radius": "inf",
+            "thickness": 0.0
+          },
+          {
+            "index": 6,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      550.0
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.05
+      ],
+      [
+        0.0,
+        0.1
+      ],
+      [
+        0.0,
+        0.2
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "vignetting_x": [
+      0.0,
+      0.0002851771354675,
+      0.001799763393402,
+      0.01018721399307
+    ],
+    "vignetting_y": [
+      0.0,
+      0.02695448503494,
+      0.06739622716904,
+      0.1486783871651
+    ],
+    "telecentric": false,
+    "image_fno": 2.5,
+    "object_distance": 1999992.0
+  }
+}

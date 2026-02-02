@@ -1,0 +1,136 @@
+{
+  "name": "NIKKOR-P.C 10.5cm f/2.5",
+  "description": "according to http://nikkor.com/story/0045/",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 12,
+    "source_file": "Note45-Fig1.zmx",
+    "zmx_name": "NIKKOR-P.C 10.5cm f/2.5"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "NIKKOR-P.C 10.5cm f/2.5",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 81.07345833162196,
+            "thickness": 7.389040446423,
+            "material": "S-BSM16"
+          },
+          {
+            "index": 2,
+            "radius": 516.9830858569463,
+            "thickness": 0.1868760450194
+          },
+          {
+            "index": 3,
+            "radius": 40.09862540087306,
+            "thickness": 6.635229493184,
+            "material": "S-BSM25"
+          },
+          {
+            "index": 4,
+            "radius": 84.78591726934636,
+            "thickness": 24.81420173672,
+            "material": "S-TIM2"
+          },
+          {
+            "index": 5,
+            "radius": -178.46221753891297,
+            "thickness": 1.873072678575,
+            "material": "S-NPH1"
+          },
+          {
+            "index": 6,
+            "radius": 26.044661950914787,
+            "thickness": 5.09398871037
+          },
+          {
+            "index": 7,
+            "radius": "inf",
+            "thickness": 12.8279837566,
+            "is_stop": true
+          },
+          {
+            "index": 8,
+            "radius": "inf",
+            "thickness": 5.414602368957
+          },
+          {
+            "index": 9,
+            "radius": 61.597908203074645,
+            "thickness": 10.2018080819,
+            "material": "S-TIH13"
+          },
+          {
+            "index": 10,
+            "radius": 472.8715555929804,
+            "thickness": 34.65376382921
+          },
+          {
+            "index": 11,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.0
+      ],
+      [
+        0.0,
+        21.0
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 2.5
+  }
+}

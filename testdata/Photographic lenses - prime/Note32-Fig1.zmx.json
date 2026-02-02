@@ -1,0 +1,152 @@
+{
+  "name": "Ai AF Nikkor 85mm f/1.8S",
+  "description": "according to http://nikkor.com/story/0032/",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 15,
+    "source_file": "Note32-Fig1.zmx",
+    "zmx_name": "Ai AF Nikkor 85mm f/1.8S"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "Ai AF Nikkor 85mm f/1.8S",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 44.46936155235526,
+            "thickness": 9.041832443073,
+            "material": "S-LAL58"
+          },
+          {
+            "index": 2,
+            "radius": 238.59968233909666,
+            "thickness": 0.4793822149554
+          },
+          {
+            "index": 3,
+            "radius": 34.26684445055769,
+            "thickness": 7.952965280867,
+            "material": "S-LAH65V"
+          },
+          {
+            "index": 4,
+            "radius": 66.79804478261353,
+            "thickness": 1.678504357837
+          },
+          {
+            "index": 5,
+            "radius": 105.5516544326595,
+            "thickness": 3.276415438999,
+            "material": "S-TIH11"
+          },
+          {
+            "index": 6,
+            "radius": 22.50546708630736,
+            "thickness": 8.484370723
+          },
+          {
+            "index": 7,
+            "radius": "inf",
+            "thickness": 20.04058793542,
+            "is_stop": true
+          },
+          {
+            "index": 8,
+            "radius": -25.358603534832678,
+            "thickness": 2.49516718273,
+            "material": "S-NBM51"
+          },
+          {
+            "index": 9,
+            "radius": -119.10082022312002,
+            "thickness": 2.038297348387
+          },
+          {
+            "index": 10,
+            "radius": -73.8326662609085,
+            "thickness": 5.064983531073,
+            "material": "S-LAL18"
+          },
+          {
+            "index": 11,
+            "radius": -31.23397329413063,
+            "thickness": 0.468675086377
+          },
+          {
+            "index": 12,
+            "radius": 88.14392312996202,
+            "thickness": 5.132541660131,
+            "material": "S-LAM2"
+          },
+          {
+            "index": 13,
+            "radius": -140.18486651608433,
+            "thickness": 37.35933080265
+          },
+          {
+            "index": 14,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        14.0
+      ],
+      [
+        0.0,
+        21.0
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 2.0
+  }
+}

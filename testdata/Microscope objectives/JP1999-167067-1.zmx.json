@@ -1,0 +1,304 @@
+{
+  "name": "JP 1999-167067 Example 1",
+  "description": "Prepared and converted by Bill Claff.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Microscope objective design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 43,
+    "source_file": "JP1999-167067-1.zmx",
+    "zmx_name": "JP 1999-167067 Example 1"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "JP 1999-167067 Example 1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": -6.757464864827934,
+            "is_stop": true
+          },
+          {
+            "index": 2,
+            "radius": -13.24900000000001,
+            "thickness": 1.3,
+            "material": "LITHOTEC-CAF2"
+          },
+          {
+            "index": 3,
+            "radius": 5.6900000000000155,
+            "thickness": 0.7
+          },
+          {
+            "index": 4,
+            "radius": -20.27,
+            "thickness": 1.5,
+            "material": "LITHOSIL-Q"
+          },
+          {
+            "index": 5,
+            "radius": 22.899,
+            "thickness": 4.5
+          },
+          {
+            "index": 6,
+            "radius": -16.2,
+            "thickness": 3.0,
+            "material": "LITHOTEC-CAF2"
+          },
+          {
+            "index": 7,
+            "radius": -13.129999999999994,
+            "thickness": 0.3
+          },
+          {
+            "index": 8,
+            "radius": -26.787000000000003,
+            "thickness": 3.0,
+            "material": "LITHOSIL-Q"
+          },
+          {
+            "index": 9,
+            "radius": -8.549000000000028,
+            "thickness": 0.3
+          },
+          {
+            "index": 10,
+            "radius": 239.11999999999983,
+            "thickness": 3.0,
+            "material": "LITHOTEC-CAF2"
+          },
+          {
+            "index": 11,
+            "radius": -27.499999999999975,
+            "thickness": 0.5
+          },
+          {
+            "index": 12,
+            "radius": -36.11899999999999,
+            "thickness": 1.5,
+            "material": "LITHOSIL-Q"
+          },
+          {
+            "index": 13,
+            "radius": 10.611999999999997,
+            "thickness": 1.0
+          },
+          {
+            "index": 14,
+            "radius": 18.35,
+            "thickness": 3.0,
+            "material": "LITHOTEC-CAF2"
+          },
+          {
+            "index": 15,
+            "radius": -22.08800000000002,
+            "thickness": 1.0
+          },
+          {
+            "index": 16,
+            "radius": -12.353999999999996,
+            "thickness": 1.5,
+            "material": "LITHOSIL-Q"
+          },
+          {
+            "index": 17,
+            "radius": 21.599999999999998,
+            "thickness": 1.5
+          },
+          {
+            "index": 18,
+            "radius": 23.580000000000016,
+            "thickness": 4.0,
+            "material": "LITHOTEC-CAF2"
+          },
+          {
+            "index": 19,
+            "radius": -22.565000000000023,
+            "thickness": 0.2
+          },
+          {
+            "index": 20,
+            "radius": 18.75000000000001,
+            "thickness": 4.0,
+            "material": "LITHOTEC-CAF2"
+          },
+          {
+            "index": 21,
+            "radius": -16.599999999999998,
+            "thickness": 0.2
+          },
+          {
+            "index": 22,
+            "radius": -16.38500000000001,
+            "thickness": 1.5,
+            "material": "LITHOSIL-Q"
+          },
+          {
+            "index": 23,
+            "radius": 15.439999999999985,
+            "thickness": 1.0
+          },
+          {
+            "index": 24,
+            "radius": 16.869000000000007,
+            "thickness": 4.0,
+            "material": "LITHOTEC-CAF2"
+          },
+          {
+            "index": 25,
+            "radius": -23.90000000000001,
+            "thickness": 0.2
+          },
+          {
+            "index": 26,
+            "radius": -25.0,
+            "thickness": 2.3,
+            "material": "LITHOSIL-Q"
+          },
+          {
+            "index": 27,
+            "radius": 17.9,
+            "thickness": 1.5
+          },
+          {
+            "index": 28,
+            "radius": 32.0,
+            "thickness": 4.6,
+            "material": "LITHOTEC-CAF2"
+          },
+          {
+            "index": 29,
+            "radius": -17.299999999999997,
+            "thickness": 0.2
+          },
+          {
+            "index": 30,
+            "radius": 27.60000000000001,
+            "thickness": 4.6,
+            "material": "LITHOTEC-CAF2"
+          },
+          {
+            "index": 31,
+            "radius": -24.820000000000004,
+            "thickness": 1.5
+          },
+          {
+            "index": 32,
+            "radius": -18.22800000000002,
+            "thickness": 2.3,
+            "material": "LITHOSIL-Q"
+          },
+          {
+            "index": 33,
+            "radius": 10.283999999999999,
+            "thickness": 0.2
+          },
+          {
+            "index": 34,
+            "radius": 10.129999999999999,
+            "thickness": 4.0,
+            "material": "LITHOTEC-CAF2"
+          },
+          {
+            "index": 35,
+            "radius": -18.700000000000003,
+            "thickness": 0.5
+          },
+          {
+            "index": 36,
+            "radius": -20.63999999999999,
+            "thickness": 1.5,
+            "material": "LITHOSIL-Q"
+          },
+          {
+            "index": 37,
+            "radius": 78.54700000000011,
+            "thickness": 0.2
+          },
+          {
+            "index": 38,
+            "radius": 17.9,
+            "thickness": 3.0,
+            "material": "LITHOTEC-CAF2"
+          },
+          {
+            "index": 39,
+            "radius": -38.43000000000005,
+            "thickness": 0.15
+          },
+          {
+            "index": 40,
+            "radius": 8.055999999999983,
+            "thickness": 3.0,
+            "material": "LITHOSIL-Q"
+          },
+          {
+            "index": 41,
+            "radius": 13.000000000000004,
+            "thickness": 5.582879325034354
+          },
+          {
+            "index": 42,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725,
+      365.0,
+      256.0
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.7
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 1.2
+  }
+}

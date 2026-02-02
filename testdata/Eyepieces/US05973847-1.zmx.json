@@ -1,0 +1,147 @@
+{
+  "name": "US05973847-1",
+  "description": "Imported from Zemax: US05973847-1.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Eyepiece design for visual observation",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 14,
+    "source_file": "US05973847-1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US05973847-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 5.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 15.0,
+            "is_stop": true
+          },
+          {
+            "index": 2,
+            "radius": -19.92,
+            "thickness": 5.4,
+            "material": "N-LAK8"
+          },
+          {
+            "index": 3,
+            "radius": -11.1,
+            "thickness": 1.5,
+            "material": "N-SF57"
+          },
+          {
+            "index": 4,
+            "radius": -19.15,
+            "thickness": 0.2
+          },
+          {
+            "index": 5,
+            "radius": -344.79,
+            "thickness": 4.57,
+            "material": "N-LASF9"
+          },
+          {
+            "index": 6,
+            "radius": -35.37,
+            "thickness": 0.2
+          },
+          {
+            "index": 7,
+            "radius": 20.32,
+            "thickness": 7.86,
+            "material": "N-LAK8"
+          },
+          {
+            "index": 8,
+            "radius": 139.43,
+            "thickness": 0.82
+          },
+          {
+            "index": 9,
+            "radius": -2199.12,
+            "thickness": 1.8,
+            "material": "E-F2"
+          },
+          {
+            "index": 10,
+            "radius": 15.5,
+            "thickness": 8.5
+          },
+          {
+            "index": 11,
+            "radius": 32.0,
+            "thickness": 3.92,
+            "material": "N-LASF31"
+          },
+          {
+            "index": 12,
+            "radius": 102.01999999999998,
+            "thickness": 9.505022786998
+          },
+          {
+            "index": 13,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "collimated",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        18.0
+      ],
+      [
+        0.0,
+        27.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "entrance_pupil_diameter": 5.0
+  }
+}

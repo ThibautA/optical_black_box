@@ -1,0 +1,144 @@
+{
+  "name": "US02637245-4",
+  "description": "ject to the following conditions:; TH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Eyepiece design for visual observation",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 12,
+    "source_file": "US02637245-4.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US02637245-4",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 12.7,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 21.971,
+            "is_stop": true
+          },
+          {
+            "index": 2,
+            "radius": 476.547842432,
+            "thickness": 3.04038,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.72825024418,
+              "abbe": 28.41020504879
+            }
+          },
+          {
+            "index": 3,
+            "radius": 48.4640335772,
+            "thickness": 14.25194,
+            "material": "N-SK16"
+          },
+          {
+            "index": 4,
+            "radius": -34.0117836146,
+            "thickness": 0.1905
+          },
+          {
+            "index": 5,
+            "radius": 212.9086336942,
+            "thickness": 10.4521,
+            "material": "N-PSK3"
+          },
+          {
+            "index": 6,
+            "radius": -53.21600669960001,
+            "thickness": 0.1905
+          },
+          {
+            "index": 7,
+            "radius": 26.035260349999998,
+            "thickness": 12.92098,
+            "material": "N-PSK3"
+          },
+          {
+            "index": 8,
+            "radius": 102.626262616,
+            "thickness": 5.7023
+          },
+          {
+            "index": 9,
+            "radius": -66.89491703540001,
+            "thickness": 2.84988,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5,
+              "abbe": 40.0
+            }
+          },
+          {
+            "index": 10,
+            "radius": 59.111007685800004,
+            "thickness": 2.576224772084
+          },
+          {
+            "index": 11,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "collimated",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        8.0
+      ],
+      [
+        0.0,
+        12.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "entrance_pupil_diameter": 12.7
+  }
+}

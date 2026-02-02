@@ -1,0 +1,185 @@
+{
+  "name": "US06038085-1",
+  "description": "Imported from Zemax: US06038085-1.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 18,
+    "source_file": "US06038085-1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US06038085-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 5.273,
+            "thickness": 0.593,
+            "material": "S-LAH66"
+          },
+          {
+            "index": 2,
+            "radius": 2.676,
+            "thickness": 1.036
+          },
+          {
+            "index": 3,
+            "radius": 8.135,
+            "thickness": 0.663,
+            "material": "S-LAH66"
+          },
+          {
+            "index": 4,
+            "radius": 1.9640000000000002,
+            "thickness": 2.698
+          },
+          {
+            "index": 5,
+            "radius": -9.704,
+            "thickness": 0.628,
+            "material": "S-LAH53"
+          },
+          {
+            "index": 6,
+            "radius": 6.696,
+            "thickness": 1.343,
+            "material": "S-TIH53"
+          },
+          {
+            "index": 7,
+            "radius": -5.864,
+            "thickness": 0.872
+          },
+          {
+            "index": 8,
+            "radius": "inf",
+            "thickness": 1.374,
+            "is_stop": true
+          },
+          {
+            "index": 9,
+            "radius": 10.535,
+            "thickness": 0.419,
+            "material": "S-TIH53"
+          },
+          {
+            "index": 10,
+            "radius": 2.619,
+            "thickness": 1.867,
+            "material": "S-TIL1"
+          },
+          {
+            "index": 11,
+            "radius": -4.9,
+            "thickness": 0.052
+          },
+          {
+            "index": 12,
+            "radius": 4.449,
+            "thickness": 0.419,
+            "material": "S-TIH53"
+          },
+          {
+            "index": 13,
+            "radius": 2.315,
+            "thickness": 1.985,
+            "material": "S-LAH66"
+          },
+          {
+            "index": 14,
+            "radius": -7.807,
+            "thickness": 1.657
+          },
+          {
+            "index": 15,
+            "radius": "inf",
+            "thickness": 1.744,
+            "material": "N-BK7"
+          },
+          {
+            "index": 16,
+            "radius": "inf",
+            "thickness": -0.02617246274229
+          },
+          {
+            "index": 17,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.0
+      ],
+      [
+        0.0,
+        30.0
+      ],
+      [
+        0.0,
+        45.0
+      ],
+      [
+        0.0,
+        60.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "vignetting_y": [
+      0.0,
+      0.1,
+      0.15,
+      0.2,
+      0.4
+    ],
+    "telecentric": false,
+    "image_fno": 1.3
+  }
+}

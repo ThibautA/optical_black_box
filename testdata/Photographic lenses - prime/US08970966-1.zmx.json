@@ -1,0 +1,150 @@
+{
+  "name": "US08970966-1",
+  "description": "Imported from Zemax: US08970966-1.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 13,
+    "source_file": "US08970966-1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US08970966-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 20.432,
+            "thickness": 3.44,
+            "material": "E-LASF05"
+          },
+          {
+            "index": 2,
+            "radius": 209.304,
+            "thickness": 1.2,
+            "material": "E-F2"
+          },
+          {
+            "index": 3,
+            "radius": 12.815,
+            "thickness": 0.44
+          },
+          {
+            "index": 4,
+            "radius": 14.203999999999999,
+            "thickness": 2.39,
+            "material": "E-LASF05"
+          },
+          {
+            "index": 5,
+            "radius": 17.605,
+            "thickness": 2.83
+          },
+          {
+            "index": 6,
+            "radius": "inf",
+            "thickness": 3.35,
+            "is_stop": true
+          },
+          {
+            "index": 7,
+            "radius": -14.284,
+            "thickness": 1.0,
+            "material": "E-SF10"
+          },
+          {
+            "index": 8,
+            "radius": 456.136,
+            "thickness": 2.28,
+            "material": "E-LASF05"
+          },
+          {
+            "index": 9,
+            "radius": -29.737,
+            "thickness": 0.32
+          },
+          {
+            "index": 10,
+            "radius": -105.914,
+            "thickness": 2.75,
+            "material": "E-LASF05"
+          },
+          {
+            "index": 11,
+            "radius": -20.244,
+            "thickness": 37.99,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": 1.15e-05,
+              "A6": -4.62e-08,
+              "A8": 1.27e-09,
+              "A10": -2.19e-11,
+              "A12": 1.46e-13
+            }
+          },
+          {
+            "index": 12,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        18.0
+      ],
+      [
+        0.0,
+        25.6
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 2.8
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "name": "US04251133-1",
+  "description": "Imported from Zemax: US04251133-1.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 14,
+    "source_file": "US04251133-1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US04251133-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 2.1419,
+            "thickness": 0.0374,
+            "material": "S-BSL7"
+          },
+          {
+            "index": 2,
+            "radius": -0.3945,
+            "thickness": 0.0319
+          },
+          {
+            "index": 3,
+            "radius": -0.3455,
+            "thickness": 0.0152,
+            "material": "K-SFLD4"
+          },
+          {
+            "index": 4,
+            "radius": -0.8908,
+            "thickness": 0.0011
+          },
+          {
+            "index": 5,
+            "radius": 0.299,
+            "thickness": 0.0327,
+            "material": "S-BSL7"
+          },
+          {
+            "index": 6,
+            "radius": 2.8154,
+            "thickness": 0.2173
+          },
+          {
+            "index": 7,
+            "radius": 0.0879,
+            "thickness": 0.0117,
+            "material": "S-BAL35"
+          },
+          {
+            "index": 8,
+            "radius": 0.0795,
+            "thickness": 0.0473
+          },
+          {
+            "index": 9,
+            "radius": "inf",
+            "thickness": 0.0034
+          },
+          {
+            "index": 10,
+            "radius": 0.346,
+            "thickness": 0.0075,
+            "material": "K-SFLD4",
+            "is_stop": true
+          },
+          {
+            "index": 11,
+            "radius": "inf",
+            "thickness": 0.0061,
+            "material": "S-LAL8"
+          },
+          {
+            "index": 12,
+            "radius": 0.1777,
+            "thickness": 0.3781621919042
+          },
+          {
+            "index": 13,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0
+      ],
+      [
+        0.0,
+        4.2
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "vignetting_y": [
+      0.0,
+      0.2,
+      0.3
+    ],
+    "telecentric": false,
+    "image_fno": 4.1
+  }
+}

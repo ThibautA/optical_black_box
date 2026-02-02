@@ -1,0 +1,206 @@
+{
+  "name": "JP 2010-134218 Example 1",
+  "description": "Prepared and converted by Bill Claff.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Microscope objective design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 24,
+    "source_file": "JP2010-134218-1.zmx",
+    "zmx_name": "JP 2010-134218 Example 1"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "JP 2010-134218 Example 1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": -20.724812781073865,
+            "is_stop": true
+          },
+          {
+            "index": 2,
+            "radius": 8.250710000000026,
+            "thickness": 4.864405,
+            "material": "S-TIM25"
+          },
+          {
+            "index": 3,
+            "radius": 129.78814999999997,
+            "thickness": 1.0,
+            "material": "S-LAH55V"
+          },
+          {
+            "index": 4,
+            "radius": 6.416909999999987,
+            "thickness": 2.976879
+          },
+          {
+            "index": 5,
+            "radius": -7.651660000000006,
+            "thickness": 8.053977,
+            "material": "S-LAH59"
+          },
+          {
+            "index": 6,
+            "radius": 36.91732999999996,
+            "thickness": 5.653717,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.43426,
+              "abbe": 94.9
+            }
+          },
+          {
+            "index": 7,
+            "radius": -11.276289999999992,
+            "thickness": 1.025832
+          },
+          {
+            "index": 8,
+            "radius": 40.895529999999944,
+            "thickness": 6.345798,
+            "material": "E-FKH1"
+          },
+          {
+            "index": 9,
+            "radius": -12.294539999999996,
+            "thickness": 1.5,
+            "material": "S-LAH59"
+          },
+          {
+            "index": 10,
+            "radius": -25.22106000000003,
+            "thickness": 0.2
+          },
+          {
+            "index": 11,
+            "radius": 15.819239999999999,
+            "thickness": 10.0,
+            "material": "LITHOTEC-CAF2"
+          },
+          {
+            "index": 12,
+            "radius": -10.79017,
+            "thickness": 1.0,
+            "material": "S-BAL41"
+          },
+          {
+            "index": 13,
+            "radius": 41.961770000000016,
+            "thickness": 0.2
+          },
+          {
+            "index": 14,
+            "radius": 13.195929999999993,
+            "thickness": 8.86527,
+            "material": "J-PSKH1"
+          },
+          {
+            "index": 15,
+            "radius": -10.761379999999997,
+            "thickness": 1.0,
+            "material": "S-NBM51"
+          },
+          {
+            "index": 16,
+            "radius": 64.29664999999996,
+            "thickness": 0.568658
+          },
+          {
+            "index": 17,
+            "radius": 7.398439999999979,
+            "thickness": 5.0,
+            "material": "E-FKH1"
+          },
+          {
+            "index": 18,
+            "radius": 20.0,
+            "thickness": 0.2
+          },
+          {
+            "index": 19,
+            "radius": 3.2993899999999963,
+            "thickness": 3.5,
+            "material": "S-LAL7"
+          },
+          {
+            "index": 20,
+            "radius": 2.7503499999999965,
+            "thickness": 0.5
+          },
+          {
+            "index": 21,
+            "radius": "inf",
+            "thickness": 0.17,
+            "material": "B270"
+          },
+          {
+            "index": 22,
+            "radius": "inf",
+            "thickness": 0.0
+          },
+          {
+            "index": 23,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725,
+      420.0,
+      700.0
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.5
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 0.6
+  }
+}

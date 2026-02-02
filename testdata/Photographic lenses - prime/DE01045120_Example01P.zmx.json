@@ -1,0 +1,181 @@
+{
+  "name": "DE 1045120 Example 1 (Leica Summilux-M 50mm F1.4)",
+  "description": "Prepared and converted by Bill Claff.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 15,
+    "source_file": "DE01045120_Example01P.zmx",
+    "zmx_name": "DE 1045120 Example 1 (Leica Summilux-M 50mm F1.4)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "DE 1045120 Example 1 (Leica Summilux-M 50mm F1.4)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 46.53100000000005,
+            "thickness": 6.125,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.79128,
+              "abbe": 47.4
+            }
+          },
+          {
+            "index": 2,
+            "radius": 209.45749999999995,
+            "thickness": 1.25
+          },
+          {
+            "index": 3,
+            "radius": 21.163499999999985,
+            "thickness": 7.375,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.64515,
+              "abbe": 57.8
+            }
+          },
+          {
+            "index": 4,
+            "radius": 75.04699999999978,
+            "thickness": 2.798,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.69416,
+              "abbe": 30.9
+            }
+          },
+          {
+            "index": 5,
+            "radius": 15.00099999999999,
+            "thickness": 5.663
+          },
+          {
+            "index": 6,
+            "radius": "inf",
+            "thickness": 4.462,
+            "is_stop": true
+          },
+          {
+            "index": 7,
+            "radius": -19.38849999999999,
+            "thickness": 2.029,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.67158,
+              "abbe": 32.9
+            }
+          },
+          {
+            "index": 8,
+            "radius": 40.81550000000006,
+            "thickness": 7.625,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.74793,
+              "abbe": 44.7
+            }
+          },
+          {
+            "index": 9,
+            "radius": -29.442499999999963,
+            "thickness": 0.25
+          },
+          {
+            "index": 10,
+            "radius": 291.5940000000002,
+            "thickness": 3.375,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.79128,
+              "abbe": 47.4
+            }
+          },
+          {
+            "index": 11,
+            "radius": -88.25,
+            "thickness": 0.25
+          },
+          {
+            "index": 12,
+            "radius": 150.12300000000005,
+            "thickness": 2.548,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.79128,
+              "abbe": 47.4
+            }
+          },
+          {
+            "index": 13,
+            "radius": -200.41250000000016,
+            "thickness": 27.21
+          },
+          {
+            "index": 14,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.12
+      ],
+      [
+        0.0,
+        21.6
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 1.4
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "name": "US06310731-1",
+  "description": "Imported from Zemax: US06310731-1.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Projection optics",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 20,
+    "source_file": "US06310731-1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US06310731-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": -101.3,
+            "thickness": 4.0,
+            "material": "N-SK5",
+            "surface_type": "toroidal"
+          },
+          {
+            "index": 2,
+            "radius": 50.0,
+            "thickness": 7.7,
+            "material": "N-SF4",
+            "surface_type": "toroidal"
+          },
+          {
+            "index": 3,
+            "radius": 87.3,
+            "thickness": 71.3,
+            "surface_type": "toroidal"
+          },
+          {
+            "index": 4,
+            "radius": "inf",
+            "thickness": 4.4,
+            "material": "N-SF15"
+          },
+          {
+            "index": 5,
+            "radius": 122.39999999999999,
+            "thickness": 9.5,
+            "material": "N-LAK8",
+            "surface_type": "toroidal"
+          },
+          {
+            "index": 6,
+            "radius": -122.39999999999999,
+            "thickness": 2.0,
+            "surface_type": "toroidal"
+          },
+          {
+            "index": 7,
+            "radius": 38.4,
+            "thickness": 6.0,
+            "material": "N-LAK12"
+          },
+          {
+            "index": 8,
+            "radius": -783.3000000000001,
+            "thickness": 0.1
+          },
+          {
+            "index": 9,
+            "radius": 35.9,
+            "thickness": 3.8,
+            "material": "N-LAK33B"
+          },
+          {
+            "index": 10,
+            "radius": 55.5,
+            "thickness": 2.2
+          },
+          {
+            "index": 11,
+            "radius": -575.3,
+            "thickness": 9.2,
+            "material": "N-F2"
+          },
+          {
+            "index": 12,
+            "radius": 18.8,
+            "thickness": 6.1,
+            "is_stop": true
+          },
+          {
+            "index": 13,
+            "radius": -18.5,
+            "thickness": 1.5,
+            "material": "N-SF15"
+          },
+          {
+            "index": 14,
+            "radius": 70.7,
+            "thickness": 1.7
+          },
+          {
+            "index": 15,
+            "radius": 99.6,
+            "thickness": 4.4,
+            "material": "N-LAF21"
+          },
+          {
+            "index": 16,
+            "radius": -26.0,
+            "thickness": 0.3
+          },
+          {
+            "index": 17,
+            "radius": 115.19999999999999,
+            "thickness": 3.9,
+            "material": "N-LAK34"
+          },
+          {
+            "index": 18,
+            "radius": -53.2,
+            "thickness": 43.04026200644
+          },
+          {
+            "index": 19,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        9.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.5,
+        0.0
+      ],
+      [
+        4.5,
+        5.25
+      ],
+      [
+        9.0,
+        5.25
+      ],
+      [
+        0.0,
+        5.25
+      ],
+      [
+        0.0,
+        10.25
+      ],
+      [
+        9.0,
+        10.5
+      ],
+      [
+        4.5,
+        10.5
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 2.5
+  }
+}

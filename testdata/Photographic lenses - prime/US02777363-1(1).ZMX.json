@@ -1,0 +1,156 @@
+{
+  "name": "US Patent 2777363",
+  "description": "Imported from Zemax: US02777363-1(1).ZMX",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 12,
+    "source_file": "US02777363-1(1).ZMX",
+    "zmx_name": "US Patent 2777363"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US Patent 2777363",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 0.5,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 0.7367025195226168,
+            "thickness": 0.1274,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.62,
+              "abbe": 60.5
+            }
+          },
+          {
+            "index": 2,
+            "radius": 3.248862897985705,
+            "thickness": 0.0029
+          },
+          {
+            "index": 3,
+            "radius": 0.46085073044840774,
+            "thickness": 0.1863,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.6045,
+              "abbe": 60.5
+            }
+          },
+          {
+            "index": 4,
+            "radius": 0.31925422213708776,
+            "thickness": 0.2082
+          },
+          {
+            "index": 5,
+            "radius": "inf",
+            "thickness": 0.08,
+            "is_stop": true
+          },
+          {
+            "index": 6,
+            "radius": -0.4630487127245786,
+            "thickness": 0.0408,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.6722,
+              "abbe": 32.2
+            }
+          },
+          {
+            "index": 7,
+            "radius": 0.4630487127245786,
+            "thickness": 0.321,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.6642,
+              "abbe": 56.2
+            }
+          },
+          {
+            "index": 8,
+            "radius": -0.6466632177961718,
+            "thickness": 0.0073
+          },
+          {
+            "index": 9,
+            "radius": 0.9858044164037855,
+            "thickness": 0.2285,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.62,
+              "abbe": 60.5
+            }
+          },
+          {
+            "index": 10,
+            "radius": -1.391207568169171,
+            "thickness": 0.5229390531806
+          },
+          {
+            "index": 11,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "collimated",
+    "wavelengths": [
+      550.0,
+      470.0,
+      630.0
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        10.0
+      ],
+      [
+        0.0,
+        14.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "entrance_pupil_diameter": 0.5
+  }
+}

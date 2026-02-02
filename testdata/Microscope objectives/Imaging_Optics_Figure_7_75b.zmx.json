@@ -1,0 +1,147 @@
+{
+  "name": "Two-element bi-aspheric objective; Imaging Optics p. 518.",
+  "description": "Notes...; f = 1.75 mm, NA = 0.85, (curved) field diameter is 160 micron, lambda = 405 nm.; ====",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Microscope objective design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 9,
+    "source_file": "Imaging_Optics_Figure_7_75b.zmx",
+    "zmx_name": "Two-element bi-aspheric objective; Imaging Optics p. 518."
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "Two-element bi-aspheric objective; Imaging Optics p. 518.",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 3.019
+          },
+          {
+            "index": 2,
+            "radius": "inf",
+            "thickness": 2.3,
+            "material": "N-FK5",
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A2": 0.26802924106,
+              "A4": 0.009447188128,
+              "A6": 0.0004750022408,
+              "A8": -0.000666469383,
+              "A10": 0.0006319739935,
+              "A12": -0.0004326382557,
+              "A14": 0.0001428262055,
+              "A16": -2.149846024e-05
+            }
+          },
+          {
+            "index": 3,
+            "radius": "inf",
+            "thickness": 0.355626,
+            "is_stop": true
+          },
+          {
+            "index": 4,
+            "radius": "inf",
+            "thickness": 0.98,
+            "material": "N-FK5",
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A2": 0.6160142841,
+              "A4": 0.1962773455,
+              "A6": 0.1045663218,
+              "A8": 0.2227468108,
+              "A10": -0.3495919705,
+              "A12": 0.8106043531,
+              "A14": -0.3998088306
+            }
+          },
+          {
+            "index": 5,
+            "radius": "inf",
+            "thickness": 0.150002
+          },
+          {
+            "index": 6,
+            "radius": "inf",
+            "thickness": 0.1,
+            "material": "polycarbonate"
+          },
+          {
+            "index": 7,
+            "radius": "inf",
+            "thickness": 0.0
+          },
+          {
+            "index": 8,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      405.0
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.02
+      ],
+      [
+        0.0,
+        0.04
+      ],
+      [
+        0.0,
+        0.06
+      ],
+      [
+        0.0,
+        0.08
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 0.58824,
+    "object_distance": 175000.0
+  }
+}

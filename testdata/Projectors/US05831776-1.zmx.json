@@ -1,0 +1,311 @@
+{
+  "name": "US05831776-1",
+  "description": "ject to the following conditions:; TH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Projection optics",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 44,
+    "source_file": "US05831776-1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US05831776-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": 110.8588354359,
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": -737.7847,
+            "thickness": 27.484,
+            "material": "SiO2"
+          },
+          {
+            "index": 2,
+            "radius": -235.28910000000002,
+            "thickness": 0.916
+          },
+          {
+            "index": 3,
+            "radius": 211.1786,
+            "thickness": 36.646,
+            "material": "SiO2"
+          },
+          {
+            "index": 4,
+            "radius": -461.39859999999993,
+            "thickness": 0.916
+          },
+          {
+            "index": 5,
+            "radius": 412.6778,
+            "thickness": 21.071,
+            "material": "SiO2"
+          },
+          {
+            "index": 6,
+            "radius": 160.5391,
+            "thickness": 16.197
+          },
+          {
+            "index": 7,
+            "radius": -604.1283,
+            "thickness": 7.215,
+            "material": "SiO2"
+          },
+          {
+            "index": 8,
+            "radius": 218.18769999999998,
+            "thickness": 23.941
+          },
+          {
+            "index": 9,
+            "radius": -3586.063,
+            "thickness": 11.978,
+            "material": "SiO2"
+          },
+          {
+            "index": 10,
+            "radius": 251.8168,
+            "thickness": 47.506
+          },
+          {
+            "index": 11,
+            "radius": -85.2817,
+            "thickness": 11.961,
+            "material": "SiO2"
+          },
+          {
+            "index": 12,
+            "radius": 584.8597,
+            "thickness": 9.968
+          },
+          {
+            "index": 13,
+            "radius": 4074.8009999999995,
+            "thickness": 35.291,
+            "material": "SiO2"
+          },
+          {
+            "index": 14,
+            "radius": -162.0185,
+            "thickness": 0.923
+          },
+          {
+            "index": 15,
+            "radius": 629.544,
+            "thickness": 41.227,
+            "material": "SiO2"
+          },
+          {
+            "index": 16,
+            "radius": -226.7397,
+            "thickness": 0.916
+          },
+          {
+            "index": 17,
+            "radius": 522.2739,
+            "thickness": 27.842,
+            "material": "SiO2"
+          },
+          {
+            "index": 18,
+            "radius": -582.424,
+            "thickness": 0.916
+          },
+          {
+            "index": 19,
+            "radius": 423.729,
+            "thickness": 22.904,
+            "material": "SiO2"
+          },
+          {
+            "index": 20,
+            "radius": -1385.36,
+            "thickness": 0.916,
+            "is_stop": true
+          },
+          {
+            "index": 21,
+            "radius": 212.03899999999996,
+            "thickness": 33.646,
+            "material": "SiO2"
+          },
+          {
+            "index": 22,
+            "radius": 802.3695,
+            "thickness": 55.304
+          },
+          {
+            "index": 23,
+            "radius": -776.5696999999999,
+            "thickness": 8.703,
+            "material": "SiO2"
+          },
+          {
+            "index": 24,
+            "radius": 106.1728,
+            "thickness": 24.09
+          },
+          {
+            "index": 25,
+            "radius": -200.683,
+            "thickness": 11.452,
+            "material": "SiO2"
+          },
+          {
+            "index": 26,
+            "radius": 311.8264,
+            "thickness": 59.54
+          },
+          {
+            "index": 27,
+            "radius": -77.2276,
+            "thickness": 11.772,
+            "material": "SiO2"
+          },
+          {
+            "index": 28,
+            "radius": 2317.8032,
+            "thickness": 11.862
+          },
+          {
+            "index": 29,
+            "radius": -290.8859,
+            "thickness": 22.904,
+            "material": "SiO2"
+          },
+          {
+            "index": 30,
+            "radius": -148.3577,
+            "thickness": 1.373
+          },
+          {
+            "index": 31,
+            "radius": -5658.5043,
+            "thickness": 41.227,
+            "material": "SiO2"
+          },
+          {
+            "index": 32,
+            "radius": -151.9858,
+            "thickness": 0.916
+          },
+          {
+            "index": 33,
+            "radius": 678.1005,
+            "thickness": 32.981,
+            "material": "SiO2"
+          },
+          {
+            "index": 34,
+            "radius": -358.554,
+            "thickness": 0.916
+          },
+          {
+            "index": 35,
+            "radius": 264.2734,
+            "thickness": 32.814,
+            "material": "SiO2"
+          },
+          {
+            "index": 36,
+            "radius": 2309.6884,
+            "thickness": 0.916
+          },
+          {
+            "index": 37,
+            "radius": 171.2681,
+            "thickness": 29.015,
+            "material": "SiO2"
+          },
+          {
+            "index": 38,
+            "radius": 364.7765,
+            "thickness": 0.918
+          },
+          {
+            "index": 39,
+            "radius": 113.37,
+            "thickness": 76.259,
+            "material": "SiO2"
+          },
+          {
+            "index": 40,
+            "radius": 78.6982,
+            "thickness": 54.304
+          },
+          {
+            "index": 41,
+            "radius": 49.5443,
+            "thickness": 18.65,
+            "material": "SiO2"
+          },
+          {
+            "index": 42,
+            "radius": 109.8136,
+            "thickness": 13.0764789603
+          },
+          {
+            "index": 43,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "point_source",
+    "wavelengths": [
+      248.0
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        8.0
+      ],
+      [
+        0.0,
+        12.0
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "object_na": 0.15,
+    "object_distance": 110.8588354359
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "name": "US 3,883,229 Example 2 (Zeiss Sonnar Superachromat f5.6 250mm CFE)",
+  "description": "Prepared and converted by Bill Claff.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 15,
+    "source_file": "US003883229_Example02P.zmx",
+    "zmx_name": "US 3,883,229 Example 2 (Zeiss Sonnar Superachromat f5.6 250mm CFE)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US 3,883,229 Example 2 (Zeiss Sonnar Superachromat f5.6 250mm CFE)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 51.25000000000006,
+            "thickness": 4.55325,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.735197,
+              "abbe": 41.5909
+            }
+          },
+          {
+            "index": 2,
+            "radius": 41.89749999999999,
+            "thickness": 1.70125
+          },
+          {
+            "index": 3,
+            "radius": 43.12250000000008,
+            "thickness": 11.058,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.43493,
+              "abbe": 95.23
+            }
+          },
+          {
+            "index": 4,
+            "radius": -81.80750000000019,
+            "thickness": 2.0015
+          },
+          {
+            "index": 5,
+            "radius": -73.97,
+            "thickness": 3.3525,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.682476,
+              "abbe": 48.200977
+            }
+          },
+          {
+            "index": 6,
+            "radius": 370.8199999999998,
+            "thickness": 34.62525
+          },
+          {
+            "index": 7,
+            "radius": -453.4699999999991,
+            "thickness": 7.7055,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.6205,
+              "abbe": 38.081
+            }
+          },
+          {
+            "index": 8,
+            "radius": -77.23749999999993,
+            "thickness": 3.15225
+          },
+          {
+            "index": 9,
+            "radius": 129.65499999999994,
+            "thickness": 8.206,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.682476,
+              "abbe": 48.200977
+            }
+          },
+          {
+            "index": 10,
+            "radius": 554.7050000000007,
+            "thickness": 10.14275
+          },
+          {
+            "index": 11,
+            "radius": "inf",
+            "thickness": 10.172,
+            "is_stop": true
+          },
+          {
+            "index": 12,
+            "radius": -52.37000000000012,
+            "thickness": 2.0515,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.564435,
+              "abbe": 43.75028
+            }
+          },
+          {
+            "index": 13,
+            "radius": 208.46250000000018,
+            "thickness": 121.338
+          },
+          {
+            "index": 14,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        27.965
+      ],
+      [
+        0.0,
+        39.95
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 5.6
+  }
+}

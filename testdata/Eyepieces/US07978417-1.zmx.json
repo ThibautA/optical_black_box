@@ -1,0 +1,178 @@
+{
+  "name": "US07978417-1",
+  "description": "Imported from Zemax: US07978417-1.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Eyepiece design for visual observation",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 13,
+    "source_file": "US07978417-1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US07978417-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 8.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 10.63,
+            "is_stop": true
+          },
+          {
+            "index": 2,
+            "radius": "inf",
+            "thickness": 1.0,
+            "material": "N-BK7"
+          },
+          {
+            "index": 3,
+            "radius": "inf",
+            "thickness": 0.7139
+          },
+          {
+            "index": 4,
+            "radius": 9.1323,
+            "thickness": 5.5,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5,
+              "abbe": 40.0
+            },
+            "conic": -1.8699,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": 0.000127,
+              "A6": -2.36e-07,
+              "A8": -5.25e-09
+            }
+          },
+          {
+            "index": 5,
+            "radius": -20.0277,
+            "thickness": 0.767,
+            "conic": -8.6058,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": 2.85e-05,
+              "A6": -3.94e-07,
+              "A8": -4.45e-10
+            }
+          },
+          {
+            "index": 6,
+            "radius": 21.052,
+            "thickness": 1.8,
+            "material": "polystyren"
+          },
+          {
+            "index": 7,
+            "radius": 5.8301,
+            "thickness": 11.36153,
+            "conic": -0.5995,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": 0.000155,
+              "A6": 5.28e-06,
+              "A8": 1.38e-08
+            }
+          },
+          {
+            "index": 8,
+            "radius": 16.7195,
+            "thickness": 2.5,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5,
+              "abbe": 40.0
+            }
+          },
+          {
+            "index": 9,
+            "radius": 25.2482,
+            "thickness": 3.2188,
+            "conic": -11.1683,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A4": -4.91e-05,
+              "A6": -1.81e-06,
+              "A8": 1.91e-08
+            }
+          },
+          {
+            "index": 10,
+            "radius": "inf",
+            "thickness": 1.2,
+            "material": "N-BK7"
+          },
+          {
+            "index": 11,
+            "radius": "inf",
+            "thickness": 0.0
+          },
+          {
+            "index": 12,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "collimated",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        6.0
+      ],
+      [
+        0.0,
+        8.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "entrance_pupil_diameter": 8.0,
+    "object_distance": 1326.459689308
+  }
+}

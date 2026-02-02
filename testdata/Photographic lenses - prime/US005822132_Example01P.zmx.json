@@ -1,0 +1,161 @@
+{
+  "name": "US 5,822,132 Example 1 (Ricoh smc Pentax-FA 28mm F2.8 Soft)",
+  "description": "Prepared and converted by Bill Claff. See:; https://www.PhotonsToPhotos.net/Lenses/OpticalBench/OpticalBench.htm#/Data/US005822132_Example01P.txt",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 13,
+    "source_file": "US005822132_Example01P.zmx",
+    "zmx_name": "US 5,822,132 Example 1 (Ricoh smc Pentax-FA 28mm F2.8 Soft)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US 5,822,132 Example 1 (Ricoh smc Pentax-FA 28mm F2.8 Soft)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 374.89999999999986,
+            "thickness": 2.89,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.58913,
+              "abbe": 61.2
+            }
+          },
+          {
+            "index": 2,
+            "radius": -419.00999999999976,
+            "thickness": 0.1
+          },
+          {
+            "index": 3,
+            "radius": 62.55000000000019,
+            "thickness": 2.31,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.62041,
+              "abbe": 60.3
+            }
+          },
+          {
+            "index": 4,
+            "radius": 13.800000000000004,
+            "thickness": 19.3
+          },
+          {
+            "index": 5,
+            "radius": 23.38,
+            "thickness": 10.61,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.7725,
+              "abbe": 49.6
+            }
+          },
+          {
+            "index": 6,
+            "radius": -47.169999999999995,
+            "thickness": 1.61
+          },
+          {
+            "index": 7,
+            "radius": "inf",
+            "thickness": 3.41,
+            "is_stop": true
+          },
+          {
+            "index": 8,
+            "radius": -23.47999999999999,
+            "thickness": 1.93,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.7847,
+              "abbe": 26.2
+            }
+          },
+          {
+            "index": 9,
+            "radius": 34.65999999999997,
+            "thickness": 0.64
+          },
+          {
+            "index": 10,
+            "radius": 190.51999999999992,
+            "thickness": 3.09,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.7725,
+              "abbe": 49.6
+            }
+          },
+          {
+            "index": 11,
+            "radius": -17.889999999999993,
+            "thickness": 35.31
+          },
+          {
+            "index": 12,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.12
+      ],
+      [
+        0.0,
+        21.6
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 2.9
+  }
+}

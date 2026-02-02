@@ -1,0 +1,191 @@
+{
+  "name": "US 4,792,215 Example 3 (Ricoh Pentax-A 35-70mm f4)",
+  "description": "Prepared and converted by Bill Claff.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 17,
+    "source_file": "US004792215_Example03P.zmx",
+    "zmx_name": "US 4,792,215 Example 3 (Ricoh Pentax-A 35-70mm f4)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US 4,792,215 Example 3 (Ricoh Pentax-A 35-70mm f4)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 93.72000000000004,
+            "thickness": 1.98,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.834,
+              "abbe": 37.2
+            }
+          },
+          {
+            "index": 2,
+            "radius": 28.699999999999996,
+            "thickness": 4.24
+          },
+          {
+            "index": 3,
+            "radius": 69.11999999999996,
+            "thickness": 1.88,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.8061,
+              "abbe": 40.9
+            }
+          },
+          {
+            "index": 4,
+            "radius": 33.15,
+            "thickness": 2.95
+          },
+          {
+            "index": 5,
+            "radius": 31.884999999999973,
+            "thickness": 5.37,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.80518,
+              "abbe": 25.4
+            }
+          },
+          {
+            "index": 6,
+            "radius": 89.07200000000036,
+            "thickness": 40.341
+          },
+          {
+            "index": 7,
+            "radius": "inf",
+            "thickness": 0.77,
+            "is_stop": true
+          },
+          {
+            "index": 8,
+            "radius": 39.59999999999992,
+            "thickness": 3.5,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.744,
+              "abbe": 44.7
+            }
+          },
+          {
+            "index": 9,
+            "radius": -132.32100000000008,
+            "thickness": 0.1
+          },
+          {
+            "index": 10,
+            "radius": 21.200000000000006,
+            "thickness": 4.04,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.65844,
+              "abbe": 50.9
+            }
+          },
+          {
+            "index": 11,
+            "radius": 193.48499999999993,
+            "thickness": 0.64
+          },
+          {
+            "index": 12,
+            "radius": -206.84899999999996,
+            "thickness": 6.04,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.80518,
+              "abbe": 25.4
+            }
+          },
+          {
+            "index": 13,
+            "radius": 16.569999999999997,
+            "thickness": 6.7
+          },
+          {
+            "index": 14,
+            "radius": -92.45899999999956,
+            "thickness": 2.23,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.58144,
+              "abbe": 40.8
+            }
+          },
+          {
+            "index": 15,
+            "radius": -28.474999999999984,
+            "thickness": 42.39
+          },
+          {
+            "index": 16,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "collimated",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.12
+      ],
+      [
+        0.0,
+        21.6
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "float_by_stop_size": 7.8575
+  }
+}

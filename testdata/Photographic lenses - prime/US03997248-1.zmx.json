@@ -1,0 +1,157 @@
+{
+  "name": "US03997248-1",
+  "description": "Imported from Zemax: US03997248-1.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 15,
+    "source_file": "US03997248-1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US03997248-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 41.823,
+            "thickness": 7.0,
+            "material": "E-SK16",
+            "is_stop": true
+          },
+          {
+            "index": 2,
+            "radius": 119.125,
+            "thickness": 0.16
+          },
+          {
+            "index": 3,
+            "radius": 36.34,
+            "thickness": 5.5,
+            "material": "N-SSK2"
+          },
+          {
+            "index": 4,
+            "radius": 68.21,
+            "thickness": 0.16
+          },
+          {
+            "index": 5,
+            "radius": 30.05,
+            "thickness": 5.0,
+            "material": "E-SK16"
+          },
+          {
+            "index": 6,
+            "radius": 49.039,
+            "thickness": 3.78
+          },
+          {
+            "index": 7,
+            "radius": 70.094,
+            "thickness": 2.2,
+            "material": "N-SF11"
+          },
+          {
+            "index": 8,
+            "radius": 18.224,
+            "thickness": 9.436333023348
+          },
+          {
+            "index": 9,
+            "radius": "inf",
+            "thickness": 10.56366697665
+          },
+          {
+            "index": 10,
+            "radius": -44.4,
+            "thickness": 9.49,
+            "material": "E-SF2"
+          },
+          {
+            "index": 11,
+            "radius": -74.931,
+            "thickness": 0.2
+          },
+          {
+            "index": 12,
+            "radius": 100.258,
+            "thickness": 3.51,
+            "material": "E-SF4"
+          },
+          {
+            "index": 13,
+            "radius": -216.912,
+            "thickness": 41.12638942166
+          },
+          {
+            "index": 14,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        8.0
+      ],
+      [
+        0.0,
+        12.0
+      ]
+    ],
+    "field_type": "angle",
+    "primary_wavelength_index": 0,
+    "vignetting_y": [
+      0.0,
+      0.3,
+      0.4
+    ],
+    "telecentric": false,
+    "image_fno": 2.0
+  }
+}

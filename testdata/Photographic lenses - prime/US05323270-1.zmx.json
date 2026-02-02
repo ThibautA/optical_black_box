@@ -1,0 +1,176 @@
+{
+  "name": "US05323270-1",
+  "description": "Imported from Zemax: US05323270-1.zmx",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 19,
+    "source_file": "US05323270-1.zmx",
+    "zmx_name": null
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US05323270-1",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 198.577,
+            "thickness": 13.0,
+            "material": "J-FKH1"
+          },
+          {
+            "index": 2,
+            "radius": -550.482,
+            "thickness": 1.0
+          },
+          {
+            "index": 3,
+            "radius": 131.746,
+            "thickness": 16.6,
+            "material": "J-FKH1"
+          },
+          {
+            "index": 4,
+            "radius": -1037.798,
+            "thickness": 7.56
+          },
+          {
+            "index": 5,
+            "radius": -555.893,
+            "thickness": 5.2,
+            "material": "E-LAF11"
+          },
+          {
+            "index": 6,
+            "radius": 304.686,
+            "thickness": 41.13
+          },
+          {
+            "index": 7,
+            "radius": 245.72399999999996,
+            "thickness": 3.5,
+            "material": "J-FKH1"
+          },
+          {
+            "index": 8,
+            "radius": 551.583,
+            "thickness": 50.3535
+          },
+          {
+            "index": 9,
+            "radius": -1528.6220000000003,
+            "thickness": 5.7,
+            "material": "N-SF5",
+            "is_stop": true
+          },
+          {
+            "index": 10,
+            "radius": -100.62400000000001,
+            "thickness": 2.5,
+            "material": "N-BK7"
+          },
+          {
+            "index": 11,
+            "radius": 130.475,
+            "thickness": 3.85
+          },
+          {
+            "index": 12,
+            "radius": -200.681,
+            "thickness": 2.5,
+            "material": "E-SK11"
+          },
+          {
+            "index": 13,
+            "radius": 81.646,
+            "thickness": 18.41
+          },
+          {
+            "index": 14,
+            "radius": 378.614,
+            "thickness": 5.7,
+            "material": "J-FKH1"
+          },
+          {
+            "index": 15,
+            "radius": -97.25800000000001,
+            "thickness": 56.5
+          },
+          {
+            "index": 16,
+            "radius": "inf",
+            "thickness": 2.0,
+            "material": "N-BK7"
+          },
+          {
+            "index": 17,
+            "radius": "inf",
+            "thickness": 96.5
+          },
+          {
+            "index": 18,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "collimated",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.0
+      ],
+      [
+        0.0,
+        21.0
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "float_by_stop_size": 24.0,
+    "object_distance": 3207.1651
+  }
+}

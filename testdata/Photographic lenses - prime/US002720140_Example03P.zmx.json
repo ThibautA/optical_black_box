@@ -1,0 +1,151 @@
+{
+  "name": "US 2,720,140 Example 3 (Zeiss Sonnar T f4 150mm)",
+  "description": "Prepared and converted by Bill Claff.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 11,
+    "source_file": "US002720140_Example03P.zmx",
+    "zmx_name": "US 2,720,140 Example 3 (Zeiss Sonnar T f4 150mm)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "US 2,720,140 Example 3 (Zeiss Sonnar T f4 150mm)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 74.22500000000025,
+            "thickness": 10.889,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.66672,
+              "abbe": 48.4
+            }
+          },
+          {
+            "index": 2,
+            "radius": 231.36899999999991,
+            "thickness": 0.248
+          },
+          {
+            "index": 3,
+            "radius": 34.12400000000003,
+            "thickness": 15.837,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.62041,
+              "abbe": 60.3
+            }
+          },
+          {
+            "index": 4,
+            "radius": -429.58799999999997,
+            "thickness": 2.228,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.72342,
+              "abbe": 38.0
+            }
+          },
+          {
+            "index": 5,
+            "radius": 24.157000000000004,
+            "thickness": 16.644
+          },
+          {
+            "index": 6,
+            "radius": "inf",
+            "thickness": 14.04,
+            "is_stop": true
+          },
+          {
+            "index": 7,
+            "radius": 540.4710000000003,
+            "thickness": 10.889,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.70154,
+              "abbe": 41.1
+            }
+          },
+          {
+            "index": 8,
+            "radius": -25.773999999999997,
+            "thickness": 10.394,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.6014,
+              "abbe": 38.3
+            }
+          },
+          {
+            "index": 9,
+            "radius": -372.0110000000003,
+            "thickness": 80.68
+          },
+          {
+            "index": 10,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        27.65
+      ],
+      [
+        0.0,
+        39.5
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 4.0
+  }
+}

@@ -1,0 +1,91 @@
+[project]
+name = "optical-blackbox"
+version = "1.0.0"
+description = "Create encrypted optical component files (.obb) from Zemax designs for secure distribution"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "Etendue", email = "contact@etendue.io" }]
+keywords = ["optics", "zemax", "encryption", "blackbox", "lens-design"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+
+dependencies = [
+    "cryptography>=41.0.0",
+    "click>=8.0.0",
+    "pydantic>=2.0.0",
+    "numpy>=1.24.0",
+    "rich>=13.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "ruff>=0.1.0",
+    "mypy>=1.0.0",
+]
+
+[project.scripts]
+obb = "optical_blackbox.cli.main:main"
+
+[project.urls]
+Homepage = "https://github.com/ThibautA/obb"
+Documentation = "https://github.com/ThibautA/obb#readme"
+Repository = "https://github.com/ThibautA/obb"
+Issues = "https://github.com/ThibautA/obb/issues"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+optical_blackbox = ["py.typed"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "C4", "SIM"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+warn_return_any = true
+warn_unused_ignores = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --cov=optical_blackbox --cov-report=term-missing"
+
+[tool.coverage.run]
+omit = [
+    "src/optical_blackbox/cli/*",
+    "src/optical_blackbox/core/types.py",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+    "if TYPE_CHECKING:",
+    "@abstractmethod",
+]

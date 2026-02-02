@@ -1,0 +1,146 @@
+{
+  "name": "JP 1979-055423 Example 1 (Konica Minolta Hexanon AR 135mm F3.5)",
+  "description": "Prepared and converted by Bill Claff.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 11,
+    "source_file": "JP1979-055423_Example01P.zmx",
+    "zmx_name": "JP 1979-055423 Example 1 (Konica Minolta Hexanon AR 135mm F3.5)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "JP 1979-055423 Example 1 (Konica Minolta Hexanon AR 135mm F3.5)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 47.84399999999989,
+            "thickness": 5.4945,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.51633,
+              "abbe": 64.1
+            }
+          },
+          {
+            "index": 2,
+            "radius": 525.5145,
+            "thickness": 0.999
+          },
+          {
+            "index": 3,
+            "radius": 32.885999999999974,
+            "thickness": 5.4945,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.51633,
+              "abbe": 64.1
+            }
+          },
+          {
+            "index": 4,
+            "radius": 101.37150000000003,
+            "thickness": 13.7025
+          },
+          {
+            "index": 5,
+            "radius": 607.6215000000012,
+            "thickness": 1.998,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.7618,
+              "abbe": 27.1
+            }
+          },
+          {
+            "index": 6,
+            "radius": 23.975999999999985,
+            "thickness": 3.7
+          },
+          {
+            "index": 7,
+            "radius": "inf",
+            "thickness": 27.299,
+            "is_stop": true
+          },
+          {
+            "index": 8,
+            "radius": 69.28200000000012,
+            "thickness": 2.997,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.80518,
+              "abbe": 25.4
+            }
+          },
+          {
+            "index": 9,
+            "radius": 282.52800000000036,
+            "thickness": 59.13
+          },
+          {
+            "index": 10,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.12
+      ],
+      [
+        0.0,
+        21.6
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 3.5
+  }
+}

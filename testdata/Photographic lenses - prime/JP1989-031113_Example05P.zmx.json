@@ -1,0 +1,161 @@
+{
+  "name": "JP 1989-031113 Example 5 (Nikon R-UW AF Nikkor 28mm f/2.8)",
+  "description": "Prepared and converted by Bill Claff.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 13,
+    "source_file": "JP1989-031113_Example05P.zmx",
+    "zmx_name": "JP 1989-031113 Example 5 (Nikon R-UW AF Nikkor 28mm f/2.8)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "JP 1989-031113 Example 5 (Nikon R-UW AF Nikkor 28mm f/2.8)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 39.159999999999954,
+            "thickness": 7.832,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5168,
+              "abbe": 64.12
+            }
+          },
+          {
+            "index": 2,
+            "radius": 24.466000000000005,
+            "thickness": 35.242
+          },
+          {
+            "index": 3,
+            "radius": 32.70999999999998,
+            "thickness": 7.048,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.78797,
+              "abbe": 47.53
+            }
+          },
+          {
+            "index": 4,
+            "radius": -74.21599999999974,
+            "thickness": 2.526
+          },
+          {
+            "index": 5,
+            "radius": "inf",
+            "thickness": 2.662,
+            "is_stop": true
+          },
+          {
+            "index": 6,
+            "radius": -18.68900000000001,
+            "thickness": 3.818,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.74077,
+              "abbe": 27.64
+            }
+          },
+          {
+            "index": 7,
+            "radius": 63.572999999999844,
+            "thickness": 0.88
+          },
+          {
+            "index": 8,
+            "radius": -66.06300000000017,
+            "thickness": 2.937,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.7481,
+              "abbe": 52.06
+            }
+          },
+          {
+            "index": 9,
+            "radius": -22.716000000000008,
+            "thickness": 0.392
+          },
+          {
+            "index": 10,
+            "radius": -195.38100000000017,
+            "thickness": 3.426,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.74443,
+              "abbe": 49.53
+            }
+          },
+          {
+            "index": 11,
+            "radius": -26.542999999999967,
+            "thickness": 39.029
+          },
+          {
+            "index": 12,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.12
+      ],
+      [
+        0.0,
+        21.6
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 2.8
+  }
+}

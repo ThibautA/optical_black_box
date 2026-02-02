@@ -1,0 +1,166 @@
+{
+  "name": "DE 975 637 C Example 1 (Schneider Super-Angulon 8 / 90)",
+  "description": "Prepared and converted by Bill Claff.",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Photographic lens design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 13,
+    "source_file": "DE00975637_Example01P.zmx",
+    "zmx_name": "DE 975 637 C Example 1 (Schneider Super-Angulon 8 / 90)"
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "DE 975 637 C Example 1 (Schneider Super-Angulon 8 / 90)",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": "inf",
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": 165.32099999999997,
+            "thickness": 1.953,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.4645,
+              "abbe": 65.7
+            }
+          },
+          {
+            "index": 2,
+            "radius": 20.754000000000005,
+            "thickness": 13.698
+          },
+          {
+            "index": 3,
+            "radius": 23.01300000000002,
+            "thickness": 10.026,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.7174,
+              "abbe": 29.5
+            }
+          },
+          {
+            "index": 4,
+            "radius": 12.618000000000006,
+            "thickness": 9.873,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5601,
+              "abbe": 47.0
+            }
+          },
+          {
+            "index": 5,
+            "radius": 941.3460000000007,
+            "thickness": 1.287
+          },
+          {
+            "index": 6,
+            "radius": "inf",
+            "thickness": 1.026,
+            "is_stop": true
+          },
+          {
+            "index": 7,
+            "radius": "inf",
+            "thickness": 9.162,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.5827,
+              "abbe": 46.5
+            }
+          },
+          {
+            "index": 8,
+            "radius": -12.672000000000002,
+            "thickness": 9.756,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.7174,
+              "abbe": 29.5
+            }
+          },
+          {
+            "index": 9,
+            "radius": -24.210000000000004,
+            "thickness": 13.698
+          },
+          {
+            "index": 10,
+            "radius": -20.979,
+            "thickness": 1.953,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.4645,
+              "abbe": 65.7
+            }
+          },
+          {
+            "index": 11,
+            "radius": -269.0370000000001,
+            "thickness": 66.06
+          },
+          {
+            "index": 12,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "focused",
+    "wavelengths": [
+      486.1327,
+      587.5618000000001,
+      656.2725
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        74.9
+      ],
+      [
+        0.0,
+        107.0
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "image_fno": 8.0
+  }
+}

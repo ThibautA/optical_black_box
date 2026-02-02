@@ -1,0 +1,122 @@
+{
+  "name": "Bi-aspheric CD objective (relaxed design); Imaging Optics p. 510.",
+  "description": "Notes...; F = 4.5 mm, NA = 0.45, (curved) field diameter is 0.3 mm, lambda = 785 nm.; ========",
+  "version": "2.0.0",
+  "compatibility": {
+    "backend": "optiland",
+    "validated": false,
+    "raytracing_mode": "sequential"
+  },
+  "metadata": {
+    "author": "Auto-imported from Zemax",
+    "use_case": "Microscope objective design",
+    "complexity": "unknown",
+    "element_count": 1,
+    "surface_count": 6,
+    "source_file": "Imaging_Optics_Figure_7_68c.zmx",
+    "zmx_name": "Bi-aspheric CD objective (relaxed design); Imaging Optics p. 510."
+  },
+  "elements": [
+    {
+      "type": "surface_group",
+      "tool": "create_surface_group",
+      "parameters": {
+        "name": "Bi-aspheric CD objective (relaxed design); Imaging Optics p. 510.",
+        "element_type": "custom",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "rx": 0.0,
+          "ry": 0.0,
+          "rz": 0.0
+        },
+        "diameter": 25.0,
+        "surfaces": [
+          {
+            "index": 0,
+            "surface_type": "object_plane",
+            "radius": "inf",
+            "thickness": 45000.0,
+            "comment": "Object plane (source)"
+          },
+          {
+            "index": 1,
+            "radius": "inf",
+            "thickness": 4.9109,
+            "material": {
+              "_type": "AbbeMaterial",
+              "index": 1.53,
+              "abbe": 0.0
+            },
+            "is_stop": true,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A2": 0.15737938,
+              "A4": 0.0016851034,
+              "A6": 7.2340225e-06,
+              "A8": 1.8778998e-07,
+              "A10": -5.2705625e-07
+            }
+          },
+          {
+            "index": 2,
+            "radius": "inf",
+            "thickness": 1.328,
+            "surface_type": "even_asphere",
+            "coefficients": {
+              "A2": -0.11252613,
+              "A4": 0.018974516,
+              "A6": -0.005749594,
+              "A8": 0.0014294761,
+              "A10": -0.00021944764
+            }
+          },
+          {
+            "index": 3,
+            "radius": "inf",
+            "thickness": 1.2,
+            "material": "polycarbonate"
+          },
+          {
+            "index": 4,
+            "radius": "inf",
+            "thickness": 0.0
+          },
+          {
+            "index": 5,
+            "radius": "inf",
+            "thickness": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "source_config": {
+    "source_type": "point_source",
+    "wavelengths": [
+      785.0
+    ],
+    "field_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.075
+      ],
+      [
+        0.0,
+        0.15
+      ]
+    ],
+    "field_type": "paraxial_image_height",
+    "primary_wavelength_index": 0,
+    "telecentric": false,
+    "object_na": 4.5e-05,
+    "object_distance": 45000.0
+  }
+}
