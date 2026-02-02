@@ -120,6 +120,13 @@ class DecryptionError(CryptoError):
         super().__init__(reason, "Key mismatch or corrupted data")
 
 
+class EncryptionError(CryptoError):
+    """Raised when encryption fails."""
+
+    def __init__(self, reason: str = "Encryption failed"):
+        super().__init__(reason, "Encryption operation failed")
+
+
 class SignatureError(CryptoError):
     """Base class for signature-related errors."""
 
