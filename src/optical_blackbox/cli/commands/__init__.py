@@ -4,10 +4,12 @@ from optical_blackbox.cli.commands.keygen import keygen_command
 from optical_blackbox.cli.commands.create import create_command
 from optical_blackbox.cli.commands.extract import extract_command
 from optical_blackbox.cli.commands.inspect import inspect_command
+from optical_blackbox.cli.commands.gui import gui_command
 
 __all__ = [
     "keygen_command",
     "create_command",
     "extract_command",
     "inspect_command",
+    "gui_command",
 ]

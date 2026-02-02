@@ -10,6 +10,7 @@ from optical_blackbox.cli.commands import (
     create_command,
     extract_command,
     inspect_command,
+    gui_command,
 )
 from optical_blackbox.cli.commands.create_v2 import create_v2_command
 from optical_blackbox.cli.commands.sidecar import sidecar_group
@@ -31,6 +32,7 @@ def main() -> None:
       extract     Decrypt .obb and extract original file
       inspect     View .obb metadata (no decryption)
       sidecar     Manage sidecar files for post-distribution updates
+      gui         Launch graphical interface
 
     \b
     Examples:
@@ -50,6 +52,7 @@ main.add_command(create_v2_command, name="create-v2")
 main.add_command(extract_command, name="extract")
 main.add_command(inspect_command, name="inspect")
 main.add_command(sidecar_group, name="sidecar")
+main.add_command(gui_command, name="gui")
 
 
 if __name__ == "__main__":
